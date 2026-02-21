@@ -1,0 +1,1239 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Saad Chinoy — Technologist for the Common Good. Maker, salvage designer, open-hardware advocate, and biomaker based in Singapore." />
+  <title>Saad Chinoy — Make Things That Make Sense</title>
+
+  <!-- Google Fonts: editorial pairing -->
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=DM+Mono:wght@400;500&family=DM+Sans:wght@400;500;600&display=swap" rel="stylesheet" />
+
+  <style>
+    /* ============================================================
+       CSS CUSTOM PROPERTIES — single source of truth for theming
+       Think of these as espresso concentrate: strong base,
+       diluted intentionally throughout the design.
+    ============================================================ */
+    :root {
+      --ink:        #1a1410;
+      --paper:      #ffffff;
+      --espresso:   #2c1a0e;
+      --crema:      #c8a46e;
+      --matcha:     #4a6741;
+      --sky:        #3a5f8a;
+      --rust:       #b84f2a;
+      --mist:       #ebebeb;
+      --white:      #f7f7f7;
+
+      --font-display: 'DM Serif Display', Georgia, serif;
+      --font-body:    'DM Sans', system-ui, sans-serif;
+      --font-mono:    'DM Mono', 'Courier New', monospace;
+
+      --nav-h: 56px;
+      --max-w: 1100px;
+      --radius: 4px;
+      --gap: clamp(1.5rem, 4vw, 3rem);
+    }
+
+    /* ============================================================
+       RESET + BASE
+    ============================================================ */
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    html { scroll-behavior: smooth; font-size: 16px; }
+
+    body {
+      background: var(--paper);
+      color: var(--ink);
+      font-family: var(--font-body);
+      line-height: 1.65;
+      overflow-x: hidden;
+    }
+
+    img { max-width: 100%; display: block; }
+    a { color: inherit; }
+
+    /* ============================================================
+       SKIP LINK — screen-reader & keyboard first-class citizen
+    ============================================================ */
+    .skip-link {
+      position: absolute;
+      top: -100%;
+      left: 1rem;
+      background: var(--espresso);
+      color: var(--white);
+      padding: 0.5rem 1rem;
+      font-family: var(--font-mono);
+      font-size: 0.85rem;
+      border-radius: var(--radius);
+      z-index: 9999;
+      text-decoration: none;
+      transition: top 0.2s;
+    }
+    .skip-link:focus { top: 1rem; }
+
+    /* ============================================================
+       NAVIGATION
+    ============================================================ */
+    header {
+      position: fixed;
+      top: 0; left: 0; right: 0;
+      height: var(--nav-h);
+      background: rgba(245,240,232,0.94);
+      backdrop-filter: blur(8px);
+      -webkit-backdrop-filter: blur(8px);
+      border-bottom: 1px solid var(--mist);
+      z-index: 100;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 0 clamp(1rem, 5vw, 3rem);
+    }
+
+    .logo {
+      font-family: var(--font-mono);
+      font-size: 0.8rem;
+      font-weight: 500;
+      letter-spacing: 0.08em;
+      color: var(--espresso);
+      text-decoration: none;
+    }
+    .logo span { color: var(--crema); }
+
+    nav { display: flex; align-items: center; gap: 0.25rem; }
+
+    nav a {
+      font-family: var(--font-mono);
+      font-size: 0.75rem;
+      font-weight: 500;
+      letter-spacing: 0.06em;
+      text-transform: uppercase;
+      text-decoration: none;
+      color: var(--ink);
+      opacity: 0.65;
+      padding: 0.4rem 0.65rem;
+      border-radius: var(--radius);
+      transition: opacity 0.2s, background 0.2s;
+    }
+    nav a:hover, nav a:focus-visible {
+      opacity: 1;
+      background: var(--mist);
+    }
+    nav a:focus-visible { outline: 2px solid var(--crema); outline-offset: 2px; }
+
+    /* hamburger */
+    .nav-toggle {
+      display: none;
+      background: none;
+      border: none;
+      cursor: pointer;
+      padding: 0.4rem;
+      color: var(--ink);
+      border-radius: var(--radius);
+    }
+    .nav-toggle:focus-visible { outline: 2px solid var(--crema); }
+    .nav-toggle svg { width: 22px; height: 22px; }
+
+    .mobile-nav {
+      display: none;
+      position: fixed;
+      top: var(--nav-h);
+      left: 0; right: 0;
+      background: var(--paper);
+      border-bottom: 1px solid var(--mist);
+      padding: 1rem clamp(1rem, 5vw, 3rem);
+      flex-direction: column;
+      gap: 0.25rem;
+      z-index: 99;
+    }
+    .mobile-nav.open { display: flex; }
+    .mobile-nav a {
+      font-family: var(--font-mono);
+      font-size: 0.8rem;
+      letter-spacing: 0.06em;
+      text-transform: uppercase;
+      text-decoration: none;
+      color: var(--ink);
+      padding: 0.6rem 0.5rem;
+      border-radius: var(--radius);
+      transition: background 0.15s;
+    }
+    .mobile-nav a:hover, .mobile-nav a:focus-visible {
+      background: var(--mist);
+    }
+    .mobile-nav a:focus-visible { outline: 2px solid var(--crema); }
+
+    @media (max-width: 768px) {
+      nav { display: none; }
+      .nav-toggle { display: flex; align-items: center; justify-content: center; }
+    }
+
+    /* ============================================================
+       LAYOUT UTILITIES
+    ============================================================ */
+    .container {
+      max-width: var(--max-w);
+      margin: 0 auto;
+      padding: 0 clamp(1rem, 5vw, 3rem);
+    }
+
+    section {
+      padding: clamp(4rem, 10vw, 7rem) 0;
+    }
+    section:not(:last-child) {
+      border-bottom: 1px solid var(--mist);
+    }
+
+    /* eyebrow labels */
+    .eyebrow {
+      font-family: var(--font-mono);
+      font-size: 0.72rem;
+      font-weight: 500;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+      color: var(--crema);
+      margin-bottom: 0.75rem;
+    }
+
+    h1 { font-family: var(--font-display); font-size: clamp(2.8rem, 7vw, 5.5rem); line-height: 1.07; font-weight: 400; }
+    h2 { font-family: var(--font-display); font-size: clamp(1.9rem, 4vw, 3rem); line-height: 1.2; font-weight: 400; }
+    h3 { font-family: var(--font-display); font-size: clamp(1.1rem, 2.5vw, 1.4rem); font-weight: 400; margin-bottom: 0.4rem; }
+
+    p { max-width: 66ch; }
+
+    /* ============================================================
+       HERO
+    ============================================================ */
+    #hero {
+      padding-top: calc(var(--nav-h) + clamp(4rem, 10vw, 7rem));
+      padding-bottom: clamp(4rem, 10vw, 7rem);
+      position: relative;
+      overflow: hidden;
+    }
+
+    /* Background texture — grid of dots, like graph paper in a lab notebook */
+    #hero::before {
+      content: '';
+      position: absolute;
+      inset: 0;
+      background-image: radial-gradient(circle, rgba(200,164,110,0.18) 1px, transparent 1px);
+      background-size: 28px 28px;
+      pointer-events: none;
+      z-index: 0;
+    }
+
+    .hero-inner {
+      position: relative;
+      z-index: 1;
+    }
+
+    .hero-kicker {
+      font-family: var(--font-mono);
+      font-size: 0.8rem;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      color: var(--crema);
+      margin-bottom: 1.5rem;
+      display: flex;
+      align-items: center;
+      gap: 0.75rem;
+    }
+    .hero-kicker::before {
+      content: '';
+      display: inline-block;
+      width: 2rem;
+      height: 1px;
+      background: var(--crema);
+    }
+
+    .hero-tagline {
+      font-family: var(--font-mono);
+      font-size: clamp(0.85rem, 1.5vw, 1rem);
+      color: var(--espresso);
+      opacity: 0.7;
+      margin-top: 1.5rem;
+      font-style: italic;
+    }
+
+    .hero-blurb {
+      margin-top: 2rem;
+      font-size: clamp(1rem, 2vw, 1.15rem);
+      line-height: 1.75;
+      max-width: 58ch;
+      color: var(--espresso);
+    }
+
+    .hero-ctas {
+      margin-top: 2.5rem;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.75rem;
+      align-items: center;
+    }
+
+    .btn {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.5rem;
+      font-family: var(--font-mono);
+      font-size: 0.78rem;
+      font-weight: 500;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      text-decoration: none;
+      padding: 0.65rem 1.25rem;
+      border-radius: var(--radius);
+      border: 1.5px solid transparent;
+      transition: background 0.2s, color 0.2s, border-color 0.2s, transform 0.15s;
+      cursor: pointer;
+    }
+    .btn:focus-visible { outline: 2px solid var(--crema); outline-offset: 3px; }
+    .btn:active { transform: translateY(1px); }
+
+    .btn-primary {
+      background: var(--espresso);
+      color: var(--white);
+      border-color: var(--espresso);
+    }
+    .btn-primary:hover { background: var(--rust); border-color: var(--rust); }
+
+    .btn-outline {
+      background: transparent;
+      color: var(--espresso);
+      border-color: var(--espresso);
+    }
+    .btn-outline:hover { background: var(--mist); }
+
+    /* theme pills */
+    .theme-pill-row {
+      margin-top: 3rem;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.5rem;
+    }
+    .theme-pill {
+      font-family: var(--font-mono);
+      font-size: 0.68rem;
+      letter-spacing: 0.07em;
+      text-transform: uppercase;
+      padding: 0.25rem 0.65rem;
+      border-radius: 100px;
+      border: 1px solid;
+    }
+    .pill-gov   { color: var(--sky);    border-color: var(--sky);    background: rgba(58,95,138,0.07); }
+    .pill-incl  { color: var(--matcha); border-color: var(--matcha); background: rgba(74,103,65,0.07); }
+    .pill-salvg { color: var(--rust);   border-color: var(--rust);   background: rgba(184,79,42,0.08); }
+    .pill-bio   { color: #5a7a52;       border-color: #5a7a52;       background: rgba(90,122,82,0.07); }
+    .pill-play  { color: #7a5a2a;       border-color: #7a5a2a;       background: rgba(122,90,42,0.07); }
+    .pill-eq    { color: var(--sky);    border-color: var(--sky);    background: rgba(58,95,138,0.05); }
+
+    /* ============================================================
+       ABOUT
+    ============================================================ */
+    .about-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: var(--gap);
+      align-items: start;
+    }
+    @media (max-width: 640px) { .about-grid { grid-template-columns: 1fr; } }
+
+    .principles-list {
+      list-style: none;
+      display: flex;
+      flex-direction: column;
+      gap: 1.25rem;
+    }
+    .principle-item {
+      display: grid;
+      grid-template-columns: 3rem 1fr;
+      gap: 0.75rem;
+      align-items: start;
+    }
+    .principle-num {
+      font-family: var(--font-mono);
+      font-size: 0.72rem;
+      color: var(--crema);
+      padding-top: 0.15rem;
+    }
+    .principle-title {
+      font-family: var(--font-display);
+      font-size: 1.05rem;
+      margin-bottom: 0.2rem;
+    }
+    .principle-desc {
+      font-size: 0.88rem;
+      color: var(--espresso);
+      opacity: 0.75;
+      max-width: 40ch;
+    }
+
+    /* ============================================================
+       WORK / TIMELINE
+    ============================================================ */
+    .work-filters {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.5rem;
+      margin-bottom: 2.5rem;
+    }
+    .filter-btn {
+      font-family: var(--font-mono);
+      font-size: 0.72rem;
+      letter-spacing: 0.06em;
+      text-transform: uppercase;
+      padding: 0.3rem 0.75rem;
+      border-radius: 100px;
+      border: 1px solid var(--mist);
+      background: var(--white);
+      cursor: pointer;
+      transition: background 0.15s, border-color 0.15s, color 0.15s;
+      color: var(--ink);
+    }
+    .filter-btn:hover { background: var(--mist); }
+    .filter-btn.active { background: var(--espresso); color: var(--white); border-color: var(--espresso); }
+    .filter-btn:focus-visible { outline: 2px solid var(--crema); outline-offset: 2px; }
+
+    /* Timeline entries grouped by year */
+    .year-group { margin-bottom: 2.5rem; }
+    .year-label {
+      font-family: var(--font-mono);
+      font-size: 0.72rem;
+      font-weight: 500;
+      letter-spacing: 0.1em;
+      color: var(--crema);
+      text-transform: uppercase;
+      margin-bottom: 0.75rem;
+      display: flex;
+      align-items: center;
+      gap: 0.75rem;
+    }
+    .year-label::after {
+      content: '';
+      flex: 1;
+      height: 1px;
+      background: var(--mist);
+    }
+
+    .entry-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+      gap: 0.75rem;
+    }
+
+    .entry-card {
+      background: var(--white);
+      border: 1px solid var(--mist);
+      border-radius: var(--radius);
+      padding: 1rem 1.1rem;
+      transition: border-color 0.2s, transform 0.15s;
+      text-decoration: none;
+      color: inherit;
+      display: block;
+    }
+    .entry-card:hover { border-color: var(--crema); transform: translateY(-2px); }
+    .entry-card:focus-visible { outline: 2px solid var(--crema); outline-offset: 2px; }
+
+    .entry-meta {
+      display: flex;
+      gap: 0.5rem;
+      align-items: center;
+      margin-bottom: 0.4rem;
+    }
+    .entry-month {
+      font-family: var(--font-mono);
+      font-size: 0.65rem;
+      letter-spacing: 0.08em;
+      color: var(--crema);
+      text-transform: uppercase;
+    }
+    .entry-cat {
+      font-family: var(--font-mono);
+      font-size: 0.65rem;
+      letter-spacing: 0.06em;
+      text-transform: uppercase;
+      color: var(--espresso);
+      opacity: 0.5;
+    }
+    .entry-title {
+      font-size: 0.9rem;
+      font-weight: 500;
+      line-height: 1.35;
+    }
+    .entry-role {
+      font-family: var(--font-mono);
+      font-size: 0.68rem;
+      color: var(--espresso);
+      opacity: 0.55;
+      margin-top: 0.25rem;
+    }
+
+    /* hidden by filter */
+    .entry-card[hidden] { display: none; }
+    .year-group[hidden] { display: none; }
+
+    /* ============================================================
+       EVERGREEN PROJECTS
+    ============================================================ */
+    .projects-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+      gap: 1rem;
+    }
+
+    .project-card {
+      background: var(--white);
+      border: 1px solid var(--mist);
+      border-radius: var(--radius);
+      padding: 1.25rem;
+      position: relative;
+      overflow: hidden;
+    }
+    .project-card::before {
+      content: '';
+      position: absolute;
+      top: 0; left: 0; right: 0;
+      height: 3px;
+    }
+    .project-card.bio::before    { background: var(--matcha); }
+    .project-card.salvage::before { background: var(--rust); }
+    .project-card.incl::before   { background: var(--sky); }
+
+    .project-card h3 { font-size: 1rem; margin-bottom: 0.35rem; }
+    .project-card .note {
+      font-size: 0.82rem;
+      opacity: 0.65;
+      margin-top: 0.3rem;
+    }
+    .project-role {
+      font-family: var(--font-mono);
+      font-size: 0.68rem;
+      letter-spacing: 0.06em;
+      text-transform: uppercase;
+      color: var(--crema);
+    }
+
+    /* ============================================================
+       ADVISORY & NETWORK
+    ============================================================ */
+    .advisory-list {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+      gap: 1rem;
+    }
+    .advisory-item {
+      display: flex;
+      flex-direction: column;
+      gap: 0.25rem;
+      padding: 1.1rem 1.25rem;
+      background: var(--white);
+      border: 1px solid var(--mist);
+      border-radius: var(--radius);
+      text-decoration: none;
+      color: inherit;
+      transition: border-color 0.2s;
+    }
+    .advisory-item:hover { border-color: var(--crema); }
+    .advisory-item:focus-visible { outline: 2px solid var(--crema); outline-offset: 2px; }
+    .advisory-item h3 { font-size: 0.95rem; margin-bottom: 0; }
+    .advisory-role {
+      font-family: var(--font-mono);
+      font-size: 0.68rem;
+      letter-spacing: 0.06em;
+      text-transform: uppercase;
+      color: var(--crema);
+    }
+
+    /* ============================================================
+       CONTACT
+    ============================================================ */
+    .contact-inner {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: var(--gap);
+      align-items: start;
+    }
+    @media (max-width: 640px) { .contact-inner { grid-template-columns: 1fr; } }
+
+    .social-links {
+      list-style: none;
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 0.5rem;
+    }
+    .social-links a {
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+      font-family: var(--font-mono);
+      font-size: 0.75rem;
+      text-decoration: none;
+      color: var(--espresso);
+      padding: 0.45rem 0.6rem;
+      border-radius: var(--radius);
+      border: 1px solid transparent;
+      transition: border-color 0.15s, background 0.15s;
+    }
+    .social-links a:hover { border-color: var(--mist); background: var(--white); }
+    .social-links a:focus-visible { outline: 2px solid var(--crema); outline-offset: 2px; }
+    .social-dot {
+      width: 6px; height: 6px;
+      border-radius: 50%;
+      background: var(--crema);
+      flex-shrink: 0;
+    }
+
+    /* ============================================================
+       FOOTER
+    ============================================================ */
+    footer {
+      background: var(--espresso);
+      color: var(--white);
+      padding: 2rem clamp(1rem, 5vw, 3rem);
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap;
+      gap: 1rem;
+    }
+    footer .footer-mark {
+      font-family: var(--font-mono);
+      font-size: 0.75rem;
+      letter-spacing: 0.08em;
+      opacity: 0.65;
+    }
+    footer .footer-slogan {
+      font-family: var(--font-display);
+      font-size: 1rem;
+      font-style: italic;
+      opacity: 0.85;
+    }
+
+    /* ============================================================
+       DARK MODE OVERRIDES
+       Ensures legibility when the OS/browser prefers dark.
+    ============================================================ */
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --ink:      #f0ece4;
+        --paper:    #1a1714;
+        --espresso: #e8d9c4;
+        --crema:    #d4a96a;
+        --mist:     #2e2a26;
+        --white:    #242018;
+      }
+
+      body {
+        background: var(--paper);
+        color: var(--ink);
+      }
+
+      header {
+        background: rgba(26,23,20,0.94);
+        border-bottom-color: var(--mist);
+      }
+
+      .btn-outline {
+        color: var(--espresso);
+        border-color: var(--espresso);
+      }
+      .btn-outline:hover { background: var(--mist); }
+
+      .entry-card, .project-card, .advisory-item {
+        background: var(--white);
+        border-color: var(--mist);
+      }
+
+      .filter-btn {
+        background: var(--white);
+        border-color: var(--mist);
+        color: var(--ink);
+      }
+      .filter-btn:hover { background: var(--mist); }
+      .filter-btn.active { background: var(--espresso); color: var(--paper); border-color: var(--espresso); }
+
+      .social-links a { color: var(--espresso); }
+      .social-links a:hover { background: var(--white); border-color: var(--mist); }
+    }
+
+    /* ============================================================
+       ANIMATIONS — load-in stagger
+    ============================================================ */
+    @media (prefers-reduced-motion: no-preference) {
+      .fade-up {
+        opacity: 0;
+        transform: translateY(18px);
+        animation: fadeUp 0.6s ease forwards;
+      }
+      .fade-up:nth-child(2) { animation-delay: 0.1s; }
+      .fade-up:nth-child(3) { animation-delay: 0.2s; }
+      .fade-up:nth-child(4) { animation-delay: 0.3s; }
+      .fade-up:nth-child(5) { animation-delay: 0.4s; }
+
+      @keyframes fadeUp {
+        to { opacity: 1; transform: translateY(0); }
+      }
+    }
+  </style>
+
+</head>
+<body>
+
+  <!-- ============================================================
+       Skip to main — screen-reader and keyboard users first
+  ============================================================ -->
+
+<a href="#main-content" class="skip-link">Skip to main content</a>
+
+  <!-- ============================================================
+       HEADER / NAV
+  ============================================================ -->
+
+  <header role="banner">
+    <a href="#hero" class="logo" aria-label="Saad Chinoy — home">
+      @saad<span>caffeine</span>
+    </a>
+
+```
+<nav aria-label="Primary navigation">
+  <a href="#about">About</a>
+  <a href="#work">Work</a>
+  <a href="#projects">Projects</a>
+  <a href="#network">Network</a>
+  <a href="#contact">Contact</a>
+</nav>
+
+<button
+  class="nav-toggle"
+  aria-label="Toggle mobile menu"
+  aria-expanded="false"
+  aria-controls="mobile-nav"
+>
+  <!-- Hamburger icon, ARIA-hidden so screen readers use button label -->
+  <svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round">
+    <line x1="3" y1="6" x2="21" y2="6" />
+    <line x1="3" y1="12" x2="21" y2="12" />
+    <line x1="3" y1="18" x2="21" y2="18" />
+  </svg>
+</button>
+```
+
+  </header>
+
+  <!-- Mobile nav dropdown -->
+
+  <nav id="mobile-nav" class="mobile-nav" aria-label="Mobile navigation">
+    <a href="#about">About</a>
+    <a href="#work">Work</a>
+    <a href="#projects">Projects</a>
+    <a href="#network">Network</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <!-- ============================================================
+       MAIN CONTENT
+  ============================================================ -->
+
+  <main id="main-content">
+
+```
+<!-- HERO ---------------------------------------------------- -->
+<section id="hero" aria-labelledby="hero-heading">
+  <div class="container hero-inner">
+
+    <p class="hero-kicker fade-up" aria-label="Location and identity">
+      Singapore · Maker-at-Large
+    </p>
+
+    <h1 id="hero-heading" class="fade-up">
+      Make<br />
+      <em>Things</em> That<br />
+      Make Sense.
+    </h1>
+
+    <p class="hero-tagline fade-up" aria-label="Tagline">
+      The Caffeine-Powered Creative. Technologist for the Common Good.
+    </p>
+
+    <p class="hero-blurb fade-up">
+      I'm <strong>Saad Chinoy</strong> — a maker, salvage designer, open-hardware advocate, and biomaker working at the intersection of art, science, and community. Since 2013 I've been building tools, spaces, and practices that put technology in service of people — not the other way around.
+    </p>
+
+    <div class="hero-ctas fade-up" role="group" aria-label="Primary calls to action">
+      <a href="#work" class="btn btn-primary">See the work</a>
+      <a href="#contact" class="btn btn-outline">Get in touch</a>
+      <a href="https://linktr.ee/saadcaffeine" class="btn btn-outline" target="_blank" rel="noopener noreferrer" aria-label="Linktree profile (opens in new tab)">Linktree ↗</a>
+    </div>
+
+    <!-- Thematic tags: quick orientation for sighted & screen-reader users -->
+    <div class="theme-pill-row" role="list" aria-label="Core themes">
+      <span class="theme-pill pill-gov" role="listitem">Open Governance</span>
+      <span class="theme-pill pill-incl" role="listitem">Inclusive Design</span>
+      <span class="theme-pill pill-salvg" role="listitem">Tech Salvage</span>
+      <span class="theme-pill pill-bio" role="listitem">Bio Making</span>
+      <span class="theme-pill pill-play" role="listitem">Critical Play</span>
+      <span class="theme-pill pill-eq" role="listitem">Digital Equity</span>
+    </div>
+
+  </div>
+</section>
+
+<!-- ABOUT --------------------------------------------------- -->
+<section id="about" aria-labelledby="about-heading">
+  <div class="container">
+    <p class="eyebrow">About</p>
+    <h2 id="about-heading">Lab Notebook, Not a LinkedIn.</h2>
+
+    <div class="about-grid" style="margin-top: 2.5rem;">
+      <div>
+        <p style="font-size: 1.05rem; line-height: 1.8; margin-bottom: 1.25rem;">
+          Equal parts barista, biologist, and systems thinker. I founded <strong>SalvageGarden</strong> in 2018 as a space where broken things become building blocks — where e-waste becomes educational kit and discarded hardware becomes assistive technology.
+        </p>
+        <p style="font-size: 1.05rem; line-height: 1.8; margin-bottom: 1.25rem;">
+          My practice lives at the art-science boundary: co-creating tactile games with disability communities, fermenting SCOBY bioplastics, running microbial fuel cell workshops, and building open-source braille printers across Southeast Asia.
+        </p>
+        <p style="font-size: 1.05rem; line-height: 1.8;">
+          I believe open source is infrastructure for democracy. The recipe should always be shared.
+        </p>
+      </div>
+
+      <div>
+        <p class="eyebrow" style="margin-bottom: 1.25rem;">Guiding Principles</p>
+        <ol class="principles-list" aria-label="Core design principles">
+          <li class="principle-item">
+            <span class="principle-num" aria-hidden="true">01</span>
+            <div>
+              <div class="principle-title">Reflexive Making</div>
+              <p class="principle-desc">Constant questioning of the tool and the result.</p>
+            </div>
+          </li>
+          <li class="principle-item">
+            <span class="principle-num" aria-hidden="true">02</span>
+            <div>
+              <div class="principle-title">Frugal Innovation</div>
+              <p class="principle-desc">Maximising utility with minimal resources.</p>
+            </div>
+          </li>
+          <li class="principle-item">
+            <span class="principle-num" aria-hidden="true">03</span>
+            <div>
+              <div class="principle-title">Salvage-Design</div>
+              <p class="principle-desc">Repair, reuse, and repurpose over buying new.</p>
+            </div>
+          </li>
+          <li class="principle-item">
+            <span class="principle-num" aria-hidden="true">04</span>
+            <div>
+              <div class="principle-title">Inclusive Co-Creation</div>
+              <p class="principle-desc">Making with communities, not for them.</p>
+            </div>
+          </li>
+          <li class="principle-item">
+            <span class="principle-num" aria-hidden="true">05</span>
+            <div>
+              <div class="principle-title">Open Source as Empowerment</div>
+              <p class="principle-desc">Technical transparency as a social right.</p>
+            </div>
+          </li>
+        </ol>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- WORK / TIMELINE ----------------------------------------- -->
+<section id="work" aria-labelledby="work-heading">
+  <div class="container">
+    <p class="eyebrow">Timeline · 2013 – 2026</p>
+    <h2 id="work-heading">A Decade of<br /><em>Making with Meaning.</em></h2>
+
+    <!-- Filter controls -->
+    <div class="work-filters" role="group" aria-label="Filter work by theme">
+      <button class="filter-btn active" data-filter="all">All</button>
+      <button class="filter-btn" data-filter="OPEN-GOVERNANCE">Open Governance</button>
+      <button class="filter-btn" data-filter="INCLUSIVE-DESIGN">Inclusive Design</button>
+      <button class="filter-btn" data-filter="TECH-SALVAGE">Tech Salvage</button>
+      <button class="filter-btn" data-filter="BIO-MAKING">Bio Making</button>
+      <button class="filter-btn" data-filter="CRITICAL-PLAY">Critical Play</button>
+      <button class="filter-btn" data-filter="DIGITAL-EQUITY">Digital Equity</button>
+    </div>
+
+    <!-- Timeline entries, injected by JS below -->
+    <div id="timeline-container" aria-live="polite" aria-label="Work timeline entries"></div>
+  </div>
+</section>
+
+<!-- EVERGREEN PROJECTS -------------------------------------- -->
+<section id="projects" aria-labelledby="projects-heading">
+  <div class="container">
+    <p class="eyebrow">Evergreen Projects</p>
+    <h2 id="projects-heading">Things That<br /><em>Keep Brewing.</em></h2>
+
+    <div class="projects-grid" style="margin-top: 2.5rem;" role="list" aria-label="Ongoing projects">
+      <article class="project-card incl" role="listitem">
+        <div class="project-role">Designer · Inclusive Design</div>
+        <h3>M4tch</h3>
+        <p class="note">Tactile Connect Four variant — a game everyone can play.</p>
+      </article>
+      <article class="project-card salvage" role="listitem">
+        <div class="project-role">Maker · Tech Salvage</div>
+        <h3>Recreator3D &amp; Polyformer</h3>
+        <p class="note">Building and deploying open-source PET bottle-to-filament machines for hyperlocal plastic recycling — closing the loop between waste and 3D printing material at community scale.</p>
+      </article>
+      <article class="project-card bio" role="listitem">
+        <div class="project-role">Maker · Bio Making</div>
+        <h3>Kombucha SCOBY Vegan Leather</h3>
+        <p class="note">Growing biomaterial from kombucha culture — fermenting SCOBY into flexible, leather-like sheets as a zero-waste alternative to petrochemical textiles.</p>
+      </article>          <article class="project-card salvage" role="listitem">
+        <div class="project-role">Maker · Tech Salvage</div>
+        <h3>The Caffeinator</h3>
+        <p class="note">Upcycled cold brew machine. The OG build. Shown at Singapore Maker Festival 2014 and across Southeast Asia.</p>
+      </article>
+      <article class="project-card salvage" role="listitem">
+        <div class="project-role">Maker · Tech Salvage</div>
+        <h3>Selfiebooth</h3>
+        <p class="note">Raspberry Pi kiosk. Butt-activated. Exhibited at Maker Faire 2015.</p>
+      </article>
+      <article class="project-card bio" role="listitem" style="--top:#4a6741;">
+        <div class="project-role">Maker · Bio Making</div>
+        <h3>GutBox</h3>
+        <p class="note">Fermentation controller for the curious home scientist.</p>
+      </article>
+      <article class="project-card bio" role="listitem">
+        <div class="project-role">Maker · Bio Making</div>
+        <h3>The Fluffynator</h3>
+        <p class="note">Mushroom cultivation monitor. Grown, not bought.</p>
+      </article>
+      <article class="project-card salvage" role="listitem">
+        <div class="project-role">Developer · Tech Salvage</div>
+        <h3><a href="https://github.com/saadcaffeine/Doodle3D-Transform-SG" target="_blank" rel="noopener noreferrer" style="text-decoration:none; color:inherit;">Doodle3D SG ↗</a></h3>
+        <p class="note">Revives an orphaned open-source project — adapting Doodle3D Transform to run offline or in remote environments via Raspberry Pi, making 2D-to-3D drawing accessible without reliable internet.</p>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- NETWORK / ADVISORY ------------------------------------- -->
+<section id="network" aria-labelledby="network-heading">
+  <div class="container">
+    <p class="eyebrow">Network & Advisory</p>
+    <h2 id="network-heading">The Open-Source<br /><em>Kitchen Table.</em></h2>
+    <p style="margin-top: 1rem; margin-bottom: 2.5rem; max-width: 58ch; opacity: 0.75;">
+      The best ideas are collectively brewed. These are the communities and boards where I contribute and conspire.
+    </p>
+
+    <div class="advisory-list" role="list" aria-label="Advisory roles and network affiliations">
+      <a href="https://spudniklab.com/" class="advisory-item" target="_blank" rel="noopener noreferrer" role="listitem">
+        <span class="advisory-role">Founder & Director</span>
+        <h3>SpudnikLab</h3>
+        <span style="font-size:0.82rem;opacity:0.6;">Digital equity through hands-on learning</span>
+      </a>
+      <a href="https://salvagegarden.org/" class="advisory-item" target="_blank" rel="noopener noreferrer" role="listitem">
+        <span class="advisory-role">Founder</span>
+        <h3>SalvageGarden</h3>
+        <span style="font-size:0.82rem;opacity:0.6;">Repair culture & inclusive making since 2018</span>
+      </a>
+      <a href="https://openhardware.science/" class="advisory-item" target="_blank" rel="noopener noreferrer" role="listitem">
+        <span class="advisory-role">Community Council Member · since 2024</span>
+        <h3>GOSH Community Council</h3>
+        <span style="font-size:0.82rem;opacity:0.6;">Gathering for Open Science Hardware</span>
+      </a>
+      <a href="https://r0g.agency/" class="advisory-item" target="_blank" rel="noopener noreferrer" role="listitem">
+        <span class="advisory-role">Strategic Board Member · since 2018</span>
+        <h3>r0g_agency / SSMLab</h3>
+        <span style="font-size:0.82rem;opacity:0.6;">Open tech for Africa & Asia</span>
+      </a>
+      <a href="https://gig.global/" class="advisory-item" target="_blank" rel="noopener noreferrer" role="listitem">
+        <span class="advisory-role">Board Member</span>
+        <h3>GIG — Global Innovation Gathering</h3>
+        <span style="font-size:0.82rem;opacity:0.6;">Grassroots tech communities worldwide</span>
+      </a>
+      <a href="https://fab.city/" class="advisory-item" target="_blank" rel="noopener noreferrer" role="listitem">
+        <span class="advisory-role">Contributor</span>
+        <h3>Fab City Global Initiative</h3>
+        <span style="font-size:0.82rem;opacity:0.6;">Locally productive, globally connected cities</span>
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- CONTACT ------------------------------------------------- -->
+<section id="contact" aria-labelledby="contact-heading">
+  <div class="container">
+    <p class="eyebrow">Contact</p>
+    <h2 id="contact-heading">Let's<br /><em>Brew a Pour Over.</em></h2>
+
+    <div class="contact-inner" style="margin-top: 2.5rem;">
+      <div>
+        <p style="font-size: 1.05rem; line-height: 1.8; margin-bottom: 1.5rem; max-width: 50ch;">
+          I'm open to collaborations in inclusive design, open hardware, bio-making, education, and creative tech. If your project has a soul and values the process as much as the product — let's talk.
+        </p>
+        <div style="display:flex; flex-wrap:wrap; gap: 0.75rem;">
+          <a href="https://linkedin.com/in/saadchinoy" class="btn btn-primary" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn profile (opens in new tab)">LinkedIn ↗</a>
+          <a href="https://linktr.ee/saadcaffeine" class="btn btn-outline" target="_blank" rel="noopener noreferrer" aria-label="Linktree — all links (opens in new tab)">All Links ↗</a>
+        </div>
+      </div>
+
+      <nav aria-label="Social media and community profiles">
+        <ul class="social-links">
+          <li><a href="https://bsky.app/profile/saadcaffeine.bsky.social" target="_blank" rel="noopener noreferrer"><span class="social-dot" aria-hidden="true"></span>Bluesky</a></li>
+          <li><a href="https://github.com/saadcaffeine" target="_blank" rel="noopener noreferrer"><span class="social-dot" aria-hidden="true"></span>GitHub</a></li>
+          <li><a href="https://hackaday.io/saadcaffeine" target="_blank" rel="noopener noreferrer"><span class="social-dot" aria-hidden="true"></span>Hackaday</a></li>
+          <li><a href="https://instagram.com/saadcaffeine" target="_blank" rel="noopener noreferrer"><span class="social-dot" aria-hidden="true"></span>Instagram</a></li>
+          <li><a href="https://cults3d.com/en/users/saadcaffeine" target="_blank" rel="noopener noreferrer"><span class="social-dot" aria-hidden="true"></span>Cults3D</a></li>
+          <li><a href="https://www.printables.com/@saadcaffeine" target="_blank" rel="noopener noreferrer"><span class="social-dot" aria-hidden="true"></span>Printables</a></li>
+          <li><a href="https://www.thingiverse.com/saadcaffeine" target="_blank" rel="noopener noreferrer"><span class="social-dot" aria-hidden="true"></span>Thingiverse</a></li>
+          <li><a href="https://fablabs.io/users/saadcaffeine" target="_blank" rel="noopener noreferrer"><span class="social-dot" aria-hidden="true"></span>FabLabs.io</a></li>
+        </ul>
+      </nav>
+    </div>
+  </div>
+</section>
+```
+
+  </main>
+
+  <!-- ============================================================
+       FOOTER
+  ============================================================ -->
+
+  <footer role="contentinfo">
+    <span class="footer-mark">© 2026 Saad Chinoy · @saadcaffeine · Made with salvage logic</span>
+    <span class="footer-slogan">Technologist for the Common Good.</span>
+  </footer>
+
+  <!-- ============================================================
+       JAVASCRIPT
+       All data is declared inline — self-documenting, no server needed.
+       Like a LAMP stack without the database: flat-file, readable,
+       transparent.
+  ============================================================ -->
+
+  <script>
+    /* ----------------------------------------------------------
+       DATA — pulled directly from saad_chinoy_dataset.json
+       Structured as: { year, month, cat, title, role, theme, url? }
+    ---------------------------------------------------------- */
+    const ENTRIES = [
+      { year: 2026, month: "Feb", cat: "Speaking",  title: "OSHWA Lightning Talk",           role: "Speaker",         theme: "OPEN-GOVERNANCE",  url: "https://www.oshwa.org/" },
+      { year: 2026, month: "Jan", cat: "Strategy",  title: "2026 Inclusion Roadmap",          role: "Author",          theme: "INCLUSIVE-DESIGN" },
+      { year: 2025, month: "Dec", cat: "Media",     title: "ST Feature: SalvageGarden",       role: "Founder",         theme: "INCLUSIVE-DESIGN", url: "https://www.straitstimes.com/" },
+      { year: 2025, month: "Nov", cat: "Workshop",  title: "FAN25: Prototyping Fab Cities",   role: "Lead",            theme: "TECH-SALVAGE",     url: "https://fab.city/" },
+      { year: 2025, month: "Oct", cat: "Strategy",  title: "i'mable × Salvage Garden",        role: "Strategy Lead",   theme: "INCLUSIVE-DESIGN", url: "https://www.imable.sg/" },
+      { year: 2025, month: "Oct", cat: "Milestone", title: "M.I.T. Sundays National Expansion", role: "Expansion Lead", theme: "INCLUSIVE-DESIGN", url: "https://www.nlb.gov.sg/" },
+      { year: 2025, month: "Oct", cat: "Advisory",  title: "i'mable (SG Enable) Panel",       role: "Advisor",         theme: "INCLUSIVE-DESIGN", url: "https://www.imable.sg/" },
+      { year: 2025, month: "Sep", cat: "Exhibition",title: "ASM: Another World Is Possible",  role: "Collaborator",     theme: "CRITICAL-PLAY",    url: "https://www.marinabaysands.com/museum/artscience-museum.html" },
+      { year: 2025, month: "Aug", cat: "Speaking",  title: "ASEAN Maker Gathering",           role: "Keynote",         theme: "OPEN-GOVERNANCE" },
+      { year: 2025, month: "Jul", cat: "Research",  title: "Street2Paradise (C&T Case Study)", role: "Researcher",     theme: "INCLUSIVE-DESIGN" },
+      { year: 2025, month: "Jul", cat: "Workshop",  title: "SpudnikLab Bali Science Kit",     role: "Facilitator",     theme: "DIGITAL-EQUITY",   url: "https://spudniklab.com/" },
+      { year: 2025, month: "Jun", cat: "Facilitator", title: "GOSH Community Call",           role: "Leader",          theme: "OPEN-GOVERNANCE",  url: "https://openhardware.science/" },
+      { year: 2025, month: "May", cat: "Speaking",  title: "OSHWA: BrailleRap",               role: "Speaker",         theme: "OPEN-GOVERNANCE",  url: "https://2025.oshwa.org/" },
+      { year: 2025, month: "May", cat: "Speaking",  title: "Make-a-thek / GIG Showcase",      role: "Speaker",         theme: "INCLUSIVE-DESIGN", url: "https://gig.global/" },
+      { year: 2025, month: "May", cat: "Strategy",  title: "BrailleRap Replication Strategy", role: "Lead",            theme: "OPEN-GOVERNANCE",  url: "https://wikifab.org/wiki/BrailleRap" },
+      { year: 2025, month: "Apr", cat: "Exhibition",title: "Curious Worlds: Brain & Body",    role: "Exhibitor",       theme: "INCLUSIVE-DESIGN" },
+      { year: 2025, month: "Mar", cat: "Speaking",  title: "FOSSASIA Circular Economy Panel", role: "Moderator",       theme: "TECH-SALVAGE",     url: "https://summit.fossasia.org/" },
+      { year: 2025, month: "Feb", cat: "Media",     title: "CNA Profile: Makers of Singapore", role: "Featured",       theme: "INCLUSIVE-DESIGN", url: "https://www.channelnewsasia.com/" },
+      { year: 2025, month: "Jan", cat: "Project",   title: "Bespoke Tools: Irene Lim",        role: "Co-Creator",      theme: "INCLUSIVE-DESIGN" },
+      { year: 2024, month: "Dec", cat: "Advisory",  title: "Fab City Global Initiative",      role: "Contributor",     theme: "OPEN-GOVERNANCE",  url: "https://fab.city/" },
+      { year: 2024, month: "Oct", cat: "Media",     title: "NLB: Makers Next Door Profile",   role: "Featured",        theme: "INCLUSIVE-DESIGN", url: "https://www.nlb.gov.sg/" },
+      { year: 2024, month: "Aug", cat: "Project",   title: "MothboxSG (Citizen Science)",     role: "Technical Lead",  theme: "BIO-MAKING" },
+      { year: 2024, month: "Aug", cat: "Project",   title: "BiodiverCities Challenge (Mexico)", role: "Winner",         theme: "BIO-MAKING" },
+      { year: 2024, month: "Jul", cat: "Philosophy",title: "Slogan: Make Things That Make Sense", role: "Author",      theme: "OPEN-GOVERNANCE" },
+      { year: 2024, month: "Jun", cat: "Project",   title: "Trotify (BikingHacks Coconut)",   role: "Maker",           theme: "CRITICAL-PLAY",    url: "https://www.trotify.com/" },
+      { year: 2024, month: "May", cat: "Technical", title: "re:publica 24: DIY Caffeinator",  role: "Installation",    theme: "TECH-SALVAGE",     url: "https://re-publica.com/" },
+      { year: 2024, month: "Mar", cat: "Strategy",  title: "GOSH Governance Roadmap",         role: "Author",          theme: "OPEN-GOVERNANCE",  url: "https://openhardware.science/" },
+      { year: 2024, month: "Jan", cat: "Project",   title: "AI in Frugal Innovation",         role: "Researcher",      theme: "TECH-SALVAGE" },
+      { year: 2023, month: "Dec", cat: "Milestone", title: "SalvageGarden 5th Anniversary",   role: "Founder",         theme: "INCLUSIVE-DESIGN", url: "https://salvagegarden.org/" },
+      { year: 2023, month: "Nov", cat: "Project",   title: "Tactile TicTacToe T3",            role: "Designer",        theme: "INCLUSIVE-DESIGN" },
+      { year: 2023, month: "Oct", cat: "Article",   title: "GIG: Curating A Curious Mind",    role: "Author",          theme: "OPEN-GOVERNANCE",  url: "https://gig.global/" },
+      { year: 2023, month: "Sep", cat: "Project",   title: "Tactile Coin Holder (Punggol)",   role: "Designer",        theme: "INCLUSIVE-DESIGN" },
+      { year: 2023, month: "May", cat: "Strategy",  title: "Regional Inclusive Design Hubs",  role: "Lead",            theme: "INCLUSIVE-DESIGN" },
+      { year: 2023, month: "Mar", cat: "Workshop",  title: "FREAK lab: Microbial Fuel Cells", role: "Facilitator",     theme: "BIO-MAKING" },
+      { year: 2023, month: "Feb", cat: "Speaking",  title: "IdeasFest III: Flash Lecture",    role: "Lecturer",        theme: "BIO-MAKING" },
+      { year: 2023, month: "Feb", cat: "Workshop",  title: "IdeasFest III: Vegan Leather",    role: "Facilitator",     theme: "BIO-MAKING" },
+      { year: 2023, month: "Jan", cat: "Milestone", title: "Punggol MakerIT Launch",          role: "Advisor",         theme: "INCLUSIVE-DESIGN", url: "https://www.nlb.gov.sg/" },
+      { year: 2022, month: "Dec", cat: "Milestone", title: "SpudnikLab Regional Outreach",    role: "Lead",            theme: "DIGITAL-EQUITY",   url: "https://spudniklab.com/" },
+      { year: 2022, month: "Nov", cat: "Workshop",  title: "Critical Making for Social Good", role: "Facilitator",     theme: "OPEN-GOVERNANCE" },
+      { year: 2022, month: "Oct", cat: "Research",  title: "SCOBY Bio-materials Study",       role: "Lead",            theme: "BIO-MAKING" },
+      { year: 2022, month: "Aug", cat: "Technical", title: "Projector X: Picturehouse Launch", role: "Creative Tech",  theme: "TECH-SALVAGE",     url: "https://projectorx.sg/" },
+      { year: 2022, month: "Jul", cat: "Workshop",  title: "Dinacon: Bioplastics & SCOBY",    role: "Facilitator",     theme: "BIO-MAKING",       url: "https://dinacon.org/" },
+      { year: 2022, month: "Jul", cat: "Workshop",  title: "Dinacon: Papaya-based Coffee",    role: "Facilitator",     theme: "BIO-MAKING",       url: "https://dinacon.org/" },
+      { year: 2022, month: "Jul", cat: "Project",   title: "The Fluffynator (Shroom Monitor)", role: "Maker",          theme: "BIO-MAKING" },
+      { year: 2022, month: "Jun", cat: "Art",       title: "re:publica 22: Cards Against Planet", role: "Creator",     theme: "CRITICAL-PLAY",    url: "https://re-publica.com/" },
+      { year: 2022, month: "Mar", cat: "Speaking",  title: "Making with Meaning Panel",       role: "Panelist",        theme: "INCLUSIVE-DESIGN" },
+      { year: 2022, month: "Jan", cat: "Toolbox",   title: "Critical Making Toolbox",         role: "Contributor",     theme: "OPEN-GOVERNANCE" },
+      { year: 2021, month: "Dec", cat: "Project",   title: "Low-cost Screen Reader Hack",     role: "Technical Lead",  theme: "INCLUSIVE-DESIGN" },
+      { year: 2021, month: "Sep", cat: "Article",   title: "The Ethics of E-Waste",           role: "Author",          theme: "TECH-SALVAGE" },
+      { year: 2021, month: "May", cat: "Media",     title: "Hackaday Podcast (Ep ~354)",      role: "Featured",        theme: "TECH-SALVAGE",     url: "https://hackaday.com/tag/hackaday-podcast/" },
+      { year: 2021, month: "Apr", cat: "Milestone", title: "Projector X: Riverside",          role: "Salvage Tech",    theme: "TECH-SALVAGE",     url: "https://projectorx.sg/" },
+      { year: 2021, month: "Feb", cat: "Workshop",  title: "Remote Collaborative Making",     role: "Facilitator",     theme: "DIGITAL-EQUITY" },
+      { year: 2020, month: "Jul", cat: "Project",   title: "Pandemic Maker Support",          role: "Lead",            theme: "TECH-SALVAGE" },
+      { year: 2020, month: "Apr", cat: "Project",   title: "DIY PPE (Flexible Filament)",     role: "Maker",           theme: "TECH-SALVAGE" },
+      { year: 2019, month: "Sep", cat: "Moderator", title: "AFCC: Minecraft/Roblox Panel",    role: "Moderator",       theme: "CRITICAL-PLAY",    url: "https://www.bookcouncil.sg/" },
+      { year: 2019, month: "Mar", cat: "Speaking",  title: "Open Hardware for All (GOSH)",    role: "Speaker",         theme: "OPEN-GOVERNANCE",  url: "https://openhardware.science/" },
+      { year: 2018, month: "Dec", cat: "Milestone", title: "SSMLab Final Gathering (Bishoftu)", role: "Strategic Lead", theme: "ASKNET",           url: "https://r0g.agency/" },
+      { year: 2018, month: "Dec", cat: "Art",       title: "35C3 (CCC): Jean Cloud",          role: "Designer",        theme: "CRITICAL-PLAY",    url: "https://events.ccc.de/congress/2018/" },
+      { year: 2018, month: "Dec", cat: "Publication", title: "SSMLab Advocacy Whitepaper",    role: "Co-Author",       theme: "OPEN-GOVERNANCE",  url: "https://r0g.agency/" },
+      { year: 2018, month: "Nov", cat: "Workshop",  title: "The Caffeinator (Jogja)",         role: "Facilitator",     theme: "BIO-MAKING" },
+      { year: 2018, month: "Nov", cat: "Technical", title: "Imagine We (Kigali) Consultant",  role: "Consultant",      theme: "DIGITAL-EQUITY" },
+      { year: 2018, month: "Nov", cat: "Technical", title: "Kweeta/CIPESA (Kampala)",         role: "Collaborator",    theme: "DIGITAL-EQUITY" },
+      { year: 2018, month: "Nov", cat: "Research",  title: "Sudan VR Media Fellowship",       role: "Fellow",          theme: "DIGITAL-EQUITY" },
+      { year: 2018, month: "Oct", cat: "Advisory",  title: "GOSH 2018 (Shenzhen)",            role: "Advisor",         theme: "OPEN-GOVERNANCE",  url: "https://openhardware.science/" },
+      { year: 2018, month: "Oct", cat: "Speaking",  title: "SSMLab Step Up (Addis Ababa)",    role: "Presenter",       theme: "OPEN-GOVERNANCE",  url: "https://r0g.agency/" },
+      { year: 2018, month: "Jun", cat: "Technical", title: "Nine Tales Launch",               role: "Systems Lead",    theme: "DIGITAL-EQUITY" },
+      { year: 2018, month: "Jun", cat: "Project",   title: "Dinacon: Mud-Microbial Fuel Cell", role: "Researcher",     theme: "BIO-MAKING",       url: "https://dinacon.org/" },
+      { year: 2017, month: "Aug", cat: "Speaking",  title: "Microbial Fuel Cells (SG Hack & Tell)", role: "Speaker",  theme: "BIO-MAKING" },
+      { year: 2017, month: "Feb", cat: "Speaking",  title: "Hacking the Future Workshop",     role: "Speaker",         theme: "CRITICAL-PLAY" },
+      { year: 2016, month: "Dec", cat: "Milestone", title: "First Salvage Build",             role: "Lead",            theme: "TECH-SALVAGE" },
+      { year: 2016, month: "Oct", cat: "Speaking",  title: "Under My Umbrella (Hackware)",    role: "Speaker",         theme: "TECH-SALVAGE" },
+      { year: 2015, month: "Dec", cat: "Art",       title: "Titian Budaya (Kuala Lumpur)",    role: "Exhibitor",       theme: "CRITICAL-PLAY" },
+      { year: 2015, month: "Jul", cat: "Speaking",  title: "Hackerspace Travelogues 2.0",     role: "Speaker",         theme: "OPEN-GOVERNANCE" },
+      { year: 2015, month: "Jun", cat: "Project",   title: "Early Spudnik Experiments",       role: "Lead",            theme: "DIGITAL-EQUITY",   url: "https://spudniklab.com/" },
+      { year: 2015, month: "May", cat: "Art",       title: "SelfieMirror (ArtScience Late)",  role: "Exhibitor",       theme: "CRITICAL-PLAY" },
+      { year: 2015, month: "May", cat: "Milestone", title: "Butt-Activated Selfie Booth (Maker Faire)", role: "Lead Maker", theme: "CRITICAL-PLAY" },
+      { year: 2014, month: "Aug", cat: "Workshop",  title: "DIYSUB Surabaya: Caffeinator",    role: "Facilitator",     theme: "TECH-SALVAGE" },
+      { year: 2014, month: "Jun", cat: "Project",   title: "Singapore Maker Festival: Original Caffeinator", role: "Maker", theme: "TECH-SALVAGE" },
+      { year: 2014, month: "Jan", cat: "Milestone", title: "Entry: The Maker Movement Begins", role: "Origin",         theme: "CRITICAL-PLAY" },
+      { year: 2013, month: "Jul", cat: "Milestone", title: "Mini Maker Faire Singapore Debut", role: "Exhibitor",      theme: "CRITICAL-PLAY" },
+    ];
+
+    /* ----------------------------------------------------------
+       RENDER TIMELINE
+       Groups entries by year, renders as accessible card grid.
+       Filtered without re-rendering DOM — just toggling [hidden].
+    ---------------------------------------------------------- */
+    (function renderTimeline() {
+      const container = document.getElementById('timeline-container');
+
+      // Group entries by year (descending)
+      const byYear = {};
+      ENTRIES.forEach(e => {
+        if (!byYear[e.year]) byYear[e.year] = [];
+        byYear[e.year].push(e);
+      });
+
+      const years = Object.keys(byYear).map(Number).sort((a, b) => b - a);
+
+      const fragment = document.createDocumentFragment();
+
+      years.forEach(year => {
+        const group = document.createElement('div');
+        group.className = 'year-group';
+        group.dataset.year = year;
+
+        const label = document.createElement('h3');
+        label.className = 'year-label';
+        label.setAttribute('aria-label', `Year ${year}`);
+        label.textContent = year;
+        group.appendChild(label);
+
+        const grid = document.createElement('div');
+        grid.className = 'entry-grid';
+
+        byYear[year].forEach(entry => {
+          // Wrap in <a> if URL exists, else <div>
+          const card = document.createElement(entry.url ? 'a' : 'div');
+          card.className = 'entry-card';
+          card.dataset.theme = entry.theme;
+
+          if (entry.url) {
+            card.href = entry.url;
+            card.target = '_blank';
+            card.rel = 'noopener noreferrer';
+            card.setAttribute('aria-label', `${entry.title} — ${entry.role} (opens in new tab)`);
+          }
+
+          card.innerHTML = `
+            <div class="entry-meta">
+              <span class="entry-month">${entry.month}</span>
+              <span class="entry-cat" aria-label="Category: ${entry.cat}">${entry.cat}</span>
+            </div>
+            <div class="entry-title">${entry.title}</div>
+            <div class="entry-role">${entry.role}${entry.url ? ' ↗' : ''}</div>
+          `;
+
+          grid.appendChild(card);
+        });
+
+        group.appendChild(grid);
+        fragment.appendChild(group);
+      });
+
+      container.appendChild(fragment);
+    })();
+
+    /* ----------------------------------------------------------
+       FILTER LOGIC
+       Hides/shows cards & collapses empty year groups.
+       Uses [hidden] attribute — accessible by default.
+    ---------------------------------------------------------- */
+    (function initFilters() {
+      const buttons = document.querySelectorAll('.filter-btn');
+
+      buttons.forEach(btn => {
+        btn.addEventListener('click', () => {
+          const filter = btn.dataset.filter;
+
+          // Update ARIA / active state
+          buttons.forEach(b => {
+            b.classList.remove('active');
+            b.removeAttribute('aria-pressed');
+          });
+          btn.classList.add('active');
+          btn.setAttribute('aria-pressed', 'true');
+
+          // Show / hide cards
+          const cards = document.querySelectorAll('.entry-card');
+          cards.forEach(card => {
+            const match = filter === 'all' || card.dataset.theme === filter;
+            card.hidden = !match;
+          });
+
+          // Collapse year groups with no visible cards
+          const groups = document.querySelectorAll('.year-group');
+          groups.forEach(group => {
+            const visible = group.querySelectorAll('.entry-card:not([hidden])').length;
+            group.hidden = visible === 0;
+          });
+        });
+      });
+    })();
+
+    /* ----------------------------------------------------------
+       MOBILE NAV TOGGLE
+       Toggles aria-expanded and the .open class on the nav.
+    ---------------------------------------------------------- */
+    (function initMobileNav() {
+      const toggle = document.querySelector('.nav-toggle');
+      const mobileNav = document.getElementById('mobile-nav');
+
+      toggle.addEventListener('click', () => {
+        const isOpen = mobileNav.classList.toggle('open');
+        toggle.setAttribute('aria-expanded', isOpen);
+      });
+
+      // Close mobile nav when a link is clicked
+      mobileNav.querySelectorAll('a').forEach(link => {
+        link.addEventListener('click', () => {
+          mobileNav.classList.remove('open');
+          toggle.setAttribute('aria-expanded', 'false');
+        });
+      });
+
+      // Close on outside click
+      document.addEventListener('click', e => {
+        if (!toggle.contains(e.target) && !mobileNav.contains(e.target)) {
+          mobileNav.classList.remove('open');
+          toggle.setAttribute('aria-expanded', 'false');
+        }
+      });
+    })();
+  </script>
+
+</body>
+</html>
