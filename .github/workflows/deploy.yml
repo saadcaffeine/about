@@ -1,0 +1,26 @@
+name: Deploy to ediblemakerspace.com/about
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+jobs:
+  ftp-deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: FTPS deploy
+        uses: SamKirkland/FTP-Deploy-Action@v4.4.0
+        with:
+          server: ftp.visualpurpledesign.com
+          username: ${{ secrets.FTP_USERNAME }}
+          password: ${{ secrets.FTP_PASSWORD }}
+          protocol: ftps
+          server-dir: /ediblemakerspace.com/about/
+          exclude: |
+            **/.git*
+            **/.git*/**
+            **/.github/**
+            README.md
