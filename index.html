@@ -69,7 +69,10 @@
     "significantProject": [
     "M.I.T. Sundays (National Library Board Expansion)",
     "The Original Caffeinator Prototype",
-    "Another World is Possible Exhibition - ArtScience Museum SINGAPORE (2026)"
+    "Another World is Possible Exhibition - ArtScience Museum SINGAPORE (2025-2026), contributing artist alongside Serwah Attafuah, Björk, and Liam Young",
+    "BrailleRap — Open Source Braille Printer (multi-country replication, incl. Dzongkha localization, Bhutan)",
+    "MothboxSG — Open Hardware Biodiversity Monitoring",
+    "Digital Biology Hangouts & qLAMP — Open Diagnostics Community"
     ],
     "jobTitle": "Maker, Technologist, and Inclusive Design Practitioner",
     "worksFor": [
@@ -109,6 +112,24 @@
         "@type": "Organization",
         "name": "Fab City Global Initiative",
         "url": "https://fab.city/"
+      },
+      {
+        "@type": "Organization",
+        "name": "OSHWA (Open Source Hardware Association)",
+        "url": "https://www.oshwa.org/"
+      },
+      {
+        "@type": "Organization",
+        "name": "AfricaOSH",
+        "url": "https://africaosh.com/"
+      },
+      {
+        "@type": "Organization",
+        "name": "GOAT (Gathering for Open Ag Tech)"
+      },
+      {
+        "@type": "Organization",
+        "name": "UROŠ (Ubiquitous Rural Open Science Hardware)"
       }
     ],
     "knowsAbout": [
@@ -129,7 +150,15 @@
       "Microbial Fuel Cells",
       "Design for Distributed Innovation",
       "Meaninful Connectivity",
-      "cocreation"
+      "cocreation",
+      "Public Speaking",
+      "Keynote Speaking",
+      "Digital Biology",
+      "Open Diagnostics",
+      "Circular Economy",
+      "International Development",
+      "Community-Based Fabrication",
+      "Open Source Governance"
     ],
     "address": {
       "@type": "PostalAddress",
@@ -159,6 +188,7 @@
       --matcha:     #4a6741;
       --sky:        #3a5f8a;
       --rust:       #b84f2a;
+      --plum:       #7a3f68;
       --mist:       #ebebeb;
       --white:      #f7f7f7;
 
@@ -571,6 +601,34 @@
     .entry-card:hover { border-color: var(--crema); transform: translateY(-2px); }
     .entry-card:focus-visible { outline: 2px solid var(--crema); outline-offset: 2px; }
 
+    /* Arts / museum / installation cue — subtle left rule + small mark,
+       used across timeline, talks, and project cards. */
+    .entry-card.is-art {
+      border-left: 3px solid var(--plum);
+      padding-left: calc(1.1rem - 3px);
+    }
+    .art-badge {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      width: 14px;
+      height: 14px;
+      margin-right: 0.4rem;
+      border-radius: 3px;
+      background: var(--plum);
+      flex-shrink: 0;
+      position: relative;
+      top: -1px;
+    }
+    .art-badge::before {
+      content: '';
+      position: absolute;
+      inset: 3px;
+      border: 1px solid var(--white);
+      border-radius: 1px;
+      opacity: 0.85;
+    }
+
     .entry-meta {
       display: flex;
       gap: 0.5rem;
@@ -635,6 +693,7 @@
     .project-card.bio::before    { background: var(--matcha); }
     .project-card.salvage::before { background: var(--rust); }
     .project-card.incl::before   { background: var(--sky); }
+    .project-card.art::before    { background: var(--plum); }
 
     .project-card h3 { font-size: 1rem; margin-bottom: 0.35rem; }
     .project-card .note {
@@ -756,6 +815,7 @@
         --paper:    #1a1714;
         --espresso: #e8d9c4;
         --crema:    #d4a96a;
+        --plum:     #c98bb2;
         --mist:     #2e2a26;
         --white:    #242018;
       }
@@ -831,11 +891,11 @@
       @saad<span>caffeine</span>
     </a>
 
-```
-<nav aria-label="Primary navigation">
+    <nav aria-label="Primary navigation">
   <a href="#about">About</a>
   <a href="#work">Work</a>
   <a href="#projects">Projects</a>
+  <a href="#talks">Talks</a>
   <a href="#network">Network</a>
   <a href="#contact">Contact</a>
 </nav>
@@ -852,9 +912,7 @@
     <line x1="3" y1="12" x2="21" y2="12" />
     <line x1="3" y1="18" x2="21" y2="18" />
   </svg>
-</button>
-```
-
+    </button>
   </header>
 
   <!-- Mobile nav dropdown -->
@@ -863,6 +921,7 @@
     <a href="#about">About</a>
     <a href="#work">Work</a>
     <a href="#projects">Projects</a>
+    <a href="#talks">Talks</a>
     <a href="#network">Network</a>
     <a href="#contact">Contact</a>
   </nav>
@@ -873,8 +932,7 @@
 
   <main id="main-content">
 
-```
-<!-- HERO ---------------------------------------------------- -->
+    <!-- HERO ---------------------------------------------------- -->
 <section id="hero" aria-labelledby="hero-heading">
   <div class="container hero-inner">
 
@@ -893,7 +951,7 @@
     </p>
 
     <p class="hero-blurb fade-up">
-      I'm <strong>Saad Chinoy</strong> — a maker, systems designer, open-hardware advocate, and biomaker working at the intersection of art, science, and community. Since 2013 I've been building tools, spaces, and practices that put technology in service of people — not the other way around.
+      I'm <strong>Saad Chinoy</strong> — a maker, systems designer, open-hardware advocate, and biomaker working at the intersection of art, science, and community. For what feels like a lifetime, I've been building tools, spaces, and practices that put technology in service of people — not the other way around.
     </p>
 
     <div class="hero-ctas fade-up" role="group" aria-label="Primary calls to action">
@@ -1026,20 +1084,20 @@
         <h3>The Caffeinator</h3>
         <p class="note">Upcycled cold brew machine. The OG build. Shown at Singapore Maker Festival 2014 and across Southeast Asia.</p>
       </article>
-      <article class="project-card salvage" role="listitem">
-        <div class="project-role">Maker · Tech Salvage</div>
-        <h3>Selfiebooth</h3>
+      <article class="project-card art" role="listitem">
+        <div class="project-role">Maker · Critical Play</div>
+        <h3><span class="art-badge" role="img" aria-label="Arts &amp; museum engagement"></span>Selfiebooth</h3>
         <p class="note">Raspberry Pi kiosk. Butt-activated. Exhibited at Maker Faire 2015.</p>
       </article>
       <article class="project-card bio" role="listitem" style="--top:#4a6741;">
         <div class="project-role">Maker · Bio Making</div>
-        <h3>GutBox</h3>
+        <h3><a href="https://github.com/saadcaffeine/gutBox" target="_blank" rel="noopener noreferrer" style="text-decoration:none; color:inherit;">GutBox ↗</a></h3>
         <p class="note">Fermentation controller for the curious home scientist.</p>
       </article>
       <article class="project-card bio" role="listitem">
-        <div class="project-role">Maker · Bio Making</div>
-        <h3>The Fluffynator</h3>
-        <p class="note">Mushroom cultivation monitor. Grown, not bought.</p>
+        <div class="project-role">Co-Maker · Bio Making</div>
+        <h3>ShroomMonitor (Fluffynator)</h3>
+        <p class="note">Mushroom cultivation monitor built with Cris Silva, Pramo, and Brian at Dinacon 2022. Grown, not bought.</p>
       </article>
       <article class="project-card salvage" role="listitem">
         <div class="project-role">Developer · Tech Salvage</div>
@@ -1047,6 +1105,210 @@
         <p class="note">Revives an orphaned open-source project — adapting Doodle3D Transform to run offline or in remote environments via Raspberry Pi, making 2D-to-3D drawing accessible without reliable internet.</p>
       </article>
     </div>
+  </div>
+</section>
+
+<!-- TALKS / SPEAKING ---------------------------------------
+     Static (server-rendered) on purpose — unlike #work, this
+     content is not injected by JS, so crawlers and AI answer
+     engines that don't execute scripts can still read it.
+------------------------------------------------------------ -->
+<section id="talks" aria-labelledby="talks-heading">
+  <div class="container">
+    <p class="eyebrow">Talks &amp; Speaking</p>
+    <h2 id="talks-heading">A Decade at the<br /><em>Podium &amp; the Lectern.</em></h2>
+    <p style="margin-top: 1rem; margin-bottom: 2.5rem; max-width: 58ch; opacity: 0.75;">
+      Keynotes, guest lectures, panels, and conference talks — open hardware, inclusive design, and frugal innovation, delivered across four continents.
+    </p>
+
+    <div class="year-group">
+      <p class="year-label">2026</p>
+      <div class="entry-grid" role="list" aria-label="2026 talks">
+        <article class="entry-card" role="listitem">
+          <div class="entry-meta"><span class="entry-cat">Talk</span></div>
+          <div class="entry-title"><a href="https://re-publica.com/de/session/imagine-dragons-critical-participatory-co-design-strange-camera" target="_blank" rel="noopener noreferrer" style="text-decoration:none; color:inherit;">re:publica 2026 (Berlin): "Imagine Dragons: Critical Participatory Co-Design" ↗</a></div>
+          <div class="entry-role">Speaker, with Regina Sipos &amp; Daniel Wessolek</div>
+        </article>
+        <article class="entry-card" role="listitem">
+          <div class="entry-meta"><span class="entry-cat">Talk</span></div>
+          <div class="entry-title"><a href="https://re-publica.com/de/session/ai-around-us-tools-markets-and-future-work" target="_blank" rel="noopener noreferrer" style="text-decoration:none; color:inherit;">re:publica 2026 (Berlin): "AI Around Us" ↗</a></div>
+          <div class="entry-role">Speaker, with Fadia Elgharib &amp; Salih Mahmod</div>
+        </article>
+        <article class="entry-card" role="listitem">
+          <div class="entry-meta"><span class="entry-cat">Talk</span></div>
+          <div class="entry-title"><a href="https://re-publica.com/de/session/error-418-first-webcam" target="_blank" rel="noopener noreferrer" style="text-decoration:none; color:inherit;">re:publica 2026 (Berlin): "Error 418: The First Webcam" ↗</a></div>
+          <div class="entry-role">Speaker</div>
+        </article>
+        <article class="entry-card" role="listitem">
+          <div class="entry-meta"><span class="entry-cat">Panel</span></div>
+          <div class="entry-title">UN Open Source Week (New York)</div>
+          <div class="entry-role">Panelist</div>
+        </article>
+        <article class="entry-card" role="listitem">
+          <div class="entry-meta"><span class="entry-cat">Talk</span></div>
+          <div class="entry-title">FOSSASIA Summit 2026 (Bangkok)</div>
+          <div class="entry-role">Speaker</div>
+        </article>
+        <article class="entry-card" role="listitem">
+          <div class="entry-meta"><span class="entry-cat">Workshop</span></div>
+          <div class="entry-title">IdeasFest 2026: Vegan Leather Workshop</div>
+          <div class="entry-role">Facilitator</div>
+        </article>
+      </div>
+    </div>
+
+    <div class="year-group">
+      <p class="year-label">2025</p>
+      <div class="entry-grid" role="list" aria-label="2025 talks">
+        <article class="entry-card" role="listitem">
+          <div class="entry-meta"><span class="entry-cat">Guest Lecture</span></div>
+          <div class="entry-title">IAAC: "Activating Communities — Hyperlocal Recycling, 3D Prints, and Inclusion"</div>
+          <div class="entry-role">Guest Lecturer</div>
+        </article>
+        <article class="entry-card" role="listitem">
+          <div class="entry-meta"><span class="entry-cat">Talk</span></div>
+          <div class="entry-title"><a href="https://2025.oshwa.org/talks/170-saad-chinoy/" target="_blank" rel="noopener noreferrer" style="text-decoration:none; color:inherit;">Open Hardware Summit 2025: "Re-making an Open Source Braille Printer" ↗</a></div>
+          <div class="entry-role">Speaker</div>
+        </article>
+        <article class="entry-card" role="listitem">
+          <div class="entry-meta"><span class="entry-cat">Conference</span></div>
+          <div class="entry-title">IASDR 2025 DESIGN NEXT (Taipei)</div>
+          <div class="entry-role">Presenter</div>
+        </article>
+        <article class="entry-card is-art" role="listitem">
+          <div class="entry-meta"><span class="entry-cat">Exhibition</span></div>
+          <div class="entry-title"><span class="art-badge" role="img" aria-label="Arts &amp; museum engagement"></span><a href="https://www.marinabaysands.com/museum/exhibitions/another-world-is-possible.html" target="_blank" rel="noopener noreferrer" style="text-decoration:none; color:inherit;">"Another World Is Possible" (ArtScience Museum) — global premiere, alongside Björk, Liam Young, and Serwah Attafuah ↗</a></div>
+          <div class="entry-role">Contributing Artist</div>
+        </article>
+        <article class="entry-card is-art" role="listitem">
+          <div class="entry-meta"><span class="entry-cat">Exhibition</span></div>
+          <div class="entry-title"><span class="art-badge" role="img" aria-label="Arts &amp; museum engagement"></span><a href="https://www.marinabaysands.com/museum/events/curious-worlds.html" target="_blank" rel="noopener noreferrer" style="text-decoration:none; color:inherit;">Curious Worlds (ArtScience Museum) — assistive tech showcase, ArtScience Lab ↗</a></div>
+          <div class="entry-role">Exhibitor</div>
+        </article>
+      </div>
+    </div>
+
+    <div class="year-group">
+      <p class="year-label">2024</p>
+      <div class="entry-grid" role="list" aria-label="2024 talks">
+        <article class="entry-card" role="listitem">
+          <div class="entry-meta"><span class="entry-cat">Challenge</span></div>
+          <div class="entry-title">FabCity Challenge 2024 (Mexico): "BiodiverCiudades / Fabricating Equity"</div>
+          <div class="entry-role">Winner</div>
+        </article>
+        <article class="entry-card" role="listitem">
+          <div class="entry-meta"><span class="entry-cat">Talk</span></div>
+          <div class="entry-title">FOSSASIA Summit 2024 (Hanoi)</div>
+          <div class="entry-role">Speaker</div>
+        </article>
+        <article class="entry-card" role="listitem">
+          <div class="entry-meta"><span class="entry-cat">Guest Session</span></div>
+          <div class="entry-title">Design Thinking at SJINML (NUS Enterprise)</div>
+          <div class="entry-role">Facilitator</div>
+        </article>
+        <article class="entry-card" role="listitem">
+          <div class="entry-meta"><span class="entry-cat">Workshop</span></div>
+          <div class="entry-title"><a href="https://re-publica.com/de/session/braillerap-bhutan-how-we-replicated-opensource-braille-printer-and-so-can-you" target="_blank" rel="noopener noreferrer" style="text-decoration:none; color:inherit;">re:publica 24: "BrailleRap Bhutan — how we replicated an open-source braille printer and so can you" ↗</a></div>
+          <div class="entry-role">Speaker, with Felipe Schmidt Fonseca</div>
+        </article>
+        <article class="entry-card" role="listitem">
+          <div class="entry-meta"><span class="entry-cat">Workshop</span></div>
+          <div class="entry-title"><a href="https://re-publica.com/de/session/constructive-care-cafe" target="_blank" rel="noopener noreferrer" style="text-decoration:none; color:inherit;">re:publica 24: "Constructive Care Cafe" — building the DIY Caffeinator ↗</a></div>
+          <div class="entry-role">Co-Host, with Regina Sipos &amp; Adriana Cabrera</div>
+        </article>
+      </div>
+    </div>
+
+    <div class="year-group">
+      <p class="year-label">2023</p>
+      <div class="entry-grid" role="list" aria-label="2023 talks">
+        <article class="entry-card" role="listitem">
+          <div class="entry-meta"><span class="entry-cat">Lecture</span></div>
+          <div class="entry-title">NTU CCA IdeasFest III: "FOOD — Eat. Secure. Sustain."</div>
+          <div class="entry-role">Lecturer</div>
+        </article>
+        <article class="entry-card" role="listitem">
+          <div class="entry-meta"><span class="entry-cat">Conference</span></div>
+          <div class="entry-title">Wikimania 2023</div>
+          <div class="entry-role">Attendee / Contributor</div>
+        </article>
+        <article class="entry-card is-art" role="listitem">
+          <div class="entry-meta"><span class="entry-cat">Workshop</span></div>
+          <div class="entry-title"><span class="art-badge" role="img" aria-label="Arts &amp; museum engagement"></span>"Intimacy with Nature" BioArt Workshop (Singapore Art Museum)</div>
+          <div class="entry-role">Facilitator</div>
+        </article>
+      </div>
+    </div>
+
+    <div class="year-group">
+      <p class="year-label">2022</p>
+      <div class="entry-grid" role="list" aria-label="2022 talks">
+        <article class="entry-card" role="listitem">
+          <div class="entry-meta"><span class="entry-cat">Challenge</span></div>
+          <div class="entry-title">Fab23 (Bhutan Challenge): Open Source Dzongkha BrailleRap</div>
+          <div class="entry-role">Lead</div>
+        </article>
+        <article class="entry-card" role="listitem">
+          <div class="entry-meta"><span class="entry-cat">Conference</span></div>
+          <div class="entry-title">Murrow Conference on Digital Media Policy</div>
+          <div class="entry-role">Speaker</div>
+        </article>
+        <article class="entry-card" role="listitem">
+          <div class="entry-meta"><span class="entry-cat">Workshop</span></div>
+          <div class="entry-title">Bali Fab Fest Workshop</div>
+          <div class="entry-role">Facilitator</div>
+        </article>
+      </div>
+    </div>
+
+    <div class="year-group">
+      <p class="year-label">2020 – 2021</p>
+      <div class="entry-grid" role="list" aria-label="2020 to 2021 talks">
+        <article class="entry-card" role="listitem">
+          <div class="entry-meta"><span class="entry-cat">Summit</span></div>
+          <div class="entry-title">Global BioSummit</div>
+          <div class="entry-role">Speaker &amp; Lab Lead</div>
+        </article>
+      </div>
+    </div>
+
+    <div class="year-group">
+      <p class="year-label">2017 – 2019</p>
+      <div class="entry-grid" role="list" aria-label="2017 to 2019 talks">
+        <article class="entry-card" role="listitem">
+          <div class="entry-meta"><span class="entry-cat">Summit</span></div>
+          <div class="entry-title">AfricaOSH Summit (Dar es Salaam)</div>
+          <div class="entry-role">Delegate</div>
+        </article>
+        <article class="entry-card" role="listitem">
+          <div class="entry-meta"><span class="entry-cat">Launch</span></div>
+          <div class="entry-title">"Path to Designing for Persons with Disabilities" (National Design Centre launch)</div>
+          <div class="entry-role">Speaker</div>
+        </article>
+        <article class="entry-card" role="listitem">
+          <div class="entry-meta"><span class="entry-cat">Talk</span></div>
+          <div class="entry-title">DOKU:TECH 2017</div>
+          <div class="entry-role">Speaker</div>
+        </article>
+        <article class="entry-card" role="listitem">
+          <div class="entry-meta"><span class="entry-cat">Workshop</span></div>
+          <div class="entry-title"><a href="https://17.re-publica.com/en/tags/global-innovation-gathering-gig.html" target="_blank" rel="noopener noreferrer" style="text-decoration:none; color:inherit;">re:publica 17: "Darling leave a light on for me" — DIY interactive love letters ↗</a></div>
+          <div class="entry-role">Facilitator, GIG Makerspace</div>
+        </article>
+      </div>
+    </div>
+
+    <div class="year-group">
+      <p class="year-label">2015</p>
+      <div class="entry-grid" role="list" aria-label="2015 talks">
+        <article class="entry-card is-art" role="listitem">
+          <div class="entry-meta"><span class="entry-cat">Exhibition</span></div>
+          <div class="entry-title"><span class="art-badge" role="img" aria-label="Arts &amp; museum engagement"></span>SelfieMirror (ArtScience Late)</div>
+          <div class="entry-role">Exhibitor</div>
+        </article>
+      </div>
+    </div>
+
   </div>
 </section>
 
@@ -1090,6 +1352,16 @@
         <h3>Fab City Global Initiative</h3>
         <span style="font-size:0.82rem;opacity:0.6;">Locally productive, globally connected cities</span>
       </a>
+      <a href="https://www.oshwa.org/" class="advisory-item" target="_blank" rel="noopener noreferrer" role="listitem">
+        <span class="advisory-role">Member</span>
+        <h3>OSHWA — Open Source Hardware Association</h3>
+        <span style="font-size:0.82rem;opacity:0.6;">Global open hardware standards & community</span>
+      </a>
+      <a href="https://africaosh.com/" class="advisory-item" target="_blank" rel="noopener noreferrer" role="listitem">
+        <span class="advisory-role">Delegate · since 2018</span>
+        <h3>AfricaOSH</h3>
+        <span style="font-size:0.82rem;opacity:0.6;">Open science hardware across the African continent</span>
+      </a>
     </div>
   </div>
 </section>
@@ -1126,7 +1398,6 @@
     </div>
   </div>
 </section>
-```
 
   </main>
 
@@ -1135,7 +1406,7 @@
   ============================================================ -->
 
   <footer role="contentinfo">
-    <span class="footer-mark">© 2026 Saad Chinoy · @saadcaffeine · Made with salvage logic</span>
+    <span class="footer-mark">© 2026 Saad Chinoy · @saadcaffeine · Made with coffee (the real thing)</span>
     <span class="footer-slogan">Technologist for the Common Good.</span>
   </footer>
 
@@ -1152,33 +1423,41 @@
        Structured as: { year, month, cat, title, role, theme, url? }
     ---------------------------------------------------------- */
     const ENTRIES = [
+      { year: 2026, month: "Jun", cat: "Panel",     title: "UN Open Source Week (New York)", role: "Panelist",        theme: "OPEN-GOVERNANCE" },
+      { year: 2026, month: "Mar", cat: "Speaking",  title: "FOSSASIA Summit 2026 (Bangkok)",  role: "Speaker",         theme: "TECH-SALVAGE",     url: "https://summit.fossasia.org/" },
       { year: 2026, month: "Feb", cat: "Speaking",  title: "OSHWA Lightning Talk",           role: "Speaker",         theme: "OPEN-GOVERNANCE",  url: "https://www.oshwa.org/" },
+      { year: 2026, month: "Feb", cat: "Workshop",  title: "IdeasFest 2026: Vegan Leather Workshop", role: "Facilitator", theme: "BIO-MAKING" },
       { year: 2026, month: "Jan", cat: "Strategy",  title: "2026 Inclusion Roadmap",          role: "Author",          theme: "INCLUSIVE-DESIGN" },
       { year: 2025, month: "Dec", cat: "Media",     title: "ST Feature: SalvageGarden",       role: "Founder",         theme: "INCLUSIVE-DESIGN", url: "https://www.straitstimes.com/" },
       { year: 2025, month: "Nov", cat: "Workshop",  title: "FAN25: Prototyping Fab Cities",   role: "Lead",            theme: "TECH-SALVAGE",     url: "https://fab.city/" },
       { year: 2025, month: "Oct", cat: "Strategy",  title: "i'mable × Salvage Garden",        role: "Strategy Lead",   theme: "INCLUSIVE-DESIGN", url: "https://www.imable.sg/" },
       { year: 2025, month: "Oct", cat: "Milestone", title: "M.I.T. Sundays National Expansion", role: "Expansion Lead", theme: "INCLUSIVE-DESIGN", url: "https://www.nlb.gov.sg/" },
       { year: 2025, month: "Oct", cat: "Advisory",  title: "i'mable (SG Enable) Panel",       role: "Advisor",         theme: "INCLUSIVE-DESIGN", url: "https://www.imable.sg/" },
-      { year: 2025, month: "Sep", cat: "Exhibition",title: "ASM: Another World Is Possible",  role: "Collaborator",     theme: "CRITICAL-PLAY",    url: "https://www.marinabaysands.com/museum/artscience-museum.html" },
+      { year: 2025, month: "Sep", cat: "Exhibition",title: "ASM: Another World Is Possible",  role: "Collaborator",     theme: "CRITICAL-PLAY",    url: "https://www.marinabaysands.com/museum/artscience-museum.html", art: true },
       { year: 2025, month: "Aug", cat: "Speaking",  title: "ASEAN Maker Gathering",           role: "Keynote",         theme: "OPEN-GOVERNANCE" },
       { year: 2025, month: "Jul", cat: "Research",  title: "Street2Paradise (C&T Case Study)", role: "Researcher",     theme: "INCLUSIVE-DESIGN" },
       { year: 2025, month: "Jul", cat: "Workshop",  title: "SpudnikLab Bali Science Kit",     role: "Facilitator",     theme: "DIGITAL-EQUITY",   url: "https://spudniklab.com/" },
       { year: 2025, month: "Jun", cat: "Facilitator", title: "GOSH Community Call",           role: "Leader",          theme: "OPEN-GOVERNANCE",  url: "https://openhardware.science/" },
-      { year: 2025, month: "May", cat: "Speaking",  title: "OSHWA: BrailleRap",               role: "Speaker",         theme: "OPEN-GOVERNANCE",  url: "https://2025.oshwa.org/" },
+      { year: 2025, month: "Jun", cat: "Conference", title: "IASDR 2025 DESIGN NEXT (Taipei)", role: "Presenter",       theme: "INCLUSIVE-DESIGN" },
+      { year: 2025, month: "May", cat: "Speaking",  title: "OSHWA: Re-making an Open Source Braille Printer", role: "Speaker", theme: "OPEN-GOVERNANCE",  url: "https://2025.oshwa.org/talks/170-saad-chinoy/" },
       { year: 2025, month: "May", cat: "Speaking",  title: "Make-a-thek / GIG Showcase",      role: "Speaker",         theme: "INCLUSIVE-DESIGN", url: "https://gig.global/" },
       { year: 2025, month: "May", cat: "Strategy",  title: "BrailleRap Replication Strategy", role: "Lead",            theme: "OPEN-GOVERNANCE",  url: "https://wikifab.org/wiki/BrailleRap" },
-      { year: 2025, month: "Apr", cat: "Exhibition",title: "Curious Worlds: Brain & Body",    role: "Exhibitor",       theme: "INCLUSIVE-DESIGN" },
+      { year: 2025, month: "Apr", cat: "Exhibition",title: "Curious Worlds: Brain & Body",    role: "Exhibitor",       theme: "INCLUSIVE-DESIGN", url: "https://www.marinabaysands.com/museum/events/curious-worlds.html", art: true },
       { year: 2025, month: "Mar", cat: "Speaking",  title: "FOSSASIA Circular Economy Panel", role: "Moderator",       theme: "TECH-SALVAGE",     url: "https://summit.fossasia.org/" },
       { year: 2025, month: "Feb", cat: "Media",     title: "CNA Profile: Makers of Singapore", role: "Featured",       theme: "INCLUSIVE-DESIGN", url: "https://www.channelnewsasia.com/" },
-      { year: 2025, month: "Jan", cat: "Project",   title: "Bespoke Tools: Irene Lim",        role: "Co-Creator",      theme: "INCLUSIVE-DESIGN" },
+      { year: 2025, month: "Jan", cat: "Project",   title: "Bespoke Tools: Irene Lim",        role: "Co-Creator",      theme: "INCLUSIVE-DESIGN", url: "https://www.asiaautomate.com/articles/3d-printed-hands-tools-co-created-by-singapore-non-profit-group-plug-assistive-tech-gaps" },
+      { year: 2025, month: "Jan", cat: "Guest Lecture", title: "IAAC: Activating Communities — Hyperlocal Recycling, 3D Prints, and Inclusion", role: "Guest Lecturer", theme: "INCLUSIVE-DESIGN" },
       { year: 2024, month: "Dec", cat: "Advisory",  title: "Fab City Global Initiative",      role: "Contributor",     theme: "OPEN-GOVERNANCE",  url: "https://fab.city/" },
       { year: 2024, month: "Oct", cat: "Media",     title: "NLB: Makers Next Door Profile",   role: "Featured",        theme: "INCLUSIVE-DESIGN", url: "https://www.nlb.gov.sg/" },
-      { year: 2024, month: "Aug", cat: "Project",   title: "MothboxSG (Citizen Science)",     role: "Technical Lead",  theme: "BIO-MAKING" },
-      { year: 2024, month: "Aug", cat: "Project",   title: "BiodiverCities Challenge (Mexico)", role: "Winner",         theme: "BIO-MAKING" },
+      { year: 2024, month: "Aug", cat: "Project",   title: "MothboxSG (Citizen Science)",     role: "Technical Lead",  theme: "BIO-MAKING",       url: "https://www.printables.com/model/1537968-mothbox-diy-v4" },
+      { year: 2024, month: "Aug", cat: "Project",   title: "BiodiverCities Challenge (Mexico)", role: "Winner",         theme: "BIO-MAKING",       url: "https://challenge.fab.city/challenges/fab-city-challenge-mexico" },
       { year: 2024, month: "Jul", cat: "Philosophy",title: "Slogan: Make Things That Make Sense", role: "Author",      theme: "OPEN-GOVERNANCE" },
       { year: 2024, month: "Jun", cat: "Project",   title: "Trotify (BikingHacks Coconut)",   role: "Maker",           theme: "CRITICAL-PLAY",    url: "https://www.trotify.com/" },
-      { year: 2024, month: "May", cat: "Technical", title: "re:publica 24: DIY Caffeinator",  role: "Installation",    theme: "TECH-SALVAGE",     url: "https://re-publica.com/" },
+      { year: 2024, month: "May", cat: "Technical", title: "re:publica 24: Constructive Care Cafe (DIY Caffeinator)",  role: "Co-Host (w/ Regina Sipos, Adriana Cabrera)",    theme: "TECH-SALVAGE",     url: "https://re-publica.com/de/session/constructive-care-cafe" },
+      { year: 2024, month: "May", cat: "Speaking",  title: "re:publica 24: BrailleRap Bhutan — how we replicated an open-source braille printer and so can you", role: "Speaker (w/ Felipe Schmidt Fonseca)", theme: "OPEN-GOVERNANCE", url: "https://re-publica.com/de/session/braillerap-bhutan-how-we-replicated-opensource-braille-printer-and-so-can-you" },
       { year: 2024, month: "Mar", cat: "Strategy",  title: "GOSH Governance Roadmap",         role: "Author",          theme: "OPEN-GOVERNANCE",  url: "https://openhardware.science/" },
+      { year: 2024, month: "Feb", cat: "Speaking",  title: "FOSSASIA Summit 2024 (Hanoi)",    role: "Speaker",         theme: "TECH-SALVAGE",     url: "https://summit.fossasia.org/" },
+      { year: 2024, month: "Jan", cat: "Guest Session", title: "Design Thinking at SJINML (NUS Enterprise)", role: "Facilitator", theme: "INCLUSIVE-DESIGN" },
       { year: 2024, month: "Jan", cat: "Project",   title: "AI in Frugal Innovation",         role: "Researcher",      theme: "TECH-SALVAGE" },
       { year: 2023, month: "Dec", cat: "Milestone", title: "SalvageGarden 5th Anniversary",   role: "Founder",         theme: "INCLUSIVE-DESIGN", url: "https://salvagegarden.org/" },
       { year: 2023, month: "Nov", cat: "Project",   title: "Tactile TicTacToe T3",            role: "Designer",        theme: "INCLUSIVE-DESIGN" },
@@ -1186,48 +1465,56 @@
       { year: 2023, month: "Sep", cat: "Project",   title: "Tactile Coin Holder (Punggol)",   role: "Designer",        theme: "INCLUSIVE-DESIGN" },
       { year: 2023, month: "May", cat: "Strategy",  title: "Regional Inclusive Design Hubs",  role: "Lead",            theme: "INCLUSIVE-DESIGN" },
       { year: 2023, month: "Mar", cat: "Workshop",  title: "FREAK lab: Microbial Fuel Cells", role: "Facilitator",     theme: "BIO-MAKING" },
-      { year: 2023, month: "Feb", cat: "Speaking",  title: "IdeasFest III: Flash Lecture",    role: "Lecturer",        theme: "BIO-MAKING" },
+      { year: 2023, month: "Oct", cat: "Conference", title: "Wikimania 2023",                  role: "Attendee / Contributor", theme: "OPEN-GOVERNANCE" },
+      { year: 2023, month: "Sep", cat: "Workshop",  title: "\"Intimacy with Nature\" BioArt Workshop (Singapore Art Museum)", role: "Facilitator", theme: "BIO-MAKING", art: true },
+      { year: 2023, month: "Feb", cat: "Speaking",  title: "NTU CCA IdeasFest III: \"FOOD — Eat. Secure. Sustain.\"", role: "Lecturer", theme: "BIO-MAKING" },
       { year: 2023, month: "Feb", cat: "Workshop",  title: "IdeasFest III: Vegan Leather",    role: "Facilitator",     theme: "BIO-MAKING" },
       { year: 2023, month: "Jan", cat: "Milestone", title: "Punggol MakerIT Launch",          role: "Advisor",         theme: "INCLUSIVE-DESIGN", url: "https://www.nlb.gov.sg/" },
       { year: 2022, month: "Dec", cat: "Milestone", title: "SpudnikLab Regional Outreach",    role: "Lead",            theme: "DIGITAL-EQUITY",   url: "https://spudniklab.com/" },
+      { year: 2022, month: "Nov", cat: "Challenge", title: "Fab23 (Bhutan Challenge): Open Source Dzongkha BrailleRap", role: "Lead", theme: "OPEN-GOVERNANCE" },
+      { year: 2022, month: "Nov", cat: "Conference", title: "Murrow Conference on Digital Media Policy", role: "Speaker", theme: "OPEN-GOVERNANCE" },
       { year: 2022, month: "Nov", cat: "Workshop",  title: "Critical Making for Social Good", role: "Facilitator",     theme: "OPEN-GOVERNANCE" },
+      { year: 2022, month: "Oct", cat: "Workshop",  title: "Bali Fab Fest Workshop",          role: "Facilitator",     theme: "TECH-SALVAGE" },
       { year: 2022, month: "Oct", cat: "Research",  title: "SCOBY Bio-materials Study",       role: "Lead",            theme: "BIO-MAKING" },
-      { year: 2022, month: "Aug", cat: "Technical", title: "Projector X: Picturehouse Launch", role: "Creative Tech",  theme: "TECH-SALVAGE",     url: "https://projectorx.sg/" },
+      { year: 2022, month: "Aug", cat: "Technical", title: "Projector X: Picturehouse Launch", role: "Creative Tech",  theme: "TECH-SALVAGE",     url: "https://projectorx.sg/", art: true },
       { year: 2022, month: "Jul", cat: "Workshop",  title: "Dinacon: Bioplastics & SCOBY",    role: "Facilitator",     theme: "BIO-MAKING",       url: "https://dinacon.org/" },
       { year: 2022, month: "Jul", cat: "Workshop",  title: "Dinacon: Papaya-based Coffee",    role: "Facilitator",     theme: "BIO-MAKING",       url: "https://dinacon.org/" },
-      { year: 2022, month: "Jul", cat: "Project",   title: "The Fluffynator (Shroom Monitor)", role: "Maker",          theme: "BIO-MAKING" },
-      { year: 2022, month: "Jun", cat: "Art",       title: "re:publica 22: Cards Against Planet", role: "Creator",     theme: "CRITICAL-PLAY",    url: "https://re-publica.com/" },
+      { year: 2022, month: "Jul", cat: "Project",   title: "ShroomMonitor (Fluffynator)",     role: "Co-Maker (w/ Cris Silva, Pramo, Brian)", theme: "BIO-MAKING" },
+      { year: 2022, month: "Jun", cat: "Art",       title: "re:publica 22: Cards Against Planet", role: "Creator",     theme: "CRITICAL-PLAY",    url: "https://re-publica.com/", art: true },
       { year: 2022, month: "Mar", cat: "Speaking",  title: "Making with Meaning Panel",       role: "Panelist",        theme: "INCLUSIVE-DESIGN" },
       { year: 2022, month: "Jan", cat: "Toolbox",   title: "Critical Making Toolbox",         role: "Contributor",     theme: "OPEN-GOVERNANCE" },
       { year: 2021, month: "Dec", cat: "Project",   title: "Low-cost Screen Reader Hack",     role: "Technical Lead",  theme: "INCLUSIVE-DESIGN" },
-      { year: 2021, month: "Sep", cat: "Article",   title: "The Ethics of E-Waste",           role: "Author",          theme: "TECH-SALVAGE" },
       { year: 2021, month: "May", cat: "Media",     title: "Hackaday Podcast (Ep ~354)",      role: "Featured",        theme: "TECH-SALVAGE",     url: "https://hackaday.com/tag/hackaday-podcast/" },
-      { year: 2021, month: "Apr", cat: "Milestone", title: "Projector X: Riverside",          role: "Salvage Tech",    theme: "TECH-SALVAGE",     url: "https://projectorx.sg/" },
+      { year: 2021, month: "Apr", cat: "Milestone", title: "Projector X: Riverside",          role: "Salvage Tech",    theme: "TECH-SALVAGE",     url: "https://projectorx.sg/", art: true },
       { year: 2021, month: "Feb", cat: "Workshop",  title: "Remote Collaborative Making",     role: "Facilitator",     theme: "DIGITAL-EQUITY" },
+      { year: 2020, month: "Sep", cat: "Summit",    title: "Global BioSummit",                role: "Speaker & Lab Lead", theme: "BIO-MAKING" },
       { year: 2020, month: "Jul", cat: "Project",   title: "Pandemic Maker Support",          role: "Lead",            theme: "TECH-SALVAGE" },
       { year: 2020, month: "Apr", cat: "Project",   title: "DIY PPE (Flexible Filament)",     role: "Maker",           theme: "TECH-SALVAGE" },
       { year: 2019, month: "Sep", cat: "Moderator", title: "AFCC: Minecraft/Roblox Panel",    role: "Moderator",       theme: "CRITICAL-PLAY",    url: "https://www.bookcouncil.sg/" },
+      { year: 2019, month: "Apr", cat: "Summit",    title: "AfricaOSH Summit (Dar es Salaam)", role: "Delegate",       theme: "OPEN-GOVERNANCE" },
       { year: 2019, month: "Mar", cat: "Speaking",  title: "Open Hardware for All (GOSH)",    role: "Speaker",         theme: "OPEN-GOVERNANCE",  url: "https://openhardware.science/" },
       { year: 2018, month: "Dec", cat: "Milestone", title: "SSMLab Final Gathering (Bishoftu)", role: "Strategic Lead", theme: "ASKNET",           url: "https://r0g.agency/" },
-      { year: 2018, month: "Dec", cat: "Art",       title: "35C3 (CCC): Jean Cloud",          role: "Designer",        theme: "CRITICAL-PLAY",    url: "https://events.ccc.de/congress/2018/" },
+      { year: 2018, month: "Dec", cat: "Art",       title: "35C3 (CCC): Jean Cloud",          role: "Designer",        theme: "CRITICAL-PLAY",    url: "https://events.ccc.de/congress/2018/", art: true },
       { year: 2018, month: "Dec", cat: "Publication", title: "SSMLab Advocacy Whitepaper",    role: "Co-Author",       theme: "OPEN-GOVERNANCE",  url: "https://r0g.agency/" },
       { year: 2018, month: "Nov", cat: "Workshop",  title: "The Caffeinator (Jogja)",         role: "Facilitator",     theme: "BIO-MAKING" },
       { year: 2018, month: "Nov", cat: "Technical", title: "Imagine We (Kigali) Consultant",  role: "Consultant",      theme: "DIGITAL-EQUITY" },
       { year: 2018, month: "Nov", cat: "Technical", title: "Kweeta/CIPESA (Kampala)",         role: "Collaborator",    theme: "DIGITAL-EQUITY" },
-      { year: 2018, month: "Nov", cat: "Research",  title: "Sudan VR Media Fellowship",       role: "Fellow",          theme: "DIGITAL-EQUITY" },
       { year: 2018, month: "Oct", cat: "Advisory",  title: "GOSH 2018 (Shenzhen)",            role: "Advisor",         theme: "OPEN-GOVERNANCE",  url: "https://openhardware.science/" },
       { year: 2018, month: "Oct", cat: "Speaking",  title: "SSMLab Step Up (Addis Ababa)",    role: "Presenter",       theme: "OPEN-GOVERNANCE",  url: "https://r0g.agency/" },
       { year: 2018, month: "Jun", cat: "Technical", title: "Nine Tales Launch",               role: "Systems Lead",    theme: "DIGITAL-EQUITY" },
       { year: 2018, month: "Jun", cat: "Project",   title: "Dinacon: Mud-Microbial Fuel Cell", role: "Researcher",     theme: "BIO-MAKING",       url: "https://dinacon.org/" },
+      { year: 2017, month: "May", cat: "Workshop",  title: "re:publica 17: \"Darling leave a light on for me\" — DIY interactive love letters", role: "Facilitator (GIG Makerspace)", theme: "CRITICAL-PLAY", url: "https://17.re-publica.com/en/tags/global-innovation-gathering-gig.html" },
       { year: 2017, month: "Aug", cat: "Speaking",  title: "Microbial Fuel Cells (SG Hack & Tell)", role: "Speaker",  theme: "BIO-MAKING" },
+      { year: 2017, month: "Mar", cat: "Launch",    title: "\"Path to Designing for Persons with Disabilities\" (National Design Centre launch)", role: "Speaker", theme: "INCLUSIVE-DESIGN" },
       { year: 2017, month: "Feb", cat: "Speaking",  title: "Hacking the Future Workshop",     role: "Speaker",         theme: "CRITICAL-PLAY" },
+      { year: 2017, month: "Jan", cat: "Talk",      title: "DOKU:TECH 2017",                  role: "Speaker",         theme: "OPEN-GOVERNANCE" },
       { year: 2016, month: "Dec", cat: "Milestone", title: "First Salvage Build",             role: "Lead",            theme: "TECH-SALVAGE" },
       { year: 2016, month: "Oct", cat: "Speaking",  title: "Under My Umbrella (Hackware)",    role: "Speaker",         theme: "TECH-SALVAGE" },
-      { year: 2015, month: "Dec", cat: "Art",       title: "Titian Budaya (Kuala Lumpur)",    role: "Exhibitor",       theme: "CRITICAL-PLAY" },
+      { year: 2015, month: "Dec", cat: "Art",       title: "Titian Budaya (Kuala Lumpur)",    role: "Exhibitor",       theme: "CRITICAL-PLAY", art: true },
       { year: 2015, month: "Jul", cat: "Speaking",  title: "Hackerspace Travelogues 2.0",     role: "Speaker",         theme: "OPEN-GOVERNANCE" },
       { year: 2015, month: "Jun", cat: "Project",   title: "Early Spudnik Experiments",       role: "Lead",            theme: "DIGITAL-EQUITY",   url: "https://spudniklab.com/" },
-      { year: 2015, month: "May", cat: "Art",       title: "SelfieMirror (ArtScience Late)",  role: "Exhibitor",       theme: "CRITICAL-PLAY" },
-      { year: 2015, month: "May", cat: "Milestone", title: "Butt-Activated Selfie Booth (Maker Faire)", role: "Lead Maker", theme: "CRITICAL-PLAY" },
+      { year: 2015, month: "May", cat: "Art",       title: "SelfieMirror (ArtScience Late)",  role: "Exhibitor",       theme: "CRITICAL-PLAY", art: true },
+      { year: 2015, month: "May", cat: "Milestone", title: "Butt-Activated Selfie Booth (Maker Faire)", role: "Lead Maker", theme: "CRITICAL-PLAY", art: true },
       { year: 2014, month: "Aug", cat: "Workshop",  title: "DIYSUB Surabaya: Caffeinator",    role: "Facilitator",     theme: "TECH-SALVAGE" },
       { year: 2014, month: "Jun", cat: "Project",   title: "Singapore Maker Festival: Original Caffeinator", role: "Maker", theme: "TECH-SALVAGE" },
       { year: 2014, month: "Jan", cat: "Milestone", title: "Entry: The Maker Movement Begins", role: "Origin",         theme: "CRITICAL-PLAY" },
@@ -1270,22 +1557,24 @@
         byYear[year].forEach(entry => {
           // Wrap in <a> if URL exists, else <div>
           const card = document.createElement(entry.url ? 'a' : 'div');
-          card.className = 'entry-card';
+          card.className = entry.art ? 'entry-card is-art' : 'entry-card';
           card.dataset.theme = entry.theme;
 
           if (entry.url) {
             card.href = entry.url;
             card.target = '_blank';
             card.rel = 'noopener noreferrer';
-            card.setAttribute('aria-label', `${entry.title} — ${entry.role} (opens in new tab)`);
+            card.setAttribute('aria-label', `${entry.title} — ${entry.role} (opens in new tab)${entry.art ? ', arts & museum engagement' : ''}`);
           }
+
+          const artBadge = entry.art ? '<span class="art-badge" role="img" aria-label="Arts &amp; museum engagement"></span>' : '';
 
           card.innerHTML = `
             <div class="entry-meta">
               <span class="entry-month">${entry.month}</span>
               <span class="entry-cat" aria-label="Category: ${entry.cat}">${entry.cat}</span>
             </div>
-            <div class="entry-title">${entry.title}</div>
+            <div class="entry-title">${artBadge}${entry.title}</div>
             <div class="entry-role">${entry.role}${entry.url ? ' ↗' : ''}</div>
           `;
 
