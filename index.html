@@ -10,11 +10,11 @@
   ============================================================ -->
 
   <title>Saad Chinoy — Make Things That Make Sense</title>
-  <meta name="description" content="Saad Chinoy (@saadcaffeine) is a Singapore-based maker, salvage designer, open-hardware advocate, and biomaker. Founder of SalvageGarden and SpudnikLab. Technologist for the Common Good working at the intersection of art, science, and inclusive design." />
+  <meta name="description" content="Saad Chinoy (@saadcaffeine) is a Singapore-based maker, salvage designer, open-hardware advocate, and biomaker. Founder of SalvageGarden and SpudnikLab." />
   <meta name="keywords" content="Saad Chinoy, saadcaffeine, SalvageGarden, SpudnikLab, maker, open hardware, inclusive design, tech for good, salvage design, biomaking, Singapore maker, GOSH, Fab City, digital equity, assistive technology, fermentation, bioplastics" />
   <meta name="author" content="Saad Chinoy" />
   <meta name="robots" content="index, follow" />
-  <link rel="canonical" href="https://saadchinoy.com/" />
+  <link rel="canonical" href="https://saadcaffeine.github.io/about/" />
 
   <!-- ============================================================
        OPEN GRAPH — for social sharing and link previews
@@ -23,7 +23,7 @@
   <meta property="og:type" content="profile" />
   <meta property="og:title" content="Saad Chinoy — Make Things That Make Sense" />
   <meta property="og:description" content="Maker, salvage designer, open-hardware advocate, and biomaker based in Singapore. Founder of SalvageGarden and SpudnikLab. Technologist for the Common Good." />
-  <meta property="og:url" content="https://saadchinoy.com/" />
+  <meta property="og:url" content="https://saadcaffeine.github.io/about/" />
   <meta property="og:locale" content="en_SG" />
   <meta property="profile:first_name" content="Saad" />
   <meta property="profile:last_name" content="Chinoy" />
@@ -100,8 +100,7 @@
       },
       {
         "@type": "Organization",
-        "name": "r0g_agency",
-        "url": "https://r0g.agency/"
+        "name": "r0g_agency"
       },
       {
         "@type": "Organization",
@@ -486,12 +485,17 @@
       padding: 0.25rem 0.65rem;
       border-radius: 100px;
       border: 1px solid;
+      text-decoration: none;
+      cursor: pointer;
+      transition: background 0.15s;
     }
+    .theme-pill:hover { background: var(--mist); }
+    .theme-pill:focus-visible { outline: 2px solid var(--crema); outline-offset: 2px; }
     .pill-gov   { color: var(--sky);    border-color: var(--sky);    background: rgba(58,95,138,0.07); }
     .pill-incl  { color: var(--matcha); border-color: var(--matcha); background: rgba(74,103,65,0.07); }
     .pill-salvg { color: var(--rust);   border-color: var(--rust);   background: rgba(184,79,42,0.08); }
     .pill-bio   { color: #5a7a52;       border-color: #5a7a52;       background: rgba(90,122,82,0.07); }
-    .pill-play  { color: #7a5a2a;       border-color: #7a5a2a;       background: rgba(122,90,42,0.07); }
+    .pill-play  { color: #7a5a2a;       border-color: var(--plum);   background: rgba(122,90,42,0.07); }
     .pill-eq    { color: var(--sky);    border-color: var(--sky);    background: rgba(58,95,138,0.05); }
 
     /* ============================================================
@@ -557,6 +561,7 @@
       transition: background 0.15s, border-color 0.15s, color 0.15s;
       color: var(--ink);
     }
+    .filter-btn[data-filter="CRITICAL-PLAY"] { border-color: var(--plum); }
     .filter-btn:hover { background: var(--mist); }
     .filter-btn.active { background: var(--espresso); color: var(--white); border-color: var(--espresso); }
     .filter-btn:focus-visible { outline: 2px solid var(--crema); outline-offset: 2px; }
@@ -792,6 +797,21 @@
       flex-wrap: wrap;
       gap: 1rem;
     }
+    footer .footer-md-link {
+      font-family: var(--font-mono);
+      font-size: 0.75rem;
+      letter-spacing: 0.08em;
+      opacity: 0.65;
+      color: inherit;
+      text-decoration: none;
+      border-bottom: 1px solid transparent;
+    }
+    footer .footer-md-link:hover,
+    footer .footer-md-link:focus-visible {
+      opacity: 1;
+      border-bottom-color: var(--crema);
+    }
+    footer .footer-md-link:focus-visible { outline: 2px solid var(--crema); outline-offset: 2px; }
     footer .footer-mark {
       font-family: var(--font-mono);
       font-size: 0.75rem;
@@ -962,12 +982,12 @@
 
     <!-- Thematic tags: quick orientation for sighted & screen-reader users -->
     <div class="theme-pill-row" role="list" aria-label="Core themes">
-      <span class="theme-pill pill-gov" role="listitem">Open Governance</span>
-      <span class="theme-pill pill-incl" role="listitem">Inclusive Design</span>
-      <span class="theme-pill pill-salvg" role="listitem">Tech Salvage</span>
-      <span class="theme-pill pill-bio" role="listitem">Bio Making</span>
-      <span class="theme-pill pill-play" role="listitem">Critical Play</span>
-      <span class="theme-pill pill-eq" role="listitem">Digital Equity</span>
+      <a href="#work" class="theme-pill pill-gov" data-filter="OPEN-GOVERNANCE" role="listitem">Open Governance</a>
+      <a href="#work" class="theme-pill pill-incl" data-filter="INCLUSIVE-DESIGN" role="listitem">Inclusive Design</a>
+      <a href="#work" class="theme-pill pill-salvg" data-filter="TECH-SALVAGE" role="listitem">Tech Salvage</a>
+      <a href="#work" class="theme-pill pill-bio" data-filter="BIO-MAKING" role="listitem">Bio Making</a>
+      <a href="#work" class="theme-pill pill-play" data-filter="CRITICAL-PLAY" role="listitem">Critical Play</a>
+      <a href="#work" class="theme-pill pill-eq" data-filter="DIGITAL-EQUITY" role="listitem">Digital Equity</a>
     </div>
 
   </div>
@@ -1332,11 +1352,11 @@
         <h3>GOSH Community Council</h3>
         <span style="font-size:0.82rem;opacity:0.6;">Gathering for Open Science Hardware</span>
       </a>
-      <a href="https://r0g.agency/" class="advisory-item" target="_blank" rel="noopener noreferrer" role="listitem">
+      <div class="advisory-item" role="listitem">
         <span class="advisory-role">Strategic Board Member · since 2018</span>
         <h3>r0g_agency / SSMLab</h3>
         <span style="font-size:0.82rem;opacity:0.6;">Open tech for Africa & Asia</span>
-      </a>
+      </div>
       <a href="https://gig.global/" class="advisory-item" target="_blank" rel="noopener noreferrer" role="listitem">
         <span class="advisory-role">Board Member</span>
         <h3>GIG — Global Innovation Gathering</h3>
@@ -1403,6 +1423,7 @@
   <footer role="contentinfo">
     <span class="footer-mark">© 2026 Saad Chinoy · @saadcaffeine · Made with coffee (the real thing)</span>
     <span class="footer-slogan">Technologist for the Common Good.</span>
+    <a href="ABOUT.md" class="footer-md-link">Markdown version ↗</a>
   </footer>
 
   <!-- ============================================================
@@ -1435,7 +1456,7 @@
       { year: 2025, month: "Jun", cat: "Conference", title: "IASDR 2025 DESIGN NEXT (Taipei)", role: "Presenter",       theme: "INCLUSIVE-DESIGN" },
       { year: 2025, month: "May", cat: "Speaking",  title: "OSHWA: Re-making an Open Source Braille Printer", role: "Speaker", theme: "OPEN-GOVERNANCE",  url: "https://2025.oshwa.org/talks/170-saad-chinoy/" },
       { year: 2025, month: "May", cat: "Speaking",  title: "Make-a-thek / GIG Showcase",      role: "Speaker",         theme: "INCLUSIVE-DESIGN", url: "https://gig.global/" },
-      { year: 2025, month: "May", cat: "Strategy",  title: "BrailleRap Replication Strategy", role: "Lead",            theme: "OPEN-GOVERNANCE",  url: "https://wikifab.org/wiki/BrailleRap" },
+      { year: 2025, month: "May", cat: "Strategy",  title: "BrailleRap Replication Strategy", role: "Lead",            theme: "OPEN-GOVERNANCE" },
       { year: 2025, month: "Apr", cat: "Exhibition",title: "Curious Worlds: Brain & Body",    role: "Exhibitor",       theme: "INCLUSIVE-DESIGN", url: "https://www.marinabaysands.com/museum/events/curious-worlds.html", art: true },
       { year: 2025, month: "Mar", cat: "Speaking",  title: "FOSSASIA Circular Economy Panel", role: "Moderator",       theme: "TECH-SALVAGE",     url: "https://summit.fossasia.org/" },
       { year: 2025, month: "Feb", cat: "Media",     title: "CNA Profile: Makers of Singapore", role: "Featured",       theme: "INCLUSIVE-DESIGN", url: "https://www.channelnewsasia.com/" },
@@ -1446,7 +1467,7 @@
       { year: 2024, month: "Aug", cat: "Project",   title: "MothboxSG (Citizen Science)",     role: "Technical Lead",  theme: "BIO-MAKING",       url: "https://www.printables.com/model/1537968-mothbox-diy-v4" },
       { year: 2024, month: "Aug", cat: "Project",   title: "BiodiverCities Challenge (Mexico)", role: "Winner",         theme: "BIO-MAKING",       url: "https://challenge.fab.city/challenges/fab-city-challenge-mexico" },
       { year: 2024, month: "Jul", cat: "Philosophy",title: "Slogan: Make Things That Make Sense", role: "Author",      theme: "OPEN-GOVERNANCE" },
-      { year: 2024, month: "Jun", cat: "Project",   title: "Trotify (BikingHacks Coconut)",   role: "Maker",           theme: "CRITICAL-PLAY",    url: "https://www.trotify.com/" },
+      { year: 2024, month: "Jun", cat: "Project",   title: "Trotify (BikingHacks Coconut)",   role: "Maker",           theme: "CRITICAL-PLAY" },
       { year: 2024, month: "May", cat: "Technical", title: "re:publica 24: Constructive Care Cafe (DIY Caffeinator)",  role: "Co-Host (w/ Regina Sipos, Adriana Cabrera)",    theme: "TECH-SALVAGE",     url: "https://re-publica.com/de/session/constructive-care-cafe" },
       { year: 2024, month: "May", cat: "Speaking",  title: "re:publica 24: BrailleRap Bhutan — how we replicated an open-source braille printer and so can you", role: "Speaker (w/ Felipe Schmidt Fonseca)", theme: "OPEN-GOVERNANCE", url: "https://re-publica.com/de/session/braillerap-bhutan-how-we-replicated-opensource-braille-printer-and-so-can-you" },
       { year: 2024, month: "Mar", cat: "Strategy",  title: "GOSH Governance Roadmap",         role: "Author",          theme: "OPEN-GOVERNANCE",  url: "https://openhardware.science/" },
@@ -1470,7 +1491,7 @@
       { year: 2022, month: "Nov", cat: "Workshop",  title: "Critical Making for Social Good", role: "Facilitator",     theme: "OPEN-GOVERNANCE" },
       { year: 2022, month: "Oct", cat: "Workshop",  title: "Bali Fab Fest Workshop",          role: "Facilitator",     theme: "TECH-SALVAGE" },
       { year: 2022, month: "Oct", cat: "Research",  title: "SCOBY Bio-materials Study",       role: "Lead",            theme: "BIO-MAKING" },
-      { year: 2022, month: "Aug", cat: "Technical", title: "Projector X: Picturehouse Launch", role: "Creative Tech",  theme: "TECH-SALVAGE",     url: "https://projectorx.sg/", art: true },
+      { year: 2022, month: "Aug", cat: "Technical", title: "Projector X: Picturehouse Launch", role: "Creative Tech",  theme: "TECH-SALVAGE",     art: true },
       { year: 2022, month: "Jul", cat: "Workshop",  title: "Dinacon: Bioplastics & SCOBY",    role: "Facilitator",     theme: "BIO-MAKING",       url: "https://dinacon.org/" },
       { year: 2022, month: "Jul", cat: "Workshop",  title: "Dinacon: Papaya-based Coffee",    role: "Facilitator",     theme: "BIO-MAKING",       url: "https://dinacon.org/" },
       { year: 2022, month: "Jul", cat: "Project",   title: "ShroomMonitor (Fluffynator)",     role: "Co-Maker (w/ Cris Silva, Pramo, Brian)", theme: "BIO-MAKING" },
@@ -1479,7 +1500,7 @@
       { year: 2022, month: "Jan", cat: "Toolbox",   title: "Critical Making Toolbox",         role: "Contributor",     theme: "OPEN-GOVERNANCE" },
       { year: 2021, month: "Dec", cat: "Project",   title: "Low-cost Screen Reader Hack",     role: "Technical Lead",  theme: "INCLUSIVE-DESIGN" },
       { year: 2021, month: "May", cat: "Media",     title: "Hackaday Podcast (Ep ~354)",      role: "Featured",        theme: "TECH-SALVAGE",     url: "https://hackaday.com/tag/hackaday-podcast/" },
-      { year: 2021, month: "Apr", cat: "Milestone", title: "Projector X: Riverside",          role: "Salvage Tech",    theme: "TECH-SALVAGE",     url: "https://projectorx.sg/", art: true },
+      { year: 2021, month: "Apr", cat: "Milestone", title: "Projector X: Riverside",          role: "Salvage Tech",    theme: "TECH-SALVAGE",     art: true },
       { year: 2021, month: "Feb", cat: "Workshop",  title: "Remote Collaborative Making",     role: "Facilitator",     theme: "DIGITAL-EQUITY" },
       { year: 2020, month: "Sep", cat: "Summit",    title: "Global BioSummit",                role: "Speaker & Lab Lead", theme: "BIO-MAKING" },
       { year: 2020, month: "Jul", cat: "Project",   title: "Pandemic Maker Support",          role: "Lead",            theme: "TECH-SALVAGE" },
@@ -1487,14 +1508,14 @@
       { year: 2019, month: "Sep", cat: "Moderator", title: "AFCC: Minecraft/Roblox Panel",    role: "Moderator",       theme: "CRITICAL-PLAY",    url: "https://www.bookcouncil.sg/" },
       { year: 2019, month: "Apr", cat: "Summit",    title: "AfricaOSH Summit (Dar es Salaam)", role: "Delegate",       theme: "OPEN-GOVERNANCE" },
       { year: 2019, month: "Mar", cat: "Speaking",  title: "Open Hardware for All (GOSH)",    role: "Speaker",         theme: "OPEN-GOVERNANCE",  url: "https://openhardware.science/" },
-      { year: 2018, month: "Dec", cat: "Milestone", title: "SSMLab Final Gathering (Bishoftu)", role: "Strategic Lead", theme: "ASKNET",           url: "https://r0g.agency/" },
+      { year: 2018, month: "Dec", cat: "Milestone", title: "SSMLab Final Gathering (Bishoftu)", role: "Strategic Lead", theme: "ASKNET" },
       { year: 2018, month: "Dec", cat: "Art",       title: "35C3 (CCC): Jean Cloud",          role: "Designer",        theme: "CRITICAL-PLAY",    url: "https://events.ccc.de/congress/2018/", art: true },
-      { year: 2018, month: "Dec", cat: "Publication", title: "SSMLab Advocacy Whitepaper",    role: "Co-Author",       theme: "OPEN-GOVERNANCE",  url: "https://r0g.agency/" },
+      { year: 2018, month: "Dec", cat: "Publication", title: "SSMLab Advocacy Whitepaper",    role: "Co-Author",       theme: "OPEN-GOVERNANCE" },
       { year: 2018, month: "Nov", cat: "Workshop",  title: "The Caffeinator (Jogja)",         role: "Facilitator",     theme: "BIO-MAKING" },
       { year: 2018, month: "Nov", cat: "Technical", title: "Imagine We (Kigali) Consultant",  role: "Consultant",      theme: "DIGITAL-EQUITY" },
       { year: 2018, month: "Nov", cat: "Technical", title: "Kweeta/CIPESA (Kampala)",         role: "Collaborator",    theme: "DIGITAL-EQUITY" },
       { year: 2018, month: "Oct", cat: "Advisory",  title: "GOSH 2018 (Shenzhen)",            role: "Advisor",         theme: "OPEN-GOVERNANCE",  url: "https://openhardware.science/" },
-      { year: 2018, month: "Oct", cat: "Speaking",  title: "SSMLab Step Up (Addis Ababa)",    role: "Presenter",       theme: "OPEN-GOVERNANCE",  url: "https://r0g.agency/" },
+      { year: 2018, month: "Oct", cat: "Speaking",  title: "SSMLab Step Up (Addis Ababa)",    role: "Presenter",       theme: "OPEN-GOVERNANCE" },
       { year: 2018, month: "Jun", cat: "Technical", title: "Nine Tales Launch",               role: "Systems Lead",    theme: "DIGITAL-EQUITY" },
       { year: 2018, month: "Jun", cat: "Project",   title: "Dinacon: Mud-Microbial Fuel Cell", role: "Researcher",     theme: "BIO-MAKING",       url: "https://dinacon.org/" },
       { year: 2017, month: "May", cat: "Workshop",  title: "re:publica 17: \"Darling leave a light on for me\" — DIY interactive love letters", role: "Facilitator (GIG Makerspace)", theme: "CRITICAL-PLAY", url: "https://17.re-publica.com/en/tags/global-innovation-gathering-gig.html" },
@@ -1589,6 +1610,13 @@
     ---------------------------------------------------------- */
     (function initFilters() {
       const buttons = document.querySelectorAll('.filter-btn');
+
+      document.querySelectorAll('.theme-pill[data-filter]').forEach(pill => {
+        pill.addEventListener('click', () => {
+          const match = document.querySelector(`.filter-btn[data-filter="${pill.dataset.filter}"]`);
+          if (match) match.click();
+        });
+      });
 
       buttons.forEach(btn => {
         btn.addEventListener('click', () => {
