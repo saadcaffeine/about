@@ -102,6 +102,7 @@ I believe open source is infrastructure for democracy. The recipe should always 
 - **Nov** — Murrow Conference on Digital Media Policy · Speaker · _Conference_ · `Open Governance`
 - **Nov** — Critical Making for Social Good · Facilitator · _Workshop_ · `Open Governance`
 - **Oct** — Bali Fab Fest Workshop · Facilitator · _Workshop_ · `Tech Salvage`
+- **Oct** — Rural ICT Camp (Tembok Village, Bali): community internet bamboo WiFi tower launch — joined for the last two days, travelling across from Bali Fab Fest · Participant · _Workshop_ · `Digital Equity`
 - **Oct** — SCOBY Bio-materials Study · Lead · _Research_ · `Bio Making`
 - **Aug** — Projector X: Picturehouse Launch · Creative Tech · _Technical_ · `Tech Salvage` 🎨
 - **Jul** — [Dinacon: Bioplastics & SCOBY](https://dinacon.org/) · Facilitator · _Workshop_ · `Bio Making`
