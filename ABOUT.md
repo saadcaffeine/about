@@ -28,6 +28,8 @@ I believe open source is infrastructure for democracy. The recipe should always 
 
 ### 2026
 
+- **Oct** — [GOSH 2026 (Kathmandu): Making DIY macro lens for smartphones](https://openhardware.science/gosh-2026-kathmandu-nepal/) · Facilitator · _Workshop_ · `Open Governance`
+- **Oct** — [Meshtastic field test, Kathmandu (GOSH 2026)](https://github.com/saadcaffeine/Meshtastic-GOSHkathmandu) · Maker · _Project_ · `Tech Salvage`
 - **Jun** — [GIG: From Bhutan to Singapore — spreading an open-source Braille printer](https://globalinnovationgathering.org/2026/06/15/from-bhutan-to-singapore-spreading-an-open-source-braille-printer-across-southeast-asia-and-to-the-world/) · Featured · _Media_ · `Inclusive Design`
 - **Mar** — [FOSSASIA Summit 2026 (Bangkok)](https://summit.fossasia.org/) · Speaker · _Speaking_ · `Tech Salvage`
 - **Feb** — [OSHWA Lightning Talk](https://www.oshwa.org/) · Speaker · _Speaking_ · `Open Governance`
