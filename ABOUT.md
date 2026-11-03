@@ -42,6 +42,7 @@ I believe open source is infrastructure for democracy. The recipe should always 
 ### 2025
 
 - **Dec** — [ST Feature: SalvageGarden](https://www.straitstimes.com/) · Co-founder · _Media_ · `Inclusive Design`
+- **Dec** — [TechAble Enabling Lives Festival 2025: 3D printing & open-source Braille Embosser (Enabling Village, Village Green)](https://alvinology.com/2025/11/30/singapores-enabling-lives-festival-returns-for-its-5th-edition-as-enabling-village-marks-10th-anniversary/) · Exhibitor · _Exhibition_ · `Inclusive Design`
 - **Nov** — [FAN25: Prototyping Fab Cities](https://fab.city/) · Lead · _Workshop_ · `Tech Salvage`
 - **Oct** — [i'mable × Salvage Garden](https://www.imable.sg/) · Strategy Lead · _Strategy_ · `Inclusive Design`
 - **Oct** — [M.I.T. Sundays National Expansion](https://www.nlb.gov.sg/) · Expansion Lead · _Milestone_ · `Inclusive Design`
