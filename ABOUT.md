@@ -28,10 +28,13 @@ I believe open source is infrastructure for democracy. The recipe should always 
 
 ### 2026
 
+- **Oct** — [International Repair Day events (Enabling Village & Punggol Library)](https://repairday.org/) · Maker · _Workshop_ · `Tech Salvage`
 - **Oct** — [GOSH 2026 (Kathmandu): Making DIY macro lens for smartphones](https://openhardware.science/gosh-2026-kathmandu-nepal/) · Facilitator · _Workshop_ · `Open Governance`
 - **Oct** — [Meshtastic field test, Kathmandu (GOSH 2026)](https://github.com/saadcaffeine/Meshtastic-GOSHkathmandu) · Maker · _Project_ · `Tech Salvage`
+- **Sep** — [Shaping Hearts 2026: SalvageGarden hands-on booth & SPD hexagonal-tile heart mural (Punggol Digital District)](https://shapinghearts.cdc.gov.sg/programmes/shaping-hearts-2026-exhibitions/punggol-digital-district/) · Facilitator · _Festival_ · `Inclusive Design`
+- **Sep** — SPD community arts activities: 3D-printed assistive painting aids & hexagonal alphabet tiles for the Shaping Hearts mural (various SPD centres) · Co-organizer · _Workshop_ · `Inclusive Design`
 - **Jun** — [GIG: From Bhutan to Singapore — spreading an open-source Braille printer](https://globalinnovationgathering.org/2026/06/15/from-bhutan-to-singapore-spreading-an-open-source-braille-printer-across-southeast-asia-and-to-the-world/) · Featured · _Media_ · `Inclusive Design`
-- **Mar** — [FOSSASIA Summit 2026 (Bangkok)](https://summit.fossasia.org/) · Speaker · _Speaking_ · `Tech Salvage`
+- **Mar** — [FOSSASIA Summit 2026 (Bangkok) — incl. Community Day 8 Mar](https://summit.fossasia.org/) · Speaker · _Speaking_ · `Tech Salvage`
 - **Feb** — [OSHWA Lightning Talk](https://www.oshwa.org/) · Speaker · _Speaking_ · `Open Governance`
 - **Feb** — IdeasFest 2026: Vegan Leather Workshop · Facilitator · _Workshop_ · `Bio Making`
 - **Jan** — 2026 Inclusion Roadmap · Author · _Strategy_ · `Inclusive Design`
@@ -45,13 +48,16 @@ I believe open source is infrastructure for democracy. The recipe should always 
 - **Oct** — [i'mable (SG Enable) Panel](https://www.imable.sg/) · Advisor · _Advisory_ · `Inclusive Design`
 - **Sep** — [ASM: Another World Is Possible](https://www.marinabaysands.com/museum/artscience-museum.html) · Collaborator · _Exhibition_ · `Critical Play` 🎨
 - **Aug** — ASEAN Maker Gathering · Keynote · _Speaking_ · `Open Governance`
+- **Jul** — [FAB25 Czechia (Brno / Prague): CitizenQuack & maker train](https://fab25.fabevent.org/) · Participant · _Conference_ · `Tech Salvage`
 - **Jul** — Street2Paradise (C&T Case Study) · Researcher · _Research_ · `Inclusive Design`
 - **Jul** — [SpudnikLab Bali Science Kit](https://spudniklab.com/) · Facilitator · _Workshop_ · `Digital Equity`
 - **Jun** — [GOSH Community Call](https://openhardware.science/) · Leader · _Facilitator_ · `Open Governance`
 - **Jun** — IASDR 2025 DESIGN NEXT (Taipei) · Presenter · _Conference_ · `Inclusive Design`
+- **May** — ArtScience Museum: SalvageGarden outreach booth & participatory design talk · Facilitator · _Workshop_ · `Inclusive Design`
 - **May** — [OSHWA: Re-making an Open Source Braille Printer](https://2025.oshwa.org/talks/170-saad-chinoy/) · Speaker · _Speaking_ · `Open Governance`
 - **May** — [Make-a-thek / GIG Showcase](https://gig.global/) · Speaker · _Speaking_ · `Inclusive Design`
 - **May** — BrailleRap Replication Strategy · Lead · _Strategy_ · `Open Governance`
+- **Apr** — Empowering Abilities / Assistive Tech Showcase (lyf Funan) · Co-creator · _Workshop_ · `Inclusive Design`
 - **Apr** — [Curious Worlds: Brain & Body](https://www.marinabaysands.com/museum/events/curious-worlds.html) · Exhibitor · _Exhibition_ · `Inclusive Design` 🎨
 - **Mar** — [FOSSASIA Circular Economy Panel](https://summit.fossasia.org/) · Moderator · _Speaking_ · `Tech Salvage`
 - **Feb** — [CNA Profile: Makers of Singapore](https://www.channelnewsasia.com/) · Featured · _Media_ · `Inclusive Design`
@@ -61,7 +67,9 @@ I believe open source is infrastructure for democracy. The recipe should always 
 ### 2024
 
 - **Dec** — [Fab City Global Initiative](https://fab.city/) · Contributor · _Advisory_ · `Open Governance`
+- **Oct** — [Smart Nation 2.0 launch (Punggol Digital District)](https://www.mddi.gov.sg/newsroom/smart-nation-2-press-release/) · Attendee · _Launch_ · `Digital Equity`
 - **Oct** — [NLB: Makers Next Door Profile](https://www.nlb.gov.sg/) · Featured · _Media_ · `Inclusive Design`
+- **Sep** — [UN Secretary-General visit to MakeIT (Punggol Regional Library)](https://www.mfa.gov.sg/newsroom/press-statements-transcripts-and-photos/20240830-unsg-visit-30-aug-2024/) · Participant · _Visit_ · `Digital Equity`
 - **Aug** — [MothboxSG (Citizen Science)](https://www.printables.com/model/1537968-mothbox-diy-v4) · Technical Lead · _Project_ · `Bio Making`
 - **Aug** — [BiodiverCities Challenge (Mexico)](https://challenge.fab.city/challenges/fab-city-challenge-mexico) · Winner · _Project_ · `Bio Making`
 - **Jul** — Slogan: Make Things That Make Sense · Author · _Philosophy_ · `Open Governance`
@@ -218,7 +226,7 @@ Two low-cost refreshable braille concepts following BrailleRap, listed here as c
 - **Talk** — [re:publica 2026 (Berlin): "Imagine Dragons: Critical Participatory Co-Design"](https://re-publica.com/de/session/imagine-dragons-critical-participatory-co-design-strange-camera) · Speaker, with Regina Sipos & Daniel Wessolek
 - **Talk** — [re:publica 2026 (Berlin): "AI Around Us"](https://re-publica.com/de/session/ai-around-us-tools-markets-and-future-work) · Speaker, with Fadia Elgharib & Salih Mahmod
 - **Talk** — [re:publica 2026 (Berlin): "Error 418: The First Webcam"](https://re-publica.com/de/session/error-418-first-webcam) · Speaker
-- **Talk** — FOSSASIA Summit 2026 (Bangkok) · Speaker
+- **Talk** — FOSSASIA Summit 2026 (Bangkok) — incl. Community Day 8 Mar · Speaker
 - **Workshop** — IdeasFest 2026: Vegan Leather Workshop · Facilitator
 
 ### 2025
