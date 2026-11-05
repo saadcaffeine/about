@@ -1,0 +1,25 @@
+{
+  "title": "re:publica 2025 \u2014 Making Things That Make Sense: Repurposing 3D Printers for Good",
+  "source_url": "https://25.re-publica.com/de/session/making-things-make-sense-repurposing-3d-printers-good.html",
+  "event_year": "2025",
+  "captured": "2026-11-05",
+  "capture_method": "text extract via browser (pilot v1); full SingleFile HTML capture pending from live-browser task",
+  "archive_path": "archive/2025-republica-repurposing-3d-printers/",
+  "version": "v1",
+  "pdf_capture": {
+    "file": "browser-page-20261105T014719.412060035Z-2.pdf",
+    "size": "0.9 MB",
+    "status": "Stored in shoebox repo (see snapshot_url).",
+    "captured": "2026-11-05",
+    "url": "https://raw.githubusercontent.com/saadcaffeine/shoebox/main/2025-republica-repurposing-3d-printers/snapshot.pdf"
+  },
+  "preview_png": {
+    "file": "preview.png",
+    "size_bytes": 578236,
+    "status": "captured locally, not yet pushed (binary upload route needed)",
+    "captured": "2026-11-05"
+  },
+  "preview_url": "https://raw.githubusercontent.com/saadcaffeine/shoebox/main/2025-republica-repurposing-3d-printers/preview.png",
+  "repo_folder": "https://github.com/saadcaffeine/shoebox/tree/main/2025-republica-repurposing-3d-printers",
+  "snapshot_url": "https://raw.githubusercontent.com/saadcaffeine/shoebox/main/2025-republica-repurposing-3d-printers/snapshot.pdf"
+}

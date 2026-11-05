@@ -1,0 +1,25 @@
+{
+  "title": "re:publica 2023 \u2014 EcoPrints: BioPigments and SCOBY vegan Leather",
+  "source_url": "https://re-publica.com/en/node/3015",
+  "event_year": "2023",
+  "captured": "2026-11-05",
+  "capture_method": "text extract via browser (pilot v1); full SingleFile HTML capture pending from live-browser task",
+  "archive_path": "archive/2023-republica-ecoprints/",
+  "version": "v1",
+  "pdf_capture": {
+    "file": "browser-page-20261105T014753.680361781Z-5.pdf",
+    "size": "0.8 MB",
+    "status": "Stored in shoebox repo (see snapshot_url).",
+    "captured": "2026-11-05",
+    "url": "https://raw.githubusercontent.com/saadcaffeine/shoebox/main/2023-republica-ecoprints/snapshot.pdf"
+  },
+  "preview_png": {
+    "file": "preview.png",
+    "size_bytes": 681534,
+    "status": "captured locally, not yet pushed (binary upload route needed)",
+    "captured": "2026-11-05"
+  },
+  "preview_url": "https://raw.githubusercontent.com/saadcaffeine/shoebox/main/2023-republica-ecoprints/preview.png",
+  "repo_folder": "https://github.com/saadcaffeine/shoebox/tree/main/2023-republica-ecoprints",
+  "snapshot_url": "https://raw.githubusercontent.com/saadcaffeine/shoebox/main/2023-republica-ecoprints/snapshot.pdf"
+}

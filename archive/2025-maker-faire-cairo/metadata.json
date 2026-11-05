@@ -1,0 +1,25 @@
+{
+  "title": "Maker Faire Cairo 2025 \u2014 GIG report",
+  "source_url": "https://globalinnovationgathering.org/2025/05/19/from-hands-on-creativity-to-global-connection-inside-maker-faire-cairo-2025/",
+  "event_year": "2025",
+  "captured": "2026-11-05",
+  "capture_method": "text extract via browser (pilot v1); full SingleFile HTML capture pending from live-browser task",
+  "archive_path": "archive/2025-maker-faire-cairo/",
+  "version": "v1",
+  "pdf_capture": {
+    "file": "browser-page-20261105T014729.414228119Z-3.pdf",
+    "size": "2.3 MB",
+    "status": "Stored in shoebox repo (see snapshot_url).",
+    "captured": "2026-11-05",
+    "url": "https://raw.githubusercontent.com/saadcaffeine/shoebox/main/2025-maker-faire-cairo/snapshot.pdf"
+  },
+  "preview_png": {
+    "file": "preview.png",
+    "size_bytes": 692991,
+    "status": "captured locally, not yet pushed (binary upload route needed)",
+    "captured": "2026-11-05"
+  },
+  "preview_url": "https://raw.githubusercontent.com/saadcaffeine/shoebox/main/2025-maker-faire-cairo/preview.png",
+  "repo_folder": "https://github.com/saadcaffeine/shoebox/tree/main/2025-maker-faire-cairo",
+  "snapshot_url": "https://raw.githubusercontent.com/saadcaffeine/shoebox/main/2025-maker-faire-cairo/snapshot.pdf"
+}
