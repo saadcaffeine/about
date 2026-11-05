@@ -1,0 +1,25 @@
+{
+  "title": "re:publica 2015 \u2014 Global Innovators",
+  "source_url": "https://15.re-publica.com/en/session/global-innovators-hacking-culture-innovation-spaces-and-start-scenes-singapore-zimbabwe.html",
+  "event_year": "2015",
+  "captured": "2026-11-05",
+  "capture_method": "text extract via browser (batch 1); full SingleFile HTML capture pending from live-browser task",
+  "archive_path": "archive/2015-republica-global-innovators/",
+  "version": "v1",
+  "pdf_capture": {
+    "file": "snapshot.pdf",
+    "size": "0.1 MB",
+    "status": "Stored in shoebox repo (see snapshot_url).",
+    "captured": "2026-11-05",
+    "url": "https://raw.githubusercontent.com/saadcaffeine/shoebox/main/2015-republica-global-innovators/snapshot.pdf"
+  },
+  "preview_png": {
+    "file": "preview.png",
+    "size_bytes": 434907,
+    "status": "Stored in shoebox repo.",
+    "captured": "2026-11-05"
+  },
+  "preview_url": "https://raw.githubusercontent.com/saadcaffeine/shoebox/main/2015-republica-global-innovators/preview.png",
+  "snapshot_url": "https://raw.githubusercontent.com/saadcaffeine/shoebox/main/2015-republica-global-innovators/snapshot.pdf",
+  "repo_folder": "https://github.com/saadcaffeine/shoebox/tree/main/2015-republica-global-innovators"
+}

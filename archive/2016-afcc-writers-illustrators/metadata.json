@@ -1,0 +1,25 @@
+{
+  "title": "AFCC 2016 \u2014 Writers & Illustrators Conference",
+  "source_url": "https://afcc.com.sg/2016/page/writers-illustrators-conference-2016/",
+  "event_year": "2016",
+  "captured": "2026-11-05",
+  "capture_method": "text extract via browser (batch 1); full SingleFile HTML capture pending from live-browser task",
+  "archive_path": "archive/2016-afcc-writers-illustrators/",
+  "version": "v1",
+  "pdf_capture": {
+    "file": "snapshot.pdf",
+    "size": "0.5 MB",
+    "status": "Stored in shoebox repo (see snapshot_url).",
+    "captured": "2026-11-05",
+    "url": "https://raw.githubusercontent.com/saadcaffeine/shoebox/main/2016-afcc-writers-illustrators/snapshot.pdf"
+  },
+  "preview_png": {
+    "file": "preview.png",
+    "size_bytes": 84161,
+    "status": "Stored in shoebox repo.",
+    "captured": "2026-11-05"
+  },
+  "preview_url": "https://raw.githubusercontent.com/saadcaffeine/shoebox/main/2016-afcc-writers-illustrators/preview.png",
+  "snapshot_url": "https://raw.githubusercontent.com/saadcaffeine/shoebox/main/2016-afcc-writers-illustrators/snapshot.pdf",
+  "repo_folder": "https://github.com/saadcaffeine/shoebox/tree/main/2016-afcc-writers-illustrators"
+}

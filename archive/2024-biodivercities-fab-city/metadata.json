@@ -1,0 +1,32 @@
+{
+  "title": "Fab City Challenge Mexico 2024 \u2014 BiodiverCities",
+  "source_url": "https://challenge.fab.city/challenges/fab-city-challenge-mexico",
+  "event_year": "2024",
+  "captured": "2026-11-05",
+  "capture_method": "text extract via browser (batch 1); Wayback snapshot used because live URL redirects to homepage",
+  "archive_path": "archive/2024-biodivercities-fab-city/",
+  "version": "v1",
+  "wayback": {
+    "snapshot_url": "https://web.archive.org/web/20260311004347/https://challenge.fab.city/challenges/fab-city-challenge-mexico",
+    "snapshot_timestamp": "20260311004347",
+    "snapshot_date": "2026-03-11",
+    "captures_total": 10,
+    "captures_span": "2024-10-03 to 2026-03-11"
+  },
+  "pdf_capture": {
+    "file": "snapshot.pdf",
+    "size": "607 KB",
+    "status": "Stored in shoebox repo (see snapshot_url).",
+    "captured": "2026-11-05",
+    "url": "https://raw.githubusercontent.com/saadcaffeine/shoebox/main/2024-biodivercities-fab-city/snapshot.pdf"
+  },
+  "preview_png": {
+    "file": "preview.png",
+    "size_bytes": 173360,
+    "status": "Stored in shoebox repo.",
+    "captured": "2026-11-05"
+  },
+  "preview_url": "https://raw.githubusercontent.com/saadcaffeine/shoebox/main/2024-biodivercities-fab-city/preview.png",
+  "snapshot_url": "https://raw.githubusercontent.com/saadcaffeine/shoebox/main/2024-biodivercities-fab-city/snapshot.pdf",
+  "repo_folder": "https://github.com/saadcaffeine/shoebox/tree/main/2024-biodivercities-fab-city"
+}
