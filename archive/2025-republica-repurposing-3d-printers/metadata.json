@@ -11,5 +11,11 @@
     "size": "0.9 MB",
     "status": "captured locally, not yet pushed (binary upload route needed)",
     "captured": "2026-11-05"
+  },
+  "preview_png": {
+    "file": "preview.png",
+    "size_bytes": 578236,
+    "status": "captured locally, not yet pushed (binary upload route needed)",
+    "captured": "2026-11-05"
   }
 }

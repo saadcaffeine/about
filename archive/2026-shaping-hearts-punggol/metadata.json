@@ -5,5 +5,11 @@
   "captured": "2026-11-05",
   "capture_method": "text extract via browser (pilot v1); full SingleFile HTML capture pending from live-browser task",
   "archive_path": "archive/2026-shaping-hearts-punggol/",
-  "version": "v1"
+  "version": "v1",
+  "preview_png": {
+    "file": "preview.png",
+    "size_bytes": 543212,
+    "status": "captured locally, not yet pushed (binary upload route needed)",
+    "captured": "2026-11-05"
+  }
 }
