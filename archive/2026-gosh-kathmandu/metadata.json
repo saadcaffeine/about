@@ -1,0 +1,15 @@
+{
+  "title": "GOSH 2026 \u2014 Gathering for Open Science Hardware, Kathmandu",
+  "source_url": "https://openhardware.science/gosh-2026-kathmandu-nepal/",
+  "event_year": "2026",
+  "captured": "2026-11-05",
+  "capture_method": "text extract via browser (pilot v1); full SingleFile HTML capture pending from live-browser task",
+  "archive_path": "archive/2026-gosh-kathmandu/",
+  "version": "v1",
+  "pdf_capture": {
+    "file": "browser-page-20261105T014628.513452444Z-0.pdf",
+    "size": "2.2 MB",
+    "status": "captured locally, not yet pushed (binary upload route needed)",
+    "captured": "2026-11-05"
+  }
+}

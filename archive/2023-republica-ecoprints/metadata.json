@@ -1,0 +1,15 @@
+{
+  "title": "re:publica 2023 \u2014 EcoPrints: BioPigments and SCOBY vegan Leather",
+  "source_url": "https://re-publica.com/en/node/3015",
+  "event_year": "2023",
+  "captured": "2026-11-05",
+  "capture_method": "text extract via browser (pilot v1); full SingleFile HTML capture pending from live-browser task",
+  "archive_path": "archive/2023-republica-ecoprints/",
+  "version": "v1",
+  "pdf_capture": {
+    "file": "browser-page-20261105T014753.680361781Z-5.pdf",
+    "size": "0.8 MB",
+    "status": "captured locally, not yet pushed (binary upload route needed)",
+    "captured": "2026-11-05"
+  }
+}

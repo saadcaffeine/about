@@ -1,0 +1,15 @@
+{
+  "title": "Fab City Awards 2026",
+  "source_url": "https://fab.city/awards/fab-city-awards-2026",
+  "event_year": "2026",
+  "captured": "2026-11-05",
+  "capture_method": "text extract via browser (pilot v1); full SingleFile HTML capture pending from live-browser task",
+  "archive_path": "archive/2026-fab-city-awards/",
+  "version": "v1",
+  "pdf_capture": {
+    "file": "browser-page-20261105T014706.794637901Z-1.pdf",
+    "size": "28 MB",
+    "status": "captured locally, not yet pushed (binary upload route needed)",
+    "captured": "2026-11-05"
+  }
+}

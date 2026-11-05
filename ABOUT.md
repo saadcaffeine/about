@@ -28,9 +28,9 @@ I believe open source is infrastructure for democracy. The recipe should always 
 
 ### 2026
 - **Oct** — [International Repair Day events (Enabling Village & Punggol Library)](https://repairday.org/) · Maker · _Workshop_ · `Tech Salvage`
-- **Oct** — [GOSH 2026 (Kathmandu): Making DIY macro lens for smartphones](https://openhardware.science/gosh-2026-kathmandu-nepal/) · Facilitator · _Workshop_ · `Open Governance`
+- **Oct** — [GOSH 2026 (Kathmandu): Making DIY macro lens for smartphones](https://openhardware.science/gosh-2026-kathmandu-nepal/) [🗄️](archive/2026-gosh-kathmandu/) · Facilitator · _Workshop_ · `Open Governance`
 - **Oct** — [Meshtastic field test, Kathmandu (GOSH 2026)](https://github.com/saadcaffeine/Meshtastic-GOSHkathmandu) · Maker · _Project_ · `Tech Salvage`
-- **Sep** — [Shaping Hearts 2026: SalvageGarden hands-on booth & SPD hexagonal-tile heart mural (Punggol Digital District)](https://shapinghearts.cdc.gov.sg/programmes/shaping-hearts-2026-exhibitions/punggol-digital-district/) · Facilitator · _Festival_ · `Inclusive Design`
+- **Sep** — [Shaping Hearts 2026: SalvageGarden hands-on booth & SPD hexagonal-tile heart mural (Punggol Digital District)](https://shapinghearts.cdc.gov.sg/programmes/shaping-hearts-2026-exhibitions/punggol-digital-district/) [🗄️](archive/2026-shaping-hearts-punggol/) · Facilitator · _Festival_ · `Inclusive Design`
 - **Sep** — SPD community arts activities: 3D-printed assistive painting aids & hexagonal alphabet tiles for the Shaping Hearts mural (various SPD centres) · Co-organizer · _Workshop_ · `Inclusive Design`
 - **Jun** — [GIG: From Bhutan to Singapore — spreading an open-source Braille printer](https://globalinnovationgathering.org/2026/06/15/from-bhutan-to-singapore-spreading-an-open-source-braille-printer-across-southeast-asia-and-to-the-world/) · Featured · _Media_ · `Inclusive Design`
 - **May** — [Open Hardware Summit 2026 (Berlin): ReMaking with 3DPrinter parts](https://2026.oshwa.org/workshops/170-lightning-talks/) · Speaker · _Speaking_ · `Open Governance`
@@ -38,7 +38,7 @@ I believe open source is infrastructure for democracy. The recipe should always 
 - **Mar** — [FOSSASIA Summit 2026 (Bangkok) — incl. Community Day 8 Mar](https://summit.fossasia.org/) · Speaker · _Speaking_ · `Tech Salvage`
 - **Feb** — IdeasFest 2026: Vegan Leather Workshop · Facilitator · _Workshop_ · `Bio Making`
 - **Jan** — 2026 Inclusion Roadmap · Author · _Strategy_ · `Inclusive Design`
-- **—** — [Fab City Awards 2026](https://fab.city/awards/fab-city-awards-2026) · Jury Member · _Advisory_ · `Open Governance`
+- **—** — [Fab City Awards 2026](https://fab.city/awards/fab-city-awards-2026) [🗄️](archive/2026-fab-city-awards/) · Jury Member · _Advisory_ · `Open Governance`
 
 ### 2025
 - **Dec** — [ST Feature: SalvageGarden](https://www.straitstimes.com/) · Co-founder · _Media_ · `Inclusive Design`
@@ -58,11 +58,11 @@ I believe open source is infrastructure for democracy. The recipe should always 
 - **May** — [OSHWA: Re-making an Open Source Braille Printer](https://2025.oshwa.org/talks/170-saad-chinoy/) · Speaker · _Speaking_ · `Open Governance`
 - **May** — [Make-a-thek / GIG Showcase](https://gig.global/) · Speaker · _Speaking_ · `Inclusive Design`
 - **May** — BrailleRap Replication Strategy · Lead · _Strategy_ · `Open Governance`
-- **May** — [re:publica 2025 (Berlin): Making Things That Make Sense — Repurposing 3D Printers for Good (w/ Stephen Kovats, Seda Seusing)](https://25.re-publica.com/de/session/making-things-make-sense-repurposing-3d-printers-good.html) · Facilitator · _Workshop_ · `Tech Salvage`
+- **May** — [re:publica 2025 (Berlin): Making Things That Make Sense — Repurposing 3D Printers for Good (w/ Stephen Kovats, Seda Seusing)](https://25.re-publica.com/de/session/making-things-make-sense-repurposing-3d-printers-good.html) [🗄️](archive/2025-republica-repurposing-3d-printers/) · Facilitator · _Workshop_ · `Tech Salvage`
 - **May** — re:publica 2025 (Berlin): Solar Powered Website — Online when sunny · Facilitator · _Workshop_ · `Tech Salvage`
 - **Apr** — Empowering Abilities / Assistive Tech Showcase (lyf Funan) · Co-creator · _Workshop_ · `Inclusive Design`
 - **Apr** — [Curious Worlds: Brain & Body](https://www.marinabaysands.com/museum/events/curious-worlds.html) · Exhibitor · _Exhibition_ · `Inclusive Design` 🎨
-- **Apr** — [Maker Faire Cairo 2025: BrailleRap live demonstration & Knowledge Hub session](https://globalinnovationgathering.org/2025/05/19/from-hands-on-creativity-to-global-connection-inside-maker-faire-cairo-2025/) · Exhibitor · _Exhibition_ · `Inclusive Design`
+- **Apr** — [Maker Faire Cairo 2025: BrailleRap live demonstration & Knowledge Hub session](https://globalinnovationgathering.org/2025/05/19/from-hands-on-creativity-to-global-connection-inside-maker-faire-cairo-2025/) [🗄️](archive/2025-maker-faire-cairo/) · Exhibitor · _Exhibition_ · `Inclusive Design`
 - **Mar** — [FOSSASIA Circular Economy Panel — incl. BrailleRap workshop, 14 Mar](https://summit.fossasia.org/) · Moderator · _Speaking_ · `Tech Salvage`
 - **Feb** — [CNA Profile: Makers of Singapore](https://www.channelnewsasia.com/) · Featured · _Media_ · `Inclusive Design`
 - **Jan** — [Bespoke Tools: Irene Lim](https://www.asiaautomate.com/articles/3d-printed-hands-tools-co-created-by-singapore-non-profit-group-plug-assistive-tech-gaps) · Co-Creator · _Project_ · `Inclusive Design`
@@ -71,7 +71,7 @@ I believe open source is infrastructure for democracy. The recipe should always 
 
 ### 2024
 - **Dec** — [Fab City Global Initiative](https://fab.city/) · Contributor · _Advisory_ · `Open Governance`
-- **Nov** — [BuildPeace 2024 (Manila): BrailleRap — Creating Community Technologies for Inclusive Peacebuilding](https://defyhatenow.org/fr/build-peace-2024-creating-community-technologies-for-inclusive-peacebuilding/) · Presenter · _Workshop_ · `Inclusive Design`
+- **Nov** — [BuildPeace 2024 (Manila): BrailleRap — Creating Community Technologies for Inclusive Peacebuilding](https://defyhatenow.org/fr/build-peace-2024-creating-community-technologies-for-inclusive-peacebuilding/) [🗄️](archive/2024-buildpeace-manila/) · Presenter · _Workshop_ · `Inclusive Design`
 - **Oct** — [Smart Nation 2.0 launch (Punggol Digital District)](https://www.mddi.gov.sg/newsroom/smart-nation-2-press-release/) · Attendee · _Launch_ · `Digital Equity`
 - **Oct** — [NLB: Makers Next Door Profile](https://www.nlb.gov.sg/) · Featured · _Media_ · `Inclusive Design`
 - **Oct** — lyf Sustainival pop-up booth (lyf One-North): prosthetic hands & 3D printing · Exhibitor · _Exhibition_ · `Inclusive Design`
@@ -97,7 +97,7 @@ I believe open source is infrastructure for democracy. The recipe should always 
 - **Sep** — Tactile Coin Holder (Punggol) · Designer · _Project_ · `Inclusive Design`
 - **Sep** — "Intimacy with Nature" BioArt Workshop (Singapore Art Museum) · Facilitator · _Workshop_ · `Bio Making` 🎨
 - **Sep** — [Urban Hosts 10 Years (Berlin, 29–30 Sep): frugal innovation overview](https://urbanhosts.org/when-where/) · Presenter · _Speaking_ · `Open Governance`
-- **Jun** — [re:publica 2023 (Berlin): EcoPrints — BioPigments and SCOBY vegan Leather (w/ Nidhi Mittal)](https://re-publica.com/en/node/3015) · Facilitator · _Workshop_ · `Bio Making`
+- **Jun** — [re:publica 2023 (Berlin): EcoPrints — BioPigments and SCOBY vegan Leather (w/ Nidhi Mittal)](https://re-publica.com/en/node/3015) [🗄️](archive/2023-republica-ecoprints/) · Facilitator · _Workshop_ · `Bio Making`
 - **Jun** — [re:publica 2023 (Berlin): Internet of Meaningful Things — Assistive Tech IoT (Phoenix Hand)](https://re-publica.com/de/session/internet-meaningful-things-assistive-tech-iot) · Facilitator · _Workshop_ · `Inclusive Design`
 - **Jun** — [PlayPlayFair 2023 (Fusionopolis): inclusive game booth](https://www.origame.co/post/play-play-fair-2023-recap) · Exhibitor · _Exhibition_ · `Inclusive Design`
 - **May** — Regional Inclusive Design Hubs · Lead · _Strategy_ · `Inclusive Design`
@@ -188,7 +188,7 @@ I believe open source is infrastructure for democracy. The recipe should always 
 - **Dec** — [ArtScience Museum, Living Leonardos: DIY Selfie Printer booth (w/ Michelle Lye)](https://coconuts.co/singapore/lifestyle/modern-innovation-meets-da-vinci-singapore-maker-festival-2014/) · Exhibitor · _Art_ · `Critical Play` 🎨
 - **Aug** — DIYSUB Surabaya: Caffeinator · Facilitator · _Workshop_ · `Tech Salvage`
 - **Jun** — Singapore Maker Festival: Original Caffeinator · Maker · _Project_ · `Tech Salvage`
-- **Jun** — [Yogyakarta Meeting on Open Culture and Critical Making: Edible Book Workshop (HONFablab) & Open Knowledge panel](https://cis-india.org/news/yogyakarta-meeting-on-open-culture-and-critical-making) · Facilitator · _Workshop_ · `Open Governance`
+- **Jun** — [Yogyakarta Meeting on Open Culture and Critical Making: Edible Book Workshop (HONFablab) & Open Knowledge panel](https://cis-india.org/news/yogyakarta-meeting-on-open-culture-and-critical-making) [🗄️](archive/2014-yogyakarta-open-culture/) · Facilitator · _Workshop_ · `Open Governance`
 - **Jan** — Entry: The Maker Movement Begins · Origin · _Milestone_ · `Critical Play`
 
 ### 2013
