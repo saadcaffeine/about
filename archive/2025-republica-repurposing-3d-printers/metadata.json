@@ -9,13 +9,17 @@
   "pdf_capture": {
     "file": "browser-page-20261105T014719.412060035Z-2.pdf",
     "size": "0.9 MB",
-    "status": "captured locally, not yet pushed (binary upload route needed)",
-    "captured": "2026-11-05"
+    "status": "Stored in shoebox repo (see snapshot_url).",
+    "captured": "2026-11-05",
+    "url": "https://raw.githubusercontent.com/saadcaffeine/shoebox/main/2025-republica-repurposing-3d-printers/snapshot.pdf"
   },
   "preview_png": {
     "file": "preview.png",
     "size_bytes": 578236,
     "status": "captured locally, not yet pushed (binary upload route needed)",
     "captured": "2026-11-05"
-  }
+  },
+  "preview_url": "https://raw.githubusercontent.com/saadcaffeine/shoebox/main/2025-republica-repurposing-3d-printers/preview.png",
+  "repo_folder": "https://github.com/saadcaffeine/shoebox/tree/main/2025-republica-repurposing-3d-printers",
+  "snapshot_url": "https://raw.githubusercontent.com/saadcaffeine/shoebox/main/2025-republica-repurposing-3d-printers/snapshot.pdf"
 }

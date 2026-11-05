@@ -16,13 +16,17 @@
   "pdf_capture": {
     "file": "snapshot.pdf",
     "size": "169 KB",
-    "status": "Wayback snapshot PDF captured locally, not yet pushed (binary upload route needed)",
-    "captured": "2026-11-05"
+    "status": "Stored in shoebox repo (see snapshot_url).",
+    "captured": "2026-11-05",
+    "url": "https://raw.githubusercontent.com/saadcaffeine/shoebox/main/2014-yogyakarta-open-culture/snapshot.pdf"
   },
   "preview_png": {
     "file": "preview.png",
     "size_bytes": 230872,
     "status": "Wayback snapshot preview captured locally, not yet pushed (binary upload route needed)",
     "captured": "2026-11-05"
-  }
+  },
+  "preview_url": "https://raw.githubusercontent.com/saadcaffeine/shoebox/main/2014-yogyakarta-open-culture/preview.png",
+  "repo_folder": "https://github.com/saadcaffeine/shoebox/tree/main/2014-yogyakarta-open-culture",
+  "snapshot_url": "https://raw.githubusercontent.com/saadcaffeine/shoebox/main/2014-yogyakarta-open-culture/snapshot.pdf"
 }

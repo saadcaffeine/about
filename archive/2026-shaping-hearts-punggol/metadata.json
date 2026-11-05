@@ -11,5 +11,10 @@
     "size_bytes": 543212,
     "status": "captured locally, not yet pushed (binary upload route needed)",
     "captured": "2026-11-05"
+  },
+  "preview_url": "https://raw.githubusercontent.com/saadcaffeine/shoebox/main/2026-shaping-hearts-punggol/preview.png",
+  "repo_folder": "https://github.com/saadcaffeine/shoebox/tree/main/2026-shaping-hearts-punggol",
+  "pdf_capture": {
+    "status": "No PDF captured (browser save failed 5 Nov 2026); preview only."
   }
 }

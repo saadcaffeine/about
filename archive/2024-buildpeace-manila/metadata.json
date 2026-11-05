@@ -9,13 +9,17 @@
   "pdf_capture": {
     "file": "browser-page-20261105T014743.102028273Z-4.pdf",
     "size": "9.6 MB",
-    "status": "captured locally, not yet pushed (binary upload route needed)",
-    "captured": "2026-11-05"
+    "status": "Stored in shoebox repo (see snapshot_url).",
+    "captured": "2026-11-05",
+    "url": "https://raw.githubusercontent.com/saadcaffeine/shoebox/main/2024-buildpeace-manila/snapshot.pdf"
   },
   "preview_png": {
     "file": "preview.png",
     "size_bytes": 868579,
     "status": "captured locally, not yet pushed (binary upload route needed)",
     "captured": "2026-11-05"
-  }
+  },
+  "preview_url": "https://raw.githubusercontent.com/saadcaffeine/shoebox/main/2024-buildpeace-manila/preview.png",
+  "repo_folder": "https://github.com/saadcaffeine/shoebox/tree/main/2024-buildpeace-manila",
+  "snapshot_url": "https://raw.githubusercontent.com/saadcaffeine/shoebox/main/2024-buildpeace-manila/snapshot.pdf"
 }

@@ -9,13 +9,18 @@
   "pdf_capture": {
     "file": "browser-page-20261105T014706.794637901Z-1.pdf",
     "size": "28 MB",
-    "status": "captured locally, not yet pushed (binary upload route needed)",
-    "captured": "2026-11-05"
+    "status": "Stored in shoebox repo (see snapshot_url).",
+    "captured": "2026-11-05",
+    "url": "https://raw.githubusercontent.com/saadcaffeine/shoebox/main/2026-fab-city-awards/snapshot.pdf",
+    "note": "Uploaded version is the image-compressed 2.1 MB PDF; original 28 MB capture kept locally."
   },
   "preview_png": {
     "file": "preview.png",
     "size_bytes": 86730,
     "status": "captured locally, not yet pushed (binary upload route needed)",
     "captured": "2026-11-05"
-  }
+  },
+  "preview_url": "https://raw.githubusercontent.com/saadcaffeine/shoebox/main/2026-fab-city-awards/preview.png",
+  "repo_folder": "https://github.com/saadcaffeine/shoebox/tree/main/2026-fab-city-awards",
+  "snapshot_url": "https://raw.githubusercontent.com/saadcaffeine/shoebox/main/2026-fab-city-awards/snapshot.pdf"
 }
