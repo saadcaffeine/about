@@ -138,5 +138,89 @@
     "source_url": "https://challenge.fab.city/challenges/fab-city-challenge-mexico",
     "year": "2024",
     "captured": "2026-11-05"
+  },
+  {
+    "slug": "2017-republica-gig-tag",
+    "title": "re:publica 17 \u2014 Global Innovation Gathering (GIG) tag page",
+    "source_url": "https://17.re-publica.com/en/tags/global-innovation-gathering-gig.html",
+    "year": "2017",
+    "captured": "2026-11-05"
+  },
+  {
+    "slug": "2024-ediblemakerspace-citizenquack",
+    "title": "EdibleMakerspace \u2014 CitizenQuack SG",
+    "source_url": "https://ediblemakerspace.com/citizenquack-sg/",
+    "year": "2024",
+    "captured": "2026-11-05"
+  },
+  {
+    "slug": "2018-35c3-wiki",
+    "title": "35C3 Wiki \u2014 2018 Congress",
+    "source_url": "https://events.ccc.de/congress/2018/",
+    "year": "2018",
+    "captured": "2026-11-05"
+  },
+  {
+    "slug": "2025-fab-city-awards-2025",
+    "title": "Fab City Awards 2025",
+    "source_url": "https://fab.city/awards/fab-city-awards-2025",
+    "year": "2025",
+    "captured": "2026-11-05"
+  },
+  {
+    "slug": "2025-fab25-czechia",
+    "title": "FAB25 Czechia \u2014 Bridge The Gap",
+    "source_url": "https://fab25.fabevent.org/",
+    "year": "2025",
+    "captured": "2026-11-05"
+  },
+  {
+    "slug": "2018-maker-faire-sg-wiki",
+    "title": "Maker Faire Singapore 2018 \u2014 HackerspaceSG booths",
+    "source_url": "https://github-wiki-see.page/m/hackerspacesg/booths/wiki/Maker-Faire-2018",
+    "year": "2018",
+    "captured": "2026-11-05"
+  },
+  {
+    "slug": "2026-meshtastic-goshkathmandu",
+    "title": "Meshtastic-GOSHkathmandu \u2014 GitHub repo",
+    "source_url": "https://github.com/saadcaffeine/Meshtastic-GOSHkathmandu",
+    "year": "2026",
+    "captured": "2026-11-05"
+  },
+  {
+    "slug": "2021-hackaday-podcast",
+    "title": "Hackaday Podcast \u2014 tag page",
+    "source_url": "https://hackaday.com/tag/hackaday-podcast/",
+    "year": "2021",
+    "captured": "2026-11-05"
+  },
+  {
+    "slug": "2021-careables-rc3",
+    "title": "Careables Online Exhibition \u2014 media.ccc.de",
+    "source_url": "https://media.ccc.de/v/rc3-2021-chaoszone-489-careables-online",
+    "year": "2021",
+    "captured": "2026-11-05"
+  },
+  {
+    "slug": "2024-republica-braillerap-bhutan",
+    "title": "re:publica 24 \u2014 BrailleRap Bhutan",
+    "source_url": "https://re-publica.com/de/session/braillerap-bhutan-how-we-replicated-opensource-braille-printer-and-so-can-you",
+    "year": "2024",
+    "captured": "2026-11-05"
+  },
+  {
+    "slug": "2024-republica-care-cafe",
+    "title": "re:publica 24 \u2014 Constructive Care Cafe",
+    "source_url": "https://re-publica.com/de/session/constructive-care-cafe",
+    "year": "2024",
+    "captured": "2026-11-05"
+  },
+  {
+    "slug": "2026-gig-bhutan-braille",
+    "title": "GIG \u2014 From Bhutan to Singapore: spreading an open-source Braille printer",
+    "source_url": "https://globalinnovationgathering.org/2026/06/15/from-bhutan-to-singapore-spreading-an-open-source-braille-printer-across-southeast-asia-and-to-the-world/",
+    "year": "2026",
+    "captured": "2026-11-05"
   }
 ]

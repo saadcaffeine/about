@@ -1,0 +1,25 @@
+{
+  "title": "re:publica 24 \u2014 BrailleRap Bhutan",
+  "source_url": "https://re-publica.com/de/session/braillerap-bhutan-how-we-replicated-opensource-braille-printer-and-so-can-you",
+  "event_year": "2024",
+  "captured": "2026-11-05",
+  "capture_method": "text extract via browser (batch 2); full SingleFile HTML capture pending from live-browser task",
+  "archive_path": "archive/2024-republica-braillerap-bhutan/",
+  "version": "v1",
+  "pdf_capture": {
+    "file": "snapshot.pdf",
+    "size": "0.8 MB",
+    "status": "Stored in shoebox repo (see snapshot_url).",
+    "captured": "2026-11-05",
+    "url": "https://raw.githubusercontent.com/saadcaffeine/shoebox/main/2024-republica-braillerap-bhutan/snapshot.pdf"
+  },
+  "preview_png": {
+    "file": "preview.png",
+    "size_bytes": 1147619,
+    "status": "Stored in shoebox repo.",
+    "captured": "2026-11-05"
+  },
+  "preview_url": "https://raw.githubusercontent.com/saadcaffeine/shoebox/main/2024-republica-braillerap-bhutan/preview.png",
+  "snapshot_url": "https://raw.githubusercontent.com/saadcaffeine/shoebox/main/2024-republica-braillerap-bhutan/snapshot.pdf",
+  "repo_folder": "https://github.com/saadcaffeine/shoebox/tree/main/2024-republica-braillerap-bhutan"
+}

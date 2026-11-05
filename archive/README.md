@@ -9,3 +9,5 @@ A personal archive of media references for Saad Chinoy's work, projects and enga
 - Timeline items on the about page link here with a 🗄️ icon.
 
 - Batch 1: 5 November 2026, 12 items, including the Fab City Challenge Mexico Wayback snapshot.
+
+- Batch 2: 5 November 2026, 11 items. GIG Bhutan-to-Singapore article added 5 Nov 2026 (evening): live site reachable again after two Cloudflare 522 timeouts; captured live, no Wayback snapshot needed.
