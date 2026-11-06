@@ -1,15 +1,16 @@
 <?php
 /**
  * Plugin Name: EMS About Page in Sitemap
- * Description: Adds the static /about/ profile page (deployed outside WordPress from the saadcaffeine/about repo) to the WordPress core sitemap at /wp-sitemap.xml.
- * Version:     1.0.0
+ * Description: Adds static pages that live outside WordPress (/about/ from the saadcaffeine/about repo, and /citizenquack/) to the WordPress core sitemap at /wp-sitemap.xml.
+ * Version:     1.1.0
  * Author:      Saad Chinoy
  *
  * Must-use plugin: lives in wp-content/mu-plugins/ and loads automatically.
  * Source: https://github.com/saadcaffeine/about/tree/main/wordpress/mu-plugins
  *
  * Result: /wp-sitemap.xml gains an entry for /wp-sitemap-standalone-1.xml,
- * which lists https://ediblemakerspace.com/about/ with its last-modified date.
+ * which lists https://ediblemakerspace.com/about/ and /citizenquack/ with
+ * their last-modified dates. To add another static page, add it to pages().
  * To remove: delete this file. Nothing is stored in the database.
  *
  * Written for PHP 5.6+ and WordPress 5.5+ (when core sitemaps were added).
@@ -39,6 +40,7 @@ if ( class_exists( 'WP_Sitemaps_Provider' ) && ! class_exists( 'EMS_Standalone_S
 		protected function pages() {
 			return array(
 				'about/' => 'about/index.html',
+				'citizenquack/' => 'citizenquack/index.html',
 			);
 		}
 

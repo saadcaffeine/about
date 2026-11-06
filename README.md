@@ -11,4 +11,4 @@ Served via GitHub Pages directly from `index.html` on `main`. A plain-text mirro
 
 ## WordPress sitemap plugin
 
-`wordpress/mu-plugins/ems-about-sitemap.php` adds this page to ediblemakerspace.com's WordPress sitemap (`/wp-sitemap.xml`). It is deployed separately and only on demand: Actions → "Deploy sitemap plugin to ediblemakerspace.com WordPress" → Run workflow. To remove it, delete the file from `wp-content/mu-plugins/` on the server.
+`wordpress/mu-plugins/ems-about-sitemap.php` adds this page and /citizenquack/ to ediblemakerspace.com's WordPress sitemap (`/wp-sitemap.xml`). It is deployed separately and only on demand: Actions → "Deploy sitemap plugin to ediblemakerspace.com WordPress" → Run workflow. To remove it, delete the file from `wp-content/mu-plugins/` on the server.
