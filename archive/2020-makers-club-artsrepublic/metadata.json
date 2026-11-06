@@ -1,0 +1,25 @@
+{
+  "title": "The Makers Club \u2014 You don't need to know how to code to be a Maker",
+  "source_url": "https://artsrepublic.sg/index.php/events/2020/08/you-dont-need-to-know-how-to-code-to-be-a-maker-a-comics-workshop",
+  "event_year": "2020",
+  "captured": "2026-11-05",
+  "capture_method": "text extract via browser (batch 1); full SingleFile HTML capture pending from live-browser task",
+  "archive_path": "archive/2020-makers-club-artsrepublic/",
+  "version": "v1",
+  "pdf_capture": {
+    "file": "snapshot.pdf",
+    "size": "0.6 MB",
+    "status": "Stored in shoebox repo (see snapshot_url).",
+    "captured": "2026-11-05",
+    "url": "https://raw.githubusercontent.com/saadcaffeine/shoebox/main/2020-makers-club-artsrepublic/snapshot.pdf"
+  },
+  "preview_png": {
+    "file": "preview.png",
+    "size_bytes": 851832,
+    "status": "Stored in shoebox repo.",
+    "captured": "2026-11-05"
+  },
+  "preview_url": "https://raw.githubusercontent.com/saadcaffeine/shoebox/main/2020-makers-club-artsrepublic/preview.png",
+  "snapshot_url": "https://raw.githubusercontent.com/saadcaffeine/shoebox/main/2020-makers-club-artsrepublic/snapshot.pdf",
+  "repo_folder": "https://github.com/saadcaffeine/shoebox/tree/main/2020-makers-club-artsrepublic"
+}

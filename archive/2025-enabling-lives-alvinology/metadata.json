@@ -1,0 +1,25 @@
+{
+  "title": "Enabling Lives Festival 2025 \u2014 Alvinology article",
+  "source_url": "https://alvinology.com/2025/11/30/singapores-enabling-lives-festival-returns-for-its-5th-edition-as-enabling-village-marks-10th-anniversary/",
+  "event_year": "2025",
+  "captured": "2026-11-05",
+  "capture_method": "text extract via browser (batch 1); full SingleFile HTML capture pending from live-browser task",
+  "archive_path": "archive/2025-enabling-lives-alvinology/",
+  "version": "v1",
+  "pdf_capture": {
+    "file": "snapshot.pdf",
+    "size": "1.6 MB",
+    "status": "Stored in shoebox repo (see snapshot_url).",
+    "captured": "2026-11-05",
+    "url": "https://raw.githubusercontent.com/saadcaffeine/shoebox/main/2025-enabling-lives-alvinology/snapshot.pdf"
+  },
+  "preview_png": {
+    "file": "preview.png",
+    "size_bytes": 1269052,
+    "status": "Stored in shoebox repo.",
+    "captured": "2026-11-05"
+  },
+  "preview_url": "https://raw.githubusercontent.com/saadcaffeine/shoebox/main/2025-enabling-lives-alvinology/preview.png",
+  "snapshot_url": "https://raw.githubusercontent.com/saadcaffeine/shoebox/main/2025-enabling-lives-alvinology/snapshot.pdf",
+  "repo_folder": "https://github.com/saadcaffeine/shoebox/tree/main/2025-enabling-lives-alvinology"
+}

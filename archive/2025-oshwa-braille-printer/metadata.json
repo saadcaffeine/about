@@ -1,0 +1,25 @@
+{
+  "title": "OSHWA 2025 \u2014 BrailleRap: re-making an opensource braille printer",
+  "source_url": "https://2025.oshwa.org/talks/170-saad-chinoy/",
+  "event_year": "2025",
+  "captured": "2026-11-05",
+  "capture_method": "text extract via browser (batch 1); full SingleFile HTML capture pending from live-browser task",
+  "archive_path": "archive/2025-oshwa-braille-printer/",
+  "version": "v1",
+  "pdf_capture": {
+    "file": "snapshot.pdf",
+    "size": "0.1 MB",
+    "status": "Stored in shoebox repo (see snapshot_url).",
+    "captured": "2026-11-05",
+    "url": "https://raw.githubusercontent.com/saadcaffeine/shoebox/main/2025-oshwa-braille-printer/snapshot.pdf"
+  },
+  "preview_png": {
+    "file": "preview.png",
+    "size_bytes": 568999,
+    "status": "Stored in shoebox repo.",
+    "captured": "2026-11-05"
+  },
+  "preview_url": "https://raw.githubusercontent.com/saadcaffeine/shoebox/main/2025-oshwa-braille-printer/preview.png",
+  "snapshot_url": "https://raw.githubusercontent.com/saadcaffeine/shoebox/main/2025-oshwa-braille-printer/snapshot.pdf",
+  "repo_folder": "https://github.com/saadcaffeine/shoebox/tree/main/2025-oshwa-braille-printer"
+}

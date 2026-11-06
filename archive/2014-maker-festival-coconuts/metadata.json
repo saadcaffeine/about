@@ -1,0 +1,25 @@
+{
+  "title": "Singapore Maker Festival 2014 \u2014 Coconuts article",
+  "source_url": "https://coconuts.co/singapore/lifestyle/modern-innovation-meets-da-vinci-singapore-maker-festival-2014/",
+  "event_year": "2014",
+  "captured": "2026-11-05",
+  "capture_method": "text extract via browser (batch 1); full SingleFile HTML capture pending from live-browser task",
+  "archive_path": "archive/2014-maker-festival-coconuts/",
+  "version": "v1",
+  "pdf_capture": {
+    "file": "snapshot.pdf",
+    "size": "0.7 MB",
+    "status": "Stored in shoebox repo (see snapshot_url).",
+    "captured": "2026-11-05",
+    "url": "https://raw.githubusercontent.com/saadcaffeine/shoebox/main/2014-maker-festival-coconuts/snapshot.pdf"
+  },
+  "preview_png": {
+    "file": "preview.png",
+    "size_bytes": 717414,
+    "status": "Stored in shoebox repo.",
+    "captured": "2026-11-05"
+  },
+  "preview_url": "https://raw.githubusercontent.com/saadcaffeine/shoebox/main/2014-maker-festival-coconuts/preview.png",
+  "snapshot_url": "https://raw.githubusercontent.com/saadcaffeine/shoebox/main/2014-maker-festival-coconuts/snapshot.pdf",
+  "repo_folder": "https://github.com/saadcaffeine/shoebox/tree/main/2014-maker-festival-coconuts"
+}
