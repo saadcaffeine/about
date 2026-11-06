@@ -299,5 +299,96 @@
     "source_url": "https://www.marinabaysands.com/museum/events/curious-worlds.html",
     "year": "2025",
     "captured": "2026-11-06"
+  },
+  {
+    "slug": "2025-fab-city-home",
+    "title": "Fab City \u2014 homepage",
+    "source_url": "https://fab.city/",
+    "year": "2025",
+    "captured": "2026-11-06"
+  },
+  {
+    "slug": "2025-gig-home",
+    "title": "Global Innovation Gathering \u2014 homepage",
+    "source_url": "https://gig.global/",
+    "year": "2025",
+    "captured": "2026-11-06"
+  },
+  {
+    "slug": "2025-openhardware-home",
+    "title": "Gathering for Open Science Hardware \u2014 homepage",
+    "source_url": "https://openhardware.science/",
+    "year": "2025",
+    "captured": "2026-11-06"
+  },
+  {
+    "slug": "2022-republica-home",
+    "title": "re:publica \u2014 homepage",
+    "source_url": "https://re-publica.com/",
+    "year": "2022",
+    "captured": "2026-11-06"
+  },
+  {
+    "slug": "2026-repairday-home",
+    "title": "International Repair Day \u2014 homepage",
+    "source_url": "https://repairday.org/",
+    "year": "2026",
+    "captured": "2026-11-06"
+  },
+  {
+    "slug": "2023-salvagegarden-home",
+    "title": "SalvageGarden \u2014 homepage",
+    "source_url": "https://salvagegarden.org/",
+    "year": "2023",
+    "captured": "2026-11-06"
+  },
+  {
+    "slug": "2025-spudniklab-home",
+    "title": "SpudnikLab \u2014 homepage",
+    "source_url": "https://spudniklab.com/",
+    "year": "2025",
+    "captured": "2026-11-06"
+  },
+  {
+    "slug": "2026-fossasia-home",
+    "title": "FOSSASIA Summit \u2014 homepage",
+    "source_url": "https://summit.fossasia.org/",
+    "year": "2026",
+    "captured": "2026-11-06"
+  },
+  {
+    "slug": "2019-bookcouncil-home",
+    "title": "Singapore Book Council \u2014 homepage",
+    "source_url": "https://www.bookcouncil.sg/",
+    "year": "2019",
+    "captured": "2026-11-06"
+  },
+  {
+    "slug": "2025-cna-home",
+    "title": "Channel NewsAsia \u2014 homepage",
+    "source_url": "https://www.channelnewsasia.com/",
+    "year": "2025",
+    "captured": "2026-11-06"
+  },
+  {
+    "slug": "2025-imable-home",
+    "title": "i'mable \u2014 homepage",
+    "source_url": "https://www.imable.sg/",
+    "year": "2025",
+    "captured": "2026-11-06"
+  },
+  {
+    "slug": "2025-nlb-home",
+    "title": "National Library Board \u2014 homepage",
+    "source_url": "https://www.nlb.gov.sg/",
+    "year": "2025",
+    "captured": "2026-11-06"
+  },
+  {
+    "slug": "2025-straitstimes-home",
+    "title": "The Straits Times \u2014 homepage",
+    "source_url": "https://www.straitstimes.com/",
+    "year": "2025",
+    "captured": "2026-11-06"
   }
 ]

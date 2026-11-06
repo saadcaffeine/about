@@ -13,3 +13,5 @@ A personal archive of media references for Saad Chinoy's work, projects and enga
 - Batch 2: 5 November 2026, 11 items. GIG Bhutan-to-Singapore article added 5 Nov 2026 (evening): live site reachable again after two Cloudflare 522 timeouts; captured live, no Wayback snapshot needed.
 
 - Batch 3: 6 November 2026, 10 items (Curious Worlds via Wayback snapshot 17 Mar 2026; ArtScience Museum page excluded — live URL redirects to the museum landing page and no Wayback snapshot exists).
+
+- Batch 4: 6 November 2026, 13 homepage snapshots-with-a-note (gig.global redirects to a GoDaddy domain-for-sale page; CNA PDF image-compressed 41.3 MB → 4.5 MB). The ArtScience Museum page remains excluded — live URL redirects and no Wayback snapshot exists.

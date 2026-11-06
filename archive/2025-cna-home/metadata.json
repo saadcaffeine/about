@@ -1,0 +1,27 @@
+{
+  "title": "Channel NewsAsia \u2014 homepage",
+  "source_url": "https://www.channelnewsasia.com/",
+  "event_year": "2025",
+  "captured": "2026-11-06",
+  "capture_method": "homepage snapshot with a note (batch 4); full SingleFile HTML capture pending from live-browser task",
+  "note": "Note: this is a snapshot of the site's homepage as it appeared on 6 November 2026. A homepage snapshot does not evidence the specific engagement listed on the timeline entry; it is archived as a general reference to the organisation/site behind it, per Saad's decision of 6 November 2026.",
+  "archive_path": "archive/2025-cna-home/",
+  "version": "v1",
+  "pdf_capture": {
+    "file": "snapshot.pdf",
+    "size": "4.3 MB",
+    "status": "Stored in shoebox repo (see snapshot_url).",
+    "captured": "2026-11-06",
+    "url": "https://raw.githubusercontent.com/saadcaffeine/shoebox/main/2025-cna-home/snapshot.pdf",
+    "note": "Uploaded version is the image-compressed 4.3 MB PDF; original 41.3 MB capture kept locally."
+  },
+  "preview_png": {
+    "file": "preview.png",
+    "size_bytes": 1640427,
+    "status": "Stored in shoebox repo.",
+    "captured": "2026-11-06"
+  },
+  "preview_url": "https://raw.githubusercontent.com/saadcaffeine/shoebox/main/2025-cna-home/preview.png",
+  "snapshot_url": "https://raw.githubusercontent.com/saadcaffeine/shoebox/main/2025-cna-home/snapshot.pdf",
+  "repo_folder": "https://github.com/saadcaffeine/shoebox/tree/main/2025-cna-home"
+}

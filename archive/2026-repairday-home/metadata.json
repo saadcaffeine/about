@@ -1,0 +1,26 @@
+{
+  "title": "International Repair Day \u2014 homepage",
+  "source_url": "https://repairday.org/",
+  "event_year": "2026",
+  "captured": "2026-11-06",
+  "capture_method": "homepage snapshot with a note (batch 4); full SingleFile HTML capture pending from live-browser task",
+  "note": "Note: this is a snapshot of the site's homepage as it appeared on 6 November 2026. A homepage snapshot does not evidence the specific engagement listed on the timeline entry; it is archived as a general reference to the organisation/site behind it, per Saad's decision of 6 November 2026.",
+  "archive_path": "archive/2026-repairday-home/",
+  "version": "v1",
+  "pdf_capture": {
+    "file": "snapshot.pdf",
+    "size": "8.1 MB",
+    "status": "Stored in shoebox repo (see snapshot_url).",
+    "captured": "2026-11-06",
+    "url": "https://raw.githubusercontent.com/saadcaffeine/shoebox/main/2026-repairday-home/snapshot.pdf"
+  },
+  "preview_png": {
+    "file": "preview.png",
+    "size_bytes": 584977,
+    "status": "Stored in shoebox repo.",
+    "captured": "2026-11-06"
+  },
+  "preview_url": "https://raw.githubusercontent.com/saadcaffeine/shoebox/main/2026-repairday-home/preview.png",
+  "snapshot_url": "https://raw.githubusercontent.com/saadcaffeine/shoebox/main/2026-repairday-home/snapshot.pdf",
+  "repo_folder": "https://github.com/saadcaffeine/shoebox/tree/main/2026-repairday-home"
+}

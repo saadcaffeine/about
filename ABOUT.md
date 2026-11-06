@@ -27,7 +27,7 @@ I believe open source is infrastructure for democracy. The recipe should always 
 ## Timeline (2013–2026)
 
 ### 2026
-- **Oct** — [International Repair Day events (Enabling Village & Punggol Library)](https://repairday.org/) · Maker · _Workshop_ · `Tech Salvage`
+- **Oct** — [International Repair Day events (Enabling Village & Punggol Library)](https://repairday.org/) [🗄️](archive/2026-repairday-home/) · Maker · _Workshop_ · `Tech Salvage`
 - **Oct** — [GOSH 2026 (Kathmandu): Making DIY macro lens for smartphones](https://openhardware.science/gosh-2026-kathmandu-nepal/) [🗄️](archive/2026-gosh-kathmandu/) · Facilitator · _Workshop_ · `Open Governance`
 - **Oct** — [Meshtastic field test, Kathmandu (GOSH 2026)](https://github.com/saadcaffeine/Meshtastic-GOSHkathmandu) [🗄️](archive/2026-meshtastic-goshkathmandu/) · Maker · _Project_ · `Tech Salvage`
 - **Sep** — [Shaping Hearts 2026: SalvageGarden hands-on booth & SPD hexagonal-tile heart mural (Punggol Digital District)](https://shapinghearts.cdc.gov.sg/programmes/shaping-hearts-2026-exhibitions/punggol-digital-district/) [🗄️](archive/2026-shaping-hearts-punggol/) · Facilitator · _Festival_ · `Inclusive Design`
@@ -35,28 +35,28 @@ I believe open source is infrastructure for democracy. The recipe should always 
 - **Jun** — [GIG: From Bhutan to Singapore — spreading an open-source Braille printer](https://globalinnovationgathering.org/2026/06/15/from-bhutan-to-singapore-spreading-an-open-source-braille-printer-across-southeast-asia-and-to-the-world/) [🗄️](archive/2026-gig-bhutan-braille/) · Featured · _Media_ · `Inclusive Design`
 - **May** — [Open Hardware Summit 2026 (Berlin): ReMaking with 3DPrinter parts](https://2026.oshwa.org/workshops/170-lightning-talks/) [🗄️](archive/2026-ohs-remaking-lightning-talks/) · Speaker · _Speaking_ · `Open Governance`
 - **May** — re:publica 2026 (Berlin): Imagine Dragons, AI Around Us, Error 418 · Speaker · _Speaking_ · `Open Governance`
-- **Mar** — [FOSSASIA Summit 2026 (Bangkok) — incl. Community Day 8 Mar](https://summit.fossasia.org/) · Speaker · _Speaking_ · `Tech Salvage`
+- **Mar** — [FOSSASIA Summit 2026 (Bangkok) — incl. Community Day 8 Mar](https://summit.fossasia.org/) [🗄️](archive/2026-fossasia-home/) · Speaker · _Speaking_ · `Tech Salvage`
 - **Feb** — IdeasFest 2026: Vegan Leather Workshop · Facilitator · _Workshop_ · `Bio Making`
 - **Jan** — 2026 Inclusion Roadmap · Author · _Strategy_ · `Inclusive Design`
 - **—** — [Fab City Awards 2026](https://fab.city/awards/fab-city-awards-2026) [🗄️](archive/2026-fab-city-awards/) · Jury Member · _Advisory_ · `Open Governance`
 
 ### 2025
-- **Dec** — [ST Feature: SalvageGarden](https://www.straitstimes.com/) · Co-founder · _Media_ · `Inclusive Design`
+- **Dec** — [ST Feature: SalvageGarden](https://www.straitstimes.com/) [🗄️](archive/2025-straitstimes-home/) · Co-founder · _Media_ · `Inclusive Design`
 - **Dec** — [TechAble Enabling Lives Festival 2025: 3D printing & open-source Braille Embosser (Enabling Village, Village Green)](https://alvinology.com/2025/11/30/singapores-enabling-lives-festival-returns-for-its-5th-edition-as-enabling-village-marks-10th-anniversary/) [🗄️](archive/2025-enabling-lives-alvinology/) · Exhibitor · _Exhibition_ · `Inclusive Design`
-- **Nov** — [FAN25: Prototyping Fab Cities](https://fab.city/) · Lead · _Workshop_ · `Tech Salvage`
-- **Oct** — [i'mable × Salvage Garden](https://www.imable.sg/) · Strategy Lead · _Strategy_ · `Inclusive Design`
-- **Oct** — [M.I.T. Sundays National Expansion](https://www.nlb.gov.sg/) · Expansion Lead · _Milestone_ · `Inclusive Design`
+- **Nov** — [FAN25: Prototyping Fab Cities](https://fab.city/) [🗄️](archive/2025-fab-city-home/) · Lead · _Workshop_ · `Tech Salvage`
+- **Oct** — [i'mable × Salvage Garden](https://www.imable.sg/) [🗄️](archive/2025-imable-home/) · Strategy Lead · _Strategy_ · `Inclusive Design`
+- **Oct** — [M.I.T. Sundays National Expansion](https://www.nlb.gov.sg/) [🗄️](archive/2025-nlb-home/) · Expansion Lead · _Milestone_ · `Inclusive Design`
 - **Oct** — [i'mable (SG Enable) Panel](https://www.imable.sg/) · Advisor · _Advisory_ · `Inclusive Design`
 - **Sep** — [ASM: Another World Is Possible](https://www.marinabaysands.com/museum/artscience-museum.html) · Collaborator · _Exhibition_ · `Critical Play` 🎨
 - **Aug** — ASEAN Maker Gathering · Keynote · _Speaking_ · `Open Governance`
 - **Jul** — [FAB25 Czechia (Brno / Prague): CitizenQuack & maker train](https://fab25.fabevent.org/) [🗄️](archive/2025-fab25-czechia/) · Participant · _Conference_ · `Tech Salvage`
 - **Jul** — Street2Paradise (C&T Case Study) · Researcher · _Research_ · `Inclusive Design`
-- **Jul** — [SpudnikLab Bali Science Kit](https://spudniklab.com/) · Facilitator · _Workshop_ · `Digital Equity`
-- **Jun** — [GOSH Community Call](https://openhardware.science/) · Leader · _Facilitator_ · `Open Governance`
+- **Jul** — [SpudnikLab Bali Science Kit](https://spudniklab.com/) [🗄️](archive/2025-spudniklab-home/) · Facilitator · _Workshop_ · `Digital Equity`
+- **Jun** — [GOSH Community Call](https://openhardware.science/) [🗄️](archive/2025-openhardware-home/) · Leader · _Facilitator_ · `Open Governance`
 - **Jun** — IASDR 2025 DESIGN NEXT (Taipei) · Presenter · _Conference_ · `Inclusive Design`
 - **May** — ArtScience Museum: SalvageGarden outreach booth & participatory design talk · Facilitator · _Workshop_ · `Inclusive Design`
 - **May** — [OSHWA: Re-making an Open Source Braille Printer](https://2025.oshwa.org/talks/170-saad-chinoy/) [🗄️](archive/2025-oshwa-braille-printer/) · Speaker · _Speaking_ · `Open Governance`
-- **May** — [Make-a-thek / GIG Showcase](https://gig.global/) · Speaker · _Speaking_ · `Inclusive Design`
+- **May** — [Make-a-thek / GIG Showcase](https://gig.global/) [🗄️](archive/2025-gig-home/) · Speaker · _Speaking_ · `Inclusive Design`
 - **May** — BrailleRap Replication Strategy · Lead · _Strategy_ · `Open Governance`
 - **May** — [re:publica 2025 (Berlin): Making Things That Make Sense — Repurposing 3D Printers for Good (w/ Stephen Kovats, Seda Seusing)](https://25.re-publica.com/de/session/making-things-make-sense-repurposing-3d-printers-good.html) [🗄️](archive/2025-republica-repurposing-3d-printers/) · Facilitator · _Workshop_ · `Tech Salvage`
 - **May** — re:publica 2025 (Berlin): Solar Powered Website — Online when sunny · Facilitator · _Workshop_ · `Tech Salvage`
@@ -64,7 +64,7 @@ I believe open source is infrastructure for democracy. The recipe should always 
 - **Apr** — [Curious Worlds: Brain & Body](https://www.marinabaysands.com/museum/events/curious-worlds.html) [🗄️](archive/2025-curious-worlds/) · Exhibitor · _Exhibition_ · `Inclusive Design` 🎨
 - **Apr** — [Maker Faire Cairo 2025: BrailleRap live demonstration & Knowledge Hub session](https://globalinnovationgathering.org/2025/05/19/from-hands-on-creativity-to-global-connection-inside-maker-faire-cairo-2025/) [🗄️](archive/2025-maker-faire-cairo/) · Exhibitor · _Exhibition_ · `Inclusive Design`
 - **Mar** — [FOSSASIA Circular Economy Panel — incl. BrailleRap workshop, 14 Mar](https://summit.fossasia.org/) · Moderator · _Speaking_ · `Tech Salvage`
-- **Feb** — [CNA Profile: Makers of Singapore](https://www.channelnewsasia.com/) · Featured · _Media_ · `Inclusive Design`
+- **Feb** — [CNA Profile: Makers of Singapore](https://www.channelnewsasia.com/) [🗄️](archive/2025-cna-home/) · Featured · _Media_ · `Inclusive Design`
 - **Jan** — [Bespoke Tools: Irene Lim](https://www.asiaautomate.com/articles/3d-printed-hands-tools-co-created-by-singapore-non-profit-group-plug-assistive-tech-gaps) [🗄️](archive/2025-bespoke-tools-asiaautomate/) · Co-Creator · _Project_ · `Inclusive Design`
 - **Jan** — IAAC: Activating Communities — Hyperlocal Recycling, 3D Prints, and Inclusion · Guest Lecturer · _Guest Lecture_ · `Inclusive Design`
 - **—** — [Fab City Awards 2025](https://fab.city/awards/fab-city-awards-2025) [🗄️](archive/2025-fab-city-awards-2025/) · Jury Member · _Advisory_ · `Open Governance`
@@ -90,7 +90,7 @@ I believe open source is infrastructure for democracy. The recipe should always 
 - **Jan** — AI in Frugal Innovation · Researcher · _Project_ · `Tech Salvage`
 
 ### 2023
-- **Dec** — [SalvageGarden 5th Anniversary](https://salvagegarden.org/) · Co-founder · _Milestone_ · `Inclusive Design`
+- **Dec** — [SalvageGarden 5th Anniversary](https://salvagegarden.org/) [🗄️](archive/2023-salvagegarden-home/) · Co-founder · _Milestone_ · `Inclusive Design`
 - **Nov** — Tactile TicTacToe T3 · Designer · _Project_ · `Inclusive Design`
 - **Oct** — [GIG: Curating A Curious Mind](https://gig.global/) · Author · _Article_ · `Open Governance`
 - **Oct** — Wikimania 2023 · Attendee / Contributor · _Conference_ · `Open Governance`
@@ -119,7 +119,7 @@ I believe open source is infrastructure for democracy. The recipe should always 
 - **Jul** — [Dinacon: Bioplastics & SCOBY](https://dinacon.org/) [🗄️](archive/2022-dinacon/) · Facilitator · _Workshop_ · `Bio Making`
 - **Jul** — [Dinacon: Papaya-based Coffee](https://dinacon.org/) · Facilitator · _Workshop_ · `Bio Making`
 - **Jul** — ShroomMonitor (Fluffynator) · Co-Maker (w/ Cris Silva, Pramo, Brian) · _Project_ · `Bio Making`
-- **Jun** — [re:publica 22: Cards Against Planet](https://re-publica.com/) · Creator · _Art_ · `Critical Play` 🎨
+- **Jun** — [re:publica 22: Cards Against Planet](https://re-publica.com/) [🗄️](archive/2022-republica-home/) · Creator · _Art_ · `Critical Play` 🎨
 - **Mar** — Making with Meaning Panel · Panelist · _Speaking_ · `Inclusive Design`
 - **Jan** — Critical Making Toolbox · Contributor · _Toolbox_ · `Open Governance`
 
@@ -140,7 +140,7 @@ I believe open source is infrastructure for democracy. The recipe should always 
 ### 2019
 - **Nov** — [Tech for Good Singapore: assistive tech showcase](https://us9.campaign-archive.com/?u=704b91b3e98fb61383d9c218d&id=650e43784f) [🗄️](archive/2019-tech-for-good/) · Supporter · _Festival_ · `Inclusive Design`
 - **Oct** — Singapore Maker Extravaganza 2019: Fermentation GutHub & OpenFlexure Microscopy · Exhibitor · _Exhibition_ · `Tech Salvage`
-- **Sep** — [AFCC: Minecraft/Roblox Panel — also moderated Creating Transmedia Narratives (5 Sep) & Media Pitch panel (7 Sep)](https://www.bookcouncil.sg/) · Moderator · _Moderator_ · `Critical Play`
+- **Sep** — [AFCC: Minecraft/Roblox Panel — also moderated Creating Transmedia Narratives (5 Sep) & Media Pitch panel (7 Sep)](https://www.bookcouncil.sg/) [🗄️](archive/2019-bookcouncil-home/) · Moderator · _Moderator_ · `Critical Play`
 - **Apr** — AfricaOSH Summit (Dar es Salaam) · Delegate · _Summit_ · `Open Governance`
 - **Mar** — [Open Hardware for All (GOSH)](https://openhardware.science/) · Speaker · _Speaking_ · `Open Governance`
 
