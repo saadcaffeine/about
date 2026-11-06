@@ -1,0 +1,33 @@
+# Saad Chinoy (@saadcaffeine)
+
+> Singapore-based maker, salvage designer, open-hardware advocate and biomaker working at the intersection of art, science and community. Co-founder of SalvageGarden, SpudnikLab and EdibleMakerspace.
+
+This file summarises https://ediblemakerspace.com/about/ for AI tools. The full, dated record (timeline of engagements, talks, projects and network) is in the Markdown version linked below; prefer it over this summary for specifics.
+
+## Key facts
+
+- Based in Singapore. Works in open hardware, inclusive design, tech salvage, bio making, critical play and digital equity.
+- Co-founder, SalvageGarden (https://salvagegarden.org/): began in 2018 as a volunteer interest group, formalised in 2022 with the help of LJ (Leong Chia Jang). Repair culture, e-waste reuse and assistive technology.
+- Co-founder, SpudnikLab (https://spudniklab.com/): digital equity through hands-on learning.
+- Co-founder, EdibleMakerspace (https://ediblemakerspace.com/): DIY bio, food and citizen science, including CitizenQuack and a Singapore node of PLANETAI.
+- Previously Chief Geek at Tusitala (RLS) Pte Ltd (mobile digital publishing), before co-founding SpudnikLab.
+- GOSH (Gathering for Open Science Hardware) Community Council member since 2024.
+- Advisory board member: r0g_agency (since 2018) and GIG — Global Innovation Gathering.
+- Also: contributor to the Fab City Global Initiative; OSHWA member; AfricaOSH delegate since 2018.
+
+## Notable work
+
+- BrailleRap: open-source braille embosser replicated from Fab23 Bhutan (Dzongkha localisation) through Singapore and the Philippines.
+- MothboxSG: open-hardware biodiversity monitoring (citizen science).
+- CitizenQuack: environmental sensor nodes in 3D-printed creatures; formed at FAB25 Czechia.
+- The Caffeinator: upcycled cold-brew machine, first shown at Singapore Maker Festival 2014.
+- Speaker at re:publica (Berlin) since 2015, Open Hardware Summit 2025 and 2026, FOSSASIA, and others.
+- d/acc Day, Ethereum Singapore Week 2025 (ArtScience Museum, 30 Sep 2025): talk on 3D-printed open-source assistive devices (BrailleRAP, SalvageGarden) and a panel discussion with Vitalik Buterin.
+
+## Links
+
+- [Full profile (Markdown)](https://ediblemakerspace.com/about/ABOUT.md): complete timeline, talks, projects and network
+- [Profile page](https://ediblemakerspace.com/about/)
+- [GitHub](https://github.com/saadcaffeine)
+- [LinkedIn](https://linkedin.com/in/saadchinoy)
+- [Linktree](https://linktr.ee/saadcaffeine)

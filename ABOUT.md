@@ -46,6 +46,8 @@ I believe open source is infrastructure for democracy. The recipe should always 
 - **Oct** — [i'mable × Salvage Garden](https://www.imable.sg/) [🗄️](archive/2025-imable-home/) · Strategy Lead · _Strategy_ · `Inclusive Design`
 - **Oct** — [M.I.T. Sundays National Expansion](https://www.nlb.gov.sg/) [🗄️](archive/2025-nlb-home/) · Expansion Lead · _Milestone_ · `Inclusive Design`
 - **Oct** — [i'mable (SG Enable) Panel](https://www.imable.sg/) · Advisor · _Advisory_ · `Inclusive Design`
+- **Sep** — [d/acc Day, Ethereum Singapore Week 2025 (ArtScience Museum): 3D printed Opensource Assistive Devices — BrailleRAP & SalvageGarden](https://luma.com/pdvc1qmr) · Speaker · _Speaking_ · `Inclusive Design`
+- **Sep** — d/acc Day, Ethereum Singapore Week 2025: panel discussion with Vitalik Buterin · Panelist · _Panel_ · `Open Governance`
 - **Sep** — [ASM: Another World Is Possible](https://www.marinabaysands.com/museum/artscience-museum.html) · Contributing Artist · _Exhibition_ · `Critical Play` 🎨
 - **Aug** — ASEAN Maker Gathering · Keynote · _Speaking_ · `Open Governance`
 - **Jul** — [FAB25 Czechia (Brno / Prague): CitizenQuack & maker train](https://fab25.fabevent.org/) [🗄️](archive/2025-fab25-czechia/) · Participant · _Conference_ · `Tech Salvage`
@@ -186,6 +188,7 @@ I believe open source is infrastructure for democracy. The recipe should always 
 - **Dec** — [ArtScience Museum, Living Leonardos: DIY Selfie Printer booth (w/ Michelle Lye)](https://coconuts.co/singapore/lifestyle/modern-innovation-meets-da-vinci-singapore-maker-festival-2014/) [🗄️](archive/2014-maker-festival-coconuts/) · Exhibitor · _Art_ · `Critical Play` 🎨
 - **Aug** — DIYSUB Surabaya: Caffeinator · Facilitator · _Workshop_ · `Tech Salvage`
 - **Jun** — [Yogyakarta Meeting on Open Culture and Critical Making: Edible Book Workshop (HONFablab) & Open Knowledge panel](https://cis-india.org/news/yogyakarta-meeting-on-open-culture-and-critical-making) [🗄️](archive/2014-yogyakarta-open-culture/) · Facilitator · _Workshop_ · `Open Governance`
+- **—** — [Chief Geek, Tusitala (RLS) Pte Ltd — mobile digital publishing platform](https://afcc.com.sg/2014/lightbox_speaker/saad-chinoy) · Chief Geek · _Role_ · `Digital Equity`
 
 ### 2013
 - **Jul** — Mini Maker Faire Singapore Debut · Exhibitor · _Milestone_ · `Critical Play`
@@ -248,6 +251,8 @@ Two low-cost refreshable braille concepts following BrailleRap, listed here as c
 
 ### 2025
 
+- **Talk** — [d/acc Day, Ethereum Singapore Week 2025 (ArtScience Museum): "3D printed Opensource Assistive Devices" — BrailleRAP & SalvageGarden](https://luma.com/pdvc1qmr) · Speaker
+- **Panel** — d/acc Day, Ethereum Singapore Week 2025: panel discussion with Vitalik Buterin · Panelist
 - **Panel** — FOSSASIA Summit 2025: Circular Economy Panel — incl. BrailleRap workshop · Moderator
 - **Workshop** — [re:publica 2025 (Berlin): "Making Things That Make Sense — Repurposing 3D Printers for Good"](https://25.re-publica.com/de/session/making-things-make-sense-repurposing-3d-printers-good.html) · Facilitator, with Stephen Kovats & Seda Seusing
 - **Workshop** — re:publica 2025 (Berlin): "Solar Powered Website — Online when sunny" · Facilitator
@@ -307,12 +312,12 @@ Two low-cost refreshable braille concepts following BrailleRap, listed here as c
 
 ## Network & Advisory
 
-- **[SpudnikLab](https://spudniklab.com/)** — Founder & Director. Digital equity through hands-on learning
+- **[SpudnikLab](https://spudniklab.com/)** — Co-founder. Digital equity through hands-on learning
 - **[SalvageGarden](https://salvagegarden.org/)** — Co-founder. Repair culture & inclusive making since 2018; formalised in 2022 with the help of LJ (Leong Chia Jang)
 - **[EdibleMakerspace](https://ediblemakerspace.com/)** — Co-founder. DIY bio, food and citizen science; current work includes CitizenQuack and the PLANETAI Singapore node
 - **[GOSH Community Council](https://openhardware.science/)** — Community Council Member · since 2024. Gathering for Open Science Hardware
-- **r0g_agency / SSMLab** — Strategic Board Member · since 2018. Open tech for Africa & Asia
-- **[GIG — Global Innovation Gathering](https://gig.global/)** — Board Member. Grassroots tech communities worldwide
+- **r0g_agency / SSMLab** — Advisory Board Member · since 2018. Open tech for Africa & Asia
+- **[GIG — Global Innovation Gathering](https://gig.global/)** — Advisory Board Member. Grassroots tech communities worldwide
 - **[Fab City Global Initiative](https://fab.city/)** — Contributor. Locally productive, globally connected cities
 - **[OSHWA — Open Source Hardware Association](https://www.oshwa.org/)** — Member. Global open hardware standards & community
 - **[AfricaOSH](https://africaosh.com/)** — Delegate · since 2018. Open science hardware across the African continent
@@ -340,4 +345,4 @@ I'm open to collaborations in inclusive design, open hardware, bio-making, educa
 © 2026 Saad Chinoy · @saadcaffeine · Made with coffee (the real thing)  
 *Technologist for the Common Good.*
 
-[View the interactive version →](https://saadcaffeine.github.io/about/)
+[View the interactive version →](https://ediblemakerspace.com/about/)
