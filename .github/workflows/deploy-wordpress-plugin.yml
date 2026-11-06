@@ -1,0 +1,28 @@
+name: Deploy sitemap plugin to ediblemakerspace.com WordPress
+
+# Manual only: run it from the Actions tab ("Run workflow") when the plugin
+# in wordpress/mu-plugins/ changes. Ordinary pushes never touch WordPress.
+on:
+  workflow_dispatch:
+
+jobs:
+  ftp-deploy-mu-plugin:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Check PHP syntax before uploading
+        run: |
+          for f in wordpress/mu-plugins/*.php; do php -l "$f"; done
+
+      - name: FTPS upload to wp-content/mu-plugins
+        uses: SamKirkland/FTP-Deploy-Action@v4.4.0
+        with:
+          server: ftp.visualpurpledesign.com
+          username: ${{ secrets.FTP_USERNAME }}
+          password: ${{ secrets.FTP_PASSWORD }}
+          protocol: ftps
+          local-dir: ./wordpress/mu-plugins/
+          server-dir: /ediblemakerspace.com/wp-content/mu-plugins/
+          # Upload only; never delete other files already in mu-plugins.
+          state-name: .ems-about-ftp-sync-state.json

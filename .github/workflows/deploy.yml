@@ -25,4 +25,5 @@ jobs:
             **/.github/**
             README.md
             tools/**
+            wordpress/**
             *.patch
