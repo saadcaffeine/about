@@ -1,0 +1,25 @@
+{
+  "title": "MothBox DIY v4 \u2014 Printables",
+  "source_url": "https://www.printables.com/model/1537968-mothbox-diy-v4",
+  "event_year": "2024",
+  "captured": "2026-11-06",
+  "capture_method": "text extract via browser (batch 3); full SingleFile HTML capture pending from live-browser task",
+  "archive_path": "archive/2024-mothbox-printables/",
+  "version": "v1",
+  "pdf_capture": {
+    "file": "snapshot.pdf",
+    "size": "4.5 MB",
+    "status": "Stored in shoebox repo (see snapshot_url).",
+    "captured": "2026-11-06",
+    "url": "https://raw.githubusercontent.com/saadcaffeine/shoebox/main/2024-mothbox-printables/snapshot.pdf"
+  },
+  "preview_png": {
+    "file": "preview.png",
+    "size_bytes": 290070,
+    "status": "Stored in shoebox repo.",
+    "captured": "2026-11-06"
+  },
+  "preview_url": "https://raw.githubusercontent.com/saadcaffeine/shoebox/main/2024-mothbox-printables/preview.png",
+  "snapshot_url": "https://raw.githubusercontent.com/saadcaffeine/shoebox/main/2024-mothbox-printables/snapshot.pdf",
+  "repo_folder": "https://github.com/saadcaffeine/shoebox/tree/main/2024-mothbox-printables"
+}

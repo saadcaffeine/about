@@ -1,0 +1,25 @@
+{
+  "title": "Careables Online Exhibition \u2014 media.ccc.de",
+  "source_url": "https://media.ccc.de/v/rc3-2021-chaoszone-489-careables-online",
+  "event_year": "2021",
+  "captured": "2026-11-05",
+  "capture_method": "text extract via browser (batch 2); full SingleFile HTML capture pending from live-browser task",
+  "archive_path": "archive/2021-careables-rc3/",
+  "version": "v1",
+  "pdf_capture": {
+    "file": "snapshot.pdf",
+    "size": "1.7 MB",
+    "status": "Stored in shoebox repo (see snapshot_url).",
+    "captured": "2026-11-05",
+    "url": "https://raw.githubusercontent.com/saadcaffeine/shoebox/main/2021-careables-rc3/snapshot.pdf"
+  },
+  "preview_png": {
+    "file": "preview.png",
+    "size_bytes": 139252,
+    "status": "Stored in shoebox repo.",
+    "captured": "2026-11-05"
+  },
+  "preview_url": "https://raw.githubusercontent.com/saadcaffeine/shoebox/main/2021-careables-rc3/preview.png",
+  "snapshot_url": "https://raw.githubusercontent.com/saadcaffeine/shoebox/main/2021-careables-rc3/snapshot.pdf",
+  "repo_folder": "https://github.com/saadcaffeine/shoebox/tree/main/2021-careables-rc3"
+}

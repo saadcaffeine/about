@@ -1,0 +1,26 @@
+{
+  "title": "Fab City Awards 2025",
+  "source_url": "https://fab.city/awards/fab-city-awards-2025",
+  "event_year": "2025",
+  "captured": "2026-11-05",
+  "capture_method": "text extract via browser (batch 2); full SingleFile HTML capture pending from live-browser task",
+  "archive_path": "archive/2025-fab-city-awards-2025/",
+  "version": "v1",
+  "pdf_capture": {
+    "file": "snapshot.pdf",
+    "size": "1.8 MB",
+    "status": "Stored in shoebox repo (see snapshot_url).",
+    "captured": "2026-11-05",
+    "url": "https://raw.githubusercontent.com/saadcaffeine/shoebox/main/2025-fab-city-awards-2025/snapshot.pdf",
+    "note": "Uploaded version is the image-compressed 1.8 MB PDF; original 24 MB capture kept locally."
+  },
+  "preview_png": {
+    "file": "preview.png",
+    "size_bytes": 86247,
+    "status": "Stored in shoebox repo.",
+    "captured": "2026-11-05"
+  },
+  "preview_url": "https://raw.githubusercontent.com/saadcaffeine/shoebox/main/2025-fab-city-awards-2025/preview.png",
+  "snapshot_url": "https://raw.githubusercontent.com/saadcaffeine/shoebox/main/2025-fab-city-awards-2025/snapshot.pdf",
+  "repo_folder": "https://github.com/saadcaffeine/shoebox/tree/main/2025-fab-city-awards-2025"
+}

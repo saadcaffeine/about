@@ -1,0 +1,26 @@
+{
+  "title": "SalvageGarden \u2014 homepage",
+  "source_url": "https://salvagegarden.org/",
+  "event_year": "2023",
+  "captured": "2026-11-06",
+  "capture_method": "homepage snapshot with a note (batch 4); full SingleFile HTML capture pending from live-browser task",
+  "note": "Note: this is a snapshot of the site's homepage as it appeared on 6 November 2026. A homepage snapshot does not evidence the specific engagement listed on the timeline entry; it is archived as a general reference to the organisation/site behind it, per Saad's decision of 6 November 2026.",
+  "archive_path": "archive/2023-salvagegarden-home/",
+  "version": "v1",
+  "pdf_capture": {
+    "file": "snapshot.pdf",
+    "size": "0.5 MB",
+    "status": "Stored in shoebox repo (see snapshot_url).",
+    "captured": "2026-11-06",
+    "url": "https://raw.githubusercontent.com/saadcaffeine/shoebox/main/2023-salvagegarden-home/snapshot.pdf"
+  },
+  "preview_png": {
+    "file": "preview.png",
+    "size_bytes": 901646,
+    "status": "Stored in shoebox repo.",
+    "captured": "2026-11-06"
+  },
+  "preview_url": "https://raw.githubusercontent.com/saadcaffeine/shoebox/main/2023-salvagegarden-home/preview.png",
+  "snapshot_url": "https://raw.githubusercontent.com/saadcaffeine/shoebox/main/2023-salvagegarden-home/snapshot.pdf",
+  "repo_folder": "https://github.com/saadcaffeine/shoebox/tree/main/2023-salvagegarden-home"
+}

@@ -1,0 +1,33 @@
+{
+  "title": "ArtScience Museum \u2014 Curious Worlds",
+  "source_url": "https://www.marinabaysands.com/museum/events/curious-worlds.html",
+  "event_year": "2025",
+  "captured": "2026-11-06",
+  "capture_method": "Wayback Machine snapshot 17 March 2026 (batch 3); live URL redirects to museum landing page",
+  "wayback_snapshot": {
+    "url": "https://web.archive.org/web/20260317144214/https://www.marinabaysands.com/museum/events/curious-worlds.html",
+    "timestamp": "20260317144214",
+    "date": "2026-03-17",
+    "captures": 6,
+    "first_capture": "2025-04-15",
+    "last_capture": "2026-03-17"
+  },
+  "archive_path": "archive/2025-curious-worlds/",
+  "version": "v1",
+  "pdf_capture": {
+    "file": "snapshot.pdf",
+    "size": "0.5 MB",
+    "status": "Stored in shoebox repo (see snapshot_url).",
+    "captured": "2026-11-06",
+    "url": "https://raw.githubusercontent.com/saadcaffeine/shoebox/main/2025-curious-worlds/snapshot.pdf"
+  },
+  "preview_png": {
+    "file": "preview.png",
+    "size_bytes": 140356,
+    "status": "Stored in shoebox repo.",
+    "captured": "2026-11-06"
+  },
+  "preview_url": "https://raw.githubusercontent.com/saadcaffeine/shoebox/main/2025-curious-worlds/preview.png",
+  "snapshot_url": "https://raw.githubusercontent.com/saadcaffeine/shoebox/main/2025-curious-worlds/snapshot.pdf",
+  "repo_folder": "https://github.com/saadcaffeine/shoebox/tree/main/2025-curious-worlds"
+}

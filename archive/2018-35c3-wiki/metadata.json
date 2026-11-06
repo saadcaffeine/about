@@ -1,0 +1,25 @@
+{
+  "title": "35C3 Wiki \u2014 2018 Congress",
+  "source_url": "https://events.ccc.de/congress/2018/",
+  "event_year": "2018",
+  "captured": "2026-11-05",
+  "capture_method": "text extract via browser (batch 2); full SingleFile HTML capture pending from live-browser task",
+  "archive_path": "archive/2018-35c3-wiki/",
+  "version": "v1",
+  "pdf_capture": {
+    "file": "snapshot.pdf",
+    "size": "0.3 MB",
+    "status": "Stored in shoebox repo (see snapshot_url).",
+    "captured": "2026-11-05",
+    "url": "https://raw.githubusercontent.com/saadcaffeine/shoebox/main/2018-35c3-wiki/snapshot.pdf"
+  },
+  "preview_png": {
+    "file": "preview.png",
+    "size_bytes": 496524,
+    "status": "Stored in shoebox repo.",
+    "captured": "2026-11-05"
+  },
+  "preview_url": "https://raw.githubusercontent.com/saadcaffeine/shoebox/main/2018-35c3-wiki/preview.png",
+  "snapshot_url": "https://raw.githubusercontent.com/saadcaffeine/shoebox/main/2018-35c3-wiki/snapshot.pdf",
+  "repo_folder": "https://github.com/saadcaffeine/shoebox/tree/main/2018-35c3-wiki"
+}

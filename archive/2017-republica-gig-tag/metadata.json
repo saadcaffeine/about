@@ -1,0 +1,25 @@
+{
+  "title": "re:publica 17 \u2014 Global Innovation Gathering (GIG) tag page",
+  "source_url": "https://17.re-publica.com/en/tags/global-innovation-gathering-gig.html",
+  "event_year": "2017",
+  "captured": "2026-11-05",
+  "capture_method": "text extract via browser (batch 2); full SingleFile HTML capture pending from live-browser task",
+  "archive_path": "archive/2017-republica-gig-tag/",
+  "version": "v1",
+  "pdf_capture": {
+    "file": "snapshot.pdf",
+    "size": "0.5 MB",
+    "status": "Stored in shoebox repo (see snapshot_url).",
+    "captured": "2026-11-05",
+    "url": "https://raw.githubusercontent.com/saadcaffeine/shoebox/main/2017-republica-gig-tag/snapshot.pdf"
+  },
+  "preview_png": {
+    "file": "preview.png",
+    "size_bytes": 750771,
+    "status": "Stored in shoebox repo.",
+    "captured": "2026-11-05"
+  },
+  "preview_url": "https://raw.githubusercontent.com/saadcaffeine/shoebox/main/2017-republica-gig-tag/preview.png",
+  "snapshot_url": "https://raw.githubusercontent.com/saadcaffeine/shoebox/main/2017-republica-gig-tag/snapshot.pdf",
+  "repo_folder": "https://github.com/saadcaffeine/shoebox/tree/main/2017-republica-gig-tag"
+}

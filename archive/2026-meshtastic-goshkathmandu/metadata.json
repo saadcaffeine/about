@@ -1,0 +1,25 @@
+{
+  "title": "Meshtastic-GOSHkathmandu \u2014 GitHub repo",
+  "source_url": "https://github.com/saadcaffeine/Meshtastic-GOSHkathmandu",
+  "event_year": "2026",
+  "captured": "2026-11-05",
+  "capture_method": "text extract via browser (batch 2); full SingleFile HTML capture pending from live-browser task",
+  "archive_path": "archive/2026-meshtastic-goshkathmandu/",
+  "version": "v1",
+  "pdf_capture": {
+    "file": "snapshot.pdf",
+    "size": "0.4 MB",
+    "status": "Stored in shoebox repo (see snapshot_url).",
+    "captured": "2026-11-05",
+    "url": "https://raw.githubusercontent.com/saadcaffeine/shoebox/main/2026-meshtastic-goshkathmandu/snapshot.pdf"
+  },
+  "preview_png": {
+    "file": "preview.png",
+    "size_bytes": 628301,
+    "status": "Stored in shoebox repo.",
+    "captured": "2026-11-05"
+  },
+  "preview_url": "https://raw.githubusercontent.com/saadcaffeine/shoebox/main/2026-meshtastic-goshkathmandu/preview.png",
+  "snapshot_url": "https://raw.githubusercontent.com/saadcaffeine/shoebox/main/2026-meshtastic-goshkathmandu/snapshot.pdf",
+  "repo_folder": "https://github.com/saadcaffeine/shoebox/tree/main/2026-meshtastic-goshkathmandu"
+}
