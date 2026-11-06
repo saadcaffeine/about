@@ -1,0 +1,26 @@
+{
+  "title": "PlayPlayFair 2023 recap \u2014 Origame",
+  "source_url": "https://www.origame.co/post/play-play-fair-2023-recap",
+  "event_year": "2023",
+  "captured": "2026-11-06",
+  "capture_method": "text extract via browser (batch 3); full SingleFile HTML capture pending from live-browser task",
+  "archive_path": "archive/2023-playplayfair/",
+  "version": "v1",
+  "pdf_capture": {
+    "file": "snapshot.pdf",
+    "size": "2.2 MB",
+    "status": "Stored in shoebox repo (see snapshot_url).",
+    "captured": "2026-11-06",
+    "url": "https://raw.githubusercontent.com/saadcaffeine/shoebox/main/2023-playplayfair/snapshot.pdf",
+    "note": "Uploaded version is the image-compressed 2.2 MB PDF; original 23.8 MB capture kept locally."
+  },
+  "preview_png": {
+    "file": "preview.png",
+    "size_bytes": 629719,
+    "status": "Stored in shoebox repo.",
+    "captured": "2026-11-06"
+  },
+  "preview_url": "https://raw.githubusercontent.com/saadcaffeine/shoebox/main/2023-playplayfair/preview.png",
+  "snapshot_url": "https://raw.githubusercontent.com/saadcaffeine/shoebox/main/2023-playplayfair/snapshot.pdf",
+  "repo_folder": "https://github.com/saadcaffeine/shoebox/tree/main/2023-playplayfair"
+}

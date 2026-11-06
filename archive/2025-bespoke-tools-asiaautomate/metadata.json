@@ -1,0 +1,25 @@
+{
+  "title": "Bespoke Tools \u2014 AsiaAutomate article",
+  "source_url": "https://www.asiaautomate.com/articles/3d-printed-hands-tools-co-created-by-singapore-non-profit-group-plug-assistive-tech-gaps",
+  "event_year": "2025",
+  "captured": "2026-11-06",
+  "capture_method": "text extract via browser (batch 3); full SingleFile HTML capture pending from live-browser task",
+  "archive_path": "archive/2025-bespoke-tools-asiaautomate/",
+  "version": "v1",
+  "pdf_capture": {
+    "file": "snapshot.pdf",
+    "size": "2.0 MB",
+    "status": "Stored in shoebox repo (see snapshot_url).",
+    "captured": "2026-11-06",
+    "url": "https://raw.githubusercontent.com/saadcaffeine/shoebox/main/2025-bespoke-tools-asiaautomate/snapshot.pdf"
+  },
+  "preview_png": {
+    "file": "preview.png",
+    "size_bytes": 437198,
+    "status": "Stored in shoebox repo.",
+    "captured": "2026-11-06"
+  },
+  "preview_url": "https://raw.githubusercontent.com/saadcaffeine/shoebox/main/2025-bespoke-tools-asiaautomate/preview.png",
+  "snapshot_url": "https://raw.githubusercontent.com/saadcaffeine/shoebox/main/2025-bespoke-tools-asiaautomate/snapshot.pdf",
+  "repo_folder": "https://github.com/saadcaffeine/shoebox/tree/main/2025-bespoke-tools-asiaautomate"
+}

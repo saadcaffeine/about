@@ -1,0 +1,25 @@
+{
+  "title": "re:publica 2023 \u2014 Internet of Meaningful Things: Assistive Tech IoT",
+  "source_url": "https://re-publica.com/de/session/internet-meaningful-things-assistive-tech-iot",
+  "event_year": "2023",
+  "captured": "2026-11-06",
+  "capture_method": "text extract via browser (batch 3); full SingleFile HTML capture pending from live-browser task",
+  "archive_path": "archive/2023-republica-iot-meaningful-things/",
+  "version": "v1",
+  "pdf_capture": {
+    "file": "snapshot.pdf",
+    "size": "0.4 MB",
+    "status": "Stored in shoebox repo (see snapshot_url).",
+    "captured": "2026-11-06",
+    "url": "https://raw.githubusercontent.com/saadcaffeine/shoebox/main/2023-republica-iot-meaningful-things/snapshot.pdf"
+  },
+  "preview_png": {
+    "file": "preview.png",
+    "size_bytes": 1187557,
+    "status": "Stored in shoebox repo.",
+    "captured": "2026-11-06"
+  },
+  "preview_url": "https://raw.githubusercontent.com/saadcaffeine/shoebox/main/2023-republica-iot-meaningful-things/preview.png",
+  "snapshot_url": "https://raw.githubusercontent.com/saadcaffeine/shoebox/main/2023-republica-iot-meaningful-things/snapshot.pdf",
+  "repo_folder": "https://github.com/saadcaffeine/shoebox/tree/main/2023-republica-iot-meaningful-things"
+}

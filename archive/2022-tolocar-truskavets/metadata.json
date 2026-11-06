@@ -1,0 +1,25 @@
+{
+  "title": "Tolocar Playbook \u2014 Truskavets",
+  "source_url": "https://www.appropedia.org/Tolocar_Playbook/Truskavets",
+  "event_year": "2022",
+  "captured": "2026-11-06",
+  "capture_method": "text extract via browser (batch 3); full SingleFile HTML capture pending from live-browser task",
+  "archive_path": "archive/2022-tolocar-truskavets/",
+  "version": "v1",
+  "pdf_capture": {
+    "file": "snapshot.pdf",
+    "size": "0.1 MB",
+    "status": "Stored in shoebox repo (see snapshot_url).",
+    "captured": "2026-11-06",
+    "url": "https://raw.githubusercontent.com/saadcaffeine/shoebox/main/2022-tolocar-truskavets/snapshot.pdf"
+  },
+  "preview_png": {
+    "file": "preview.png",
+    "size_bytes": 713695,
+    "status": "Stored in shoebox repo.",
+    "captured": "2026-11-06"
+  },
+  "preview_url": "https://raw.githubusercontent.com/saadcaffeine/shoebox/main/2022-tolocar-truskavets/preview.png",
+  "snapshot_url": "https://raw.githubusercontent.com/saadcaffeine/shoebox/main/2022-tolocar-truskavets/snapshot.pdf",
+  "repo_folder": "https://github.com/saadcaffeine/shoebox/tree/main/2022-tolocar-truskavets"
+}
