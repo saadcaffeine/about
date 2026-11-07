@@ -12,3 +12,11 @@ Served via GitHub Pages directly from `index.html` on `main`. A plain-text mirro
 ## WordPress sitemap plugin
 
 `wordpress/mu-plugins/ems-about-sitemap.php` adds this page and /citizenquack/ to ediblemakerspace.com's WordPress sitemap (`/wp-sitemap.xml`). It is deployed separately and only on demand: Actions → "Deploy sitemap plugin to ediblemakerspace.com WordPress" → Run workflow. To remove it, delete the file from `wp-content/mu-plugins/` on the server.
+
+## Root llms.txt
+
+`wordpress/root/llms.txt` is uploaded to `ediblemakerspace.com/llms.txt` by the deploy workflow (a single-file FTPS upload; nothing else at the WordPress root is touched). It points AI tools at this page, `ABOUT.md` and the archive.
+
+## Mirrors
+
+The GitHub Pages copy (and any proxy that copies the page) redirects visitors to ediblemakerspace.com/about/ with a small script in the `<head>`. The canonical tag already tells search engines the same thing.

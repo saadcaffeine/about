@@ -5,6 +5,15 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <meta name="color-scheme" content="light dark" />
+  <!-- Send mirrors (GitHub Pages, scraper proxies) to the canonical home -->
+  <script>
+    (function () {
+      var h = location.hostname;
+      if (location.protocol === 'file:' || h === '' || h === 'localhost' || h === '127.0.0.1' ||
+          h === 'ediblemakerspace.com' || h === 'www.ediblemakerspace.com') return;
+      location.replace('https://ediblemakerspace.com/about/' + location.hash);
+    })();
+  </script>
   <!-- Apply the saved theme before first paint (default: light) -->
   <script>
     (function () {
@@ -31,6 +40,7 @@
   <link rel="me" href="https://github.com/saadcaffeine" />
   <link rel="me" href="https://bsky.app/profile/saadcaffeine.bsky.social" />
   <link rel="me" href="https://linkedin.com/in/saadchinoy" />
+  <link rel="me" href="https://mastodon.social/@Saadcaffeine" />
 
   <!-- ============================================================
        OPEN GRAPH — for social sharing and link previews
@@ -75,6 +85,7 @@
     "url": "https://ediblemakerspace.com/about/",
     "name": "Saad Chinoy — About",
     "inLanguage": "en",
+    "dateModified": "2026-11-08",
     "mainEntity": { "@id": "https://ediblemakerspace.com/about/#person" }
   }
   </script>
@@ -107,7 +118,12 @@
       "https://www.thingiverse.com/saadcaffeine",
       "https://www.printables.com/@saadcaffeine",
       "https://cults3d.com/en/users/saadcaffeine",
-      "https://fablabs.io/users/saadcaffeine"
+      "https://fablabs.io/users/saadcaffeine",
+      "https://mastodon.social/@Saadcaffeine",
+      "https://www.hackster.io/saad-chinoy",
+      "https://re-publica.com/en/user/10215",
+      "https://distributeddesign.eu/talent/saad-chinoy/",
+      "https://makerfairecairo.com/maker/saad-chinoy/"
     ],
     "subjectOf": [
       { "@type": "NewsArticle", "publisher": { "@type": "Organization", "name": "The Straits Times" }, "url": "https://www.straitstimes.com/tech/3d-printed-limbs-tools-co-created-by-spore-non-profit-group-plug-assistive-tech-gaps" },
@@ -115,6 +131,7 @@
       { "@type": "Article", "publisher": { "@type": "Organization", "name": "Global Innovation Gathering" }, "name": "From Bhutan to Singapore: spreading an open-source Braille printer", "url": "https://globalinnovationgathering.org/2026/06/15/from-bhutan-to-singapore-spreading-an-open-source-braille-printer-across-southeast-asia-and-to-the-world/" },
       { "@type": "Article", "publisher": { "@type": "Organization", "name": "Global Innovation Gathering" }, "name": "Inside Maker Faire Cairo 2025", "url": "https://globalinnovationgathering.org/2025/05/19/from-hands-on-creativity-to-global-connection-inside-maker-faire-cairo-2025/" },
       { "@type": "WebPage", "name": "BrailleRap: re-making an opensource braille printer (Open Hardware Summit 2025)", "url": "https://2025.oshwa.org/talks/170-saad-chinoy/" },
+      { "@type": "WebPage", "name": "Lightning Talks (Open Hardware Summit 2026)", "url": "https://2026.oshwa.org/workshops/170-lightning-talks" },
       { "@type": "WebPage", "name": "d/acc Day @ ArtScience Museum, Ethereum Singapore Week 2025 (agenda)", "url": "https://luma.com/pdvc1qmr" },
       { "@type": "WebPage", "name": "BrailleRap Bhutan (re:publica 24)", "url": "https://re-publica.com/de/session/braillerap-bhutan-how-we-replicated-opensource-braille-printer-and-so-can-you" }
     ],
