@@ -27,3 +27,15 @@ jobs:
             tools/**
             wordpress/**
             *.patch
+
+      # llms.txt is only discovered at the domain root, which WordPress owns.
+      # Upload just this one file there; nothing else at the root is touched.
+      - name: Upload root llms.txt
+        continue-on-error: true
+        env:
+          FTP_USERNAME: ${{ secrets.FTP_USERNAME }}
+          FTP_PASSWORD: ${{ secrets.FTP_PASSWORD }}
+        run: |
+          curl --fail --ssl-reqd --user "$FTP_USERNAME:$FTP_PASSWORD" \
+            -T wordpress/root/llms.txt \
+            "ftp://ftp.visualpurpledesign.com/ediblemakerspace.com/llms.txt"

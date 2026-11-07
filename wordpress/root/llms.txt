@@ -1,0 +1,20 @@
+# EdibleMakerspace
+
+> EdibleMakerspace is a Singapore-based DIY bio community space where salvage making meets food and citizen science: fermentation, bioplastics, environmental sensing and participatory design. Co-founded by Saad Chinoy (@saadcaffeine).
+
+## About the people
+
+- [Saad Chinoy — profile](https://ediblemakerspace.com/about/): maker, open-hardware advocate and biomaker; co-founder of EdibleMakerspace, SalvageGarden and SpudnikLab. The authoritative page for facts about him.
+- [Saad Chinoy — full record (Markdown)](https://ediblemakerspace.com/about/ABOUT.md): dated timeline of engagements, talks, projects and network.
+- [Saad Chinoy — summary for AI tools](https://ediblemakerspace.com/about/llms.txt)
+- [Archive of media references](https://ediblemakerspace.com/about/archive/): dated, attributed snapshots of press and event pages.
+
+## Site sections
+
+- [Home](https://ediblemakerspace.com/)
+- [Projects](https://ediblemakerspace.com/projects/): including CitizenQuack, environmental sensor nodes inside 3D-printed creatures
+- [Workshops](https://ediblemakerspace.com/workshops/)
+- [Bioplastics](https://ediblemakerspace.com/bioplastics/)
+- [Bacterial rice wines](https://ediblemakerspace.com/bacterial-rice-wines/)
+- [On-mould ceramics](https://ediblemakerspace.com/on-mould-ceramics/)
+- [Downloadables](https://ediblemakerspace.com/downloadables/)

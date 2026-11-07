@@ -8,6 +8,8 @@
  * 1. Pre-renders the timeline into static HTML inside #timeline-container,
  *    so crawlers and AI answer engines that don't run JavaScript can read
  *    every entry. The in-page script skips rendering when cards exist.
+ *    Also stamps today's date into the ProfilePage dateModified and the
+ *    page's sitemap.xml lastmod.
  * 2. Regenerates the Timeline and Talks sections of ABOUT.md so the
  *    markdown mirror always matches the page.
  */
@@ -83,6 +85,15 @@ if (html.slice(afterOpen, afterOpen + 200).includes(BEGIN)) {
 }
 html = html.slice(0, afterOpen) + '\n      ' + BEGIN + tl + '      ' + FINISH + '\n    ' +
        html.slice(closeAt).replace(/^\s*/, '');
+// Keep "last updated" signals current for crawlers and answer engines.
+const today = new Date().toISOString().slice(0, 10);
+html = html.replace(/("dateModified":\s*")\d{4}-\d{2}-\d{2}(")/, `$1${today}$2`);
+const smPath = path.join(root, 'sitemap.xml');
+if (fs.existsSync(smPath)) {
+  const sm = fs.readFileSync(smPath, 'utf8').replace(
+    /(<loc>https:\/\/ediblemakerspace\.com\/about\/(?:ABOUT\.md)?<\/loc>\s*<lastmod>)[^<]+/g, `$1${today}`);
+  fs.writeFileSync(smPath, sm);
+}
 fs.writeFileSync(htmlPath, html);
 
 // ---- 2. ABOUT.md ----------------------------------------------------------
