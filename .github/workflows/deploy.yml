@@ -29,13 +29,17 @@ jobs:
             *.patch
 
       # llms.txt is only discovered at the domain root, which WordPress owns.
-      # Upload just this one file there; nothing else at the root is touched.
+      # Sync just wordpress/root/ (one file) there. Same action and TLS
+      # settings as the main deploy; it only ever deletes files it uploaded
+      # itself (tracked in its own state file), so WordPress is untouched.
       - name: Upload root llms.txt
         continue-on-error: true
-        env:
-          FTP_USERNAME: ${{ secrets.FTP_USERNAME }}
-          FTP_PASSWORD: ${{ secrets.FTP_PASSWORD }}
-        run: |
-          curl --fail --ssl-reqd --user "$FTP_USERNAME:$FTP_PASSWORD" \
-            -T wordpress/root/llms.txt \
-            "ftp://ftp.visualpurpledesign.com/ediblemakerspace.com/llms.txt"
+        uses: SamKirkland/FTP-Deploy-Action@v4.4.0
+        with:
+          server: ftp.visualpurpledesign.com
+          username: ${{ secrets.FTP_USERNAME }}
+          password: ${{ secrets.FTP_PASSWORD }}
+          protocol: ftps
+          local-dir: ./wordpress/root/
+          server-dir: /ediblemakerspace.com/
+          state-name: .ftp-deploy-root-llms-state.json
