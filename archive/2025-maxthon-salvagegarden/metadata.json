@@ -1,0 +1,26 @@
+{
+  "title": "Salvage Garden: Bridging the Assistive Technology Gap in Singapore",
+  "source_url": "https://blog.maxthon.com/2025/12/28/54913/",
+  "event_year": "2025",
+  "captured": "2026-11-15",
+  "capture_method": "live-browser PDF + first-screen PNG capture (discovery-sweep batch, 15 Nov 2026)",
+  "archive_path": "archive/2025-maxthon-salvagegarden/",
+  "version": "v1",
+  "pdf_capture": {
+    "file": "snapshot.pdf",
+    "size": "130 KB",
+    "status": "Stored in shoebox repo (see snapshot_url).",
+    "captured": "2026-11-15",
+    "url": "https://raw.githubusercontent.com/saadcaffeine/shoebox/main/2025-maxthon-salvagegarden/snapshot.pdf"
+  },
+  "preview_png": {
+    "file": "preview.png",
+    "size_bytes": 135412,
+    "status": "captured, stored in shoebox repo",
+    "captured": "2026-11-15"
+  },
+  "preview_url": "https://raw.githubusercontent.com/saadcaffeine/shoebox/main/2025-maxthon-salvagegarden/preview.png",
+  "repo_folder": "https://github.com/saadcaffeine/shoebox/tree/main/2025-maxthon-salvagegarden",
+  "snapshot_url": "https://raw.githubusercontent.com/saadcaffeine/shoebox/main/2025-maxthon-salvagegarden/snapshot.pdf",
+  "note": "Note on the source: the article repeats the Straits Times' error that SalvageGarden was “co-founded in 2023” — the record is that it began as a volunteer interest group in 2018 and was formalised in 2022. The source is preserved as-is; the error is noted here, not endorsed."
+}
