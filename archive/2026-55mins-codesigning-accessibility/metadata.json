@@ -1,0 +1,25 @@
+{
+  "title": "What Co-Designing Taught Me About Accessibility",
+  "source_url": "https://55mins.com/blog/what-co-design-taught-me-about-accessibility",
+  "event_year": "2026",
+  "captured": "2026-11-15",
+  "capture_method": "live-browser PDF + first-screen PNG capture (discovery-sweep batch, 15 Nov 2026)",
+  "archive_path": "archive/2026-55mins-codesigning-accessibility/",
+  "version": "v1",
+  "pdf_capture": {
+    "file": "snapshot.pdf",
+    "size": "20.6 MB",
+    "status": "Stored in shoebox repo (see snapshot_url).",
+    "captured": "2026-11-15",
+    "url": "https://raw.githubusercontent.com/saadcaffeine/shoebox/main/2026-55mins-codesigning-accessibility/snapshot.pdf"
+  },
+  "preview_png": {
+    "file": "preview.png",
+    "size_bytes": 959627,
+    "status": "captured, stored in shoebox repo",
+    "captured": "2026-11-15"
+  },
+  "preview_url": "https://raw.githubusercontent.com/saadcaffeine/shoebox/main/2026-55mins-codesigning-accessibility/preview.png",
+  "repo_folder": "https://github.com/saadcaffeine/shoebox/tree/main/2026-55mins-codesigning-accessibility",
+  "snapshot_url": "https://raw.githubusercontent.com/saadcaffeine/shoebox/main/2026-55mins-codesigning-accessibility/snapshot.pdf"
+}

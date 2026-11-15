@@ -1,0 +1,26 @@
+{
+  "title": "SalvageGarden Assistive Makerspace",
+  "source_url": "https://portalciencia.ull.es/documentos/660d47860c7f4932889022a4/f/660d47860c7f4932889022a5.pdf",
+  "event_year": "2024",
+  "captured": "2026-11-15",
+  "capture_method": "source PDF downloaded directly (17-page volume preview, 7.2 MB); first-page PNG rendered locally with pdftoppm",
+  "archive_path": "archive/2024-distributed-design-salvagegarden/",
+  "version": "v1",
+  "pdf_capture": {
+    "file": "snapshot.pdf",
+    "size": "7.2 MB",
+    "status": "Stored in shoebox repo (see snapshot_url).",
+    "captured": "2026-11-15",
+    "url": "https://raw.githubusercontent.com/saadcaffeine/shoebox/main/2024-distributed-design-salvagegarden/snapshot.pdf"
+  },
+  "preview_png": {
+    "file": "preview.png",
+    "size_bytes": 751492,
+    "status": "captured, stored in shoebox repo",
+    "captured": "2026-11-15"
+  },
+  "preview_url": "https://raw.githubusercontent.com/saadcaffeine/shoebox/main/2024-distributed-design-salvagegarden/preview.png",
+  "repo_folder": "https://github.com/saadcaffeine/shoebox/tree/main/2024-distributed-design-salvagegarden",
+  "snapshot_url": "https://raw.githubusercontent.com/saadcaffeine/shoebox/main/2024-distributed-design-salvagegarden/snapshot.pdf",
+  "note": "About the file at the source URL: it is the volume's 17-page preview — front matter, contents (listing the chapter at p. 274) and an excerpt spread of the chapter's key points — not the full chapter text; the full chapter is not publicly downloadable from the sources found. The preview is preserved as-is."
+}
