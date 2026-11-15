@@ -1,0 +1,25 @@
+{
+  "title": "9 must-have design solutions",
+  "source_url": "https://www.businesstimes.com.sg/lifestyle/arts-design/9-must-have-design-solutions-chic-wearable-tech-mobility-aid-climbs-stairs",
+  "event_year": "2026",
+  "captured": "2026-11-15",
+  "capture_method": "live-browser PDF + first-screen PNG capture (discovery-sweep batch, 15 Nov 2026)",
+  "archive_path": "archive/2026-businesstimes-red-dot/",
+  "version": "v1",
+  "pdf_capture": {
+    "file": "snapshot.pdf",
+    "size": "553 KB",
+    "status": "Stored in shoebox repo (see snapshot_url).",
+    "captured": "2026-11-15",
+    "url": "https://raw.githubusercontent.com/saadcaffeine/shoebox/main/2026-businesstimes-red-dot/snapshot.pdf"
+  },
+  "preview_png": {
+    "file": "preview.png",
+    "size_bytes": 454369,
+    "status": "captured, stored in shoebox repo",
+    "captured": "2026-11-15"
+  },
+  "preview_url": "https://raw.githubusercontent.com/saadcaffeine/shoebox/main/2026-businesstimes-red-dot/preview.png",
+  "repo_folder": "https://github.com/saadcaffeine/shoebox/tree/main/2026-businesstimes-red-dot",
+  "snapshot_url": "https://raw.githubusercontent.com/saadcaffeine/shoebox/main/2026-businesstimes-red-dot/snapshot.pdf"
+}

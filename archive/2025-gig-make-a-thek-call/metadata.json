@@ -1,0 +1,25 @@
+{
+  "title": "Insights from the Make-a-thek Community Call on Inclusive Fashion and Assistive Technology",
+  "source_url": "https://globalinnovationgathering.org/2025/05/21/insights-from-the-make-a-thek-community-call-on-inclusive-fashion-and-assistive-technology/",
+  "event_year": "2025",
+  "captured": "2026-11-15",
+  "capture_method": "live-browser PDF + first-screen PNG capture (discovery-sweep batch, 15 Nov 2026)",
+  "archive_path": "archive/2025-gig-make-a-thek-call/",
+  "version": "v1",
+  "pdf_capture": {
+    "file": "snapshot.pdf",
+    "size": "2.6 MB",
+    "status": "Stored in shoebox repo (see snapshot_url).",
+    "captured": "2026-11-15",
+    "url": "https://raw.githubusercontent.com/saadcaffeine/shoebox/main/2025-gig-make-a-thek-call/snapshot.pdf"
+  },
+  "preview_png": {
+    "file": "preview.png",
+    "size_bytes": 799024,
+    "status": "captured, stored in shoebox repo",
+    "captured": "2026-11-15"
+  },
+  "preview_url": "https://raw.githubusercontent.com/saadcaffeine/shoebox/main/2025-gig-make-a-thek-call/preview.png",
+  "repo_folder": "https://github.com/saadcaffeine/shoebox/tree/main/2025-gig-make-a-thek-call",
+  "snapshot_url": "https://raw.githubusercontent.com/saadcaffeine/shoebox/main/2025-gig-make-a-thek-call/snapshot.pdf"
+}
