@@ -1,0 +1,25 @@
+{
+  "title": "What a Tour of Punggol Library Taught Me About the Curb-cut Effect",
+  "source_url": "https://55mins.com/blog/what-a-tour-of-punggol-regional-library-taught-me-about-the-curb-cut-effect",
+  "event_year": "2026",
+  "captured": "2026-11-15",
+  "capture_method": "Rebuilt snapshot from the page's own article text and images (discovery-sweep batch, 15 Nov 2026) — the browser's print function failed repeatedly for this page, so the live page could not be saved as a PDF directly; the snapshot was rebuilt from the article text and its 10 images and rendered to PDF locally.",
+  "archive_path": "archive/2026-55mins-curb-cut-effect/",
+  "version": "v1",
+  "pdf_capture": {
+    "file": "snapshot.pdf",
+    "size": "7.3 MB",
+    "status": "Stored in shoebox repo (see snapshot_url).",
+    "captured": "2026-11-15",
+    "url": "https://raw.githubusercontent.com/saadcaffeine/shoebox/main/2026-55mins-curb-cut-effect/snapshot.pdf"
+  },
+  "preview_png": {
+    "file": "preview.png",
+    "size_bytes": 1032591,
+    "status": "captured, stored in shoebox repo",
+    "captured": "2026-11-15"
+  },
+  "preview_url": "https://raw.githubusercontent.com/saadcaffeine/shoebox/main/2026-55mins-curb-cut-effect/preview.png",
+  "repo_folder": "https://github.com/saadcaffeine/shoebox/tree/main/2026-55mins-curb-cut-effect",
+  "snapshot_url": "https://raw.githubusercontent.com/saadcaffeine/shoebox/main/2026-55mins-curb-cut-effect/snapshot.pdf"
+}

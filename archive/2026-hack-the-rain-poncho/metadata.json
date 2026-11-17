@@ -1,0 +1,25 @@
+{
+  "title": "Hack the rain: how a volunteer's umbrella hack became an award-winning poncho",
+  "source_url": "https://salvage.garden/hack-the-rain-how-a-volunteers-umbrella-hack-became-an-award-winning-poncho/",
+  "event_year": "2026",
+  "captured": "2026-11-15",
+  "capture_method": "live-browser PDF + first-screen PNG capture (discovery-sweep batch, 15 Nov 2026)",
+  "archive_path": "archive/2026-hack-the-rain-poncho/",
+  "version": "v1",
+  "pdf_capture": {
+    "file": "snapshot.pdf",
+    "size": "843 KB",
+    "status": "Stored in shoebox repo (see snapshot_url).",
+    "captured": "2026-11-15",
+    "url": "https://raw.githubusercontent.com/saadcaffeine/shoebox/main/2026-hack-the-rain-poncho/snapshot.pdf"
+  },
+  "preview_png": {
+    "file": "preview.png",
+    "size_bytes": 1093379,
+    "status": "captured, stored in shoebox repo",
+    "captured": "2026-11-15"
+  },
+  "preview_url": "https://raw.githubusercontent.com/saadcaffeine/shoebox/main/2026-hack-the-rain-poncho/preview.png",
+  "repo_folder": "https://github.com/saadcaffeine/shoebox/tree/main/2026-hack-the-rain-poncho",
+  "snapshot_url": "https://raw.githubusercontent.com/saadcaffeine/shoebox/main/2026-hack-the-rain-poncho/snapshot.pdf"
+}
