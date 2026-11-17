@@ -1,0 +1,26 @@
+{
+  "title": "What Happens When a Digital UX/UI Designer Has to Design Something Physical",
+  "source_url": "https://55mins.com/blog/what-happens-when-a-digital-ux-ui-designer-has-to-design-something-physical",
+  "event_year": "2026",
+  "captured": "2026-11-15",
+  "capture_method": "live-browser PDF + first-screen PNG capture (discovery-sweep batch, 15 Nov 2026)",
+  "archive_path": "archive/2026-55mins-designer-physical/",
+  "version": "v1",
+  "pdf_capture": {
+    "file": "snapshot.pdf",
+    "size": "42.7 MB",
+    "status": "Stored in shoebox repo (see snapshot_url).",
+    "captured": "2026-11-15",
+    "url": "https://raw.githubusercontent.com/saadcaffeine/shoebox/main/2026-55mins-designer-physical/snapshot.pdf",
+    "note": "Uploaded version is the image-compressed 1.2 MB PDF; original 42.7 MB capture kept locally."
+  },
+  "preview_png": {
+    "file": "preview.png",
+    "size_bytes": 1048091,
+    "status": "captured, stored in shoebox repo",
+    "captured": "2026-11-15"
+  },
+  "preview_url": "https://raw.githubusercontent.com/saadcaffeine/shoebox/main/2026-55mins-designer-physical/preview.png",
+  "repo_folder": "https://github.com/saadcaffeine/shoebox/tree/main/2026-55mins-designer-physical",
+  "snapshot_url": "https://raw.githubusercontent.com/saadcaffeine/shoebox/main/2026-55mins-designer-physical/snapshot.pdf"
+}
